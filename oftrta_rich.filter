@@ -1782,6 +1782,16 @@ Hide	#Misc - Chromatic Orb Recipe - Large
 #	SetBorderColor 175 96 37 150	#Chance
 #	SetTextColor 200 200 200	#Chance
 #Disabled Block End
+#Disabled Block Start
+#Misc - Chance - Leather Belt
+#Show
+#	BaseType "Leather Belt"
+#	Rarity Normal
+#	SetFontSize 28
+#	SetBackgroundColor 0 0 0 200	#Dimmed Background
+#	SetBorderColor 175 96 37 150	#Chance
+#	SetTextColor 200 200 200	#Chance
+#Disabled Block End
 #Misc - Chance - Glorious Plate
 Show
 	BaseType "Glorious Plate"
@@ -1801,14 +1811,6 @@ Show
 #Misc - Chance - Rawhide Tower Shield
 Show
 	BaseType "Rawhide Tower Shield"
-	Rarity Normal
-	SetFontSize 28
-	SetBackgroundColor 0 0 0 200	#Dimmed Background
-	SetBorderColor 175 96 37 150	#Chance
-	SetTextColor 200 200 200	#Chance
-#Misc - Chance - Leather Belt
-Show
-	BaseType "Leather Belt"
 	Rarity Normal
 	SetFontSize 28
 	SetBackgroundColor 0 0 0 200	#Dimmed Background
@@ -2585,7 +2587,6 @@ Show	#Gear - ~Link Exceptions
 Show
 	Identified True
 	HasExplicitMod "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte"
-	ItemLevel >= 68	
 	SetBorderColor 136 136 255
 	PlayAlertSound 6 175
 	SetFontSize 45
