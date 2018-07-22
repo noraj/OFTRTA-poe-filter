@@ -38,6 +38,7 @@
 ### Flasks
 ### Link Exceptions
 ### Quality
+### Incursion
 ### Warbands
 ### Hide Obsolete Gear
 ### Normal & Magic Gear - Endgame
@@ -261,6 +262,12 @@ Show
 #Hideout Doodads & Microtransactions
 Show
 	Class "Hideout Doodads" "Microtransactions"
+
+#Incursion Item
+Show
+	Class "Incursion Item"
+	SetTextColor 74 230 58		#Incursion Item
+	SetBorderColor 74 230 58	#Incursion Item
 
 #Quest Items
 Show
@@ -637,39 +644,14 @@ Show
 	SetBorderColor 170 158 130 0	#Currency - Prophecy
 	SetBackgroundColor 0 0 0	#Currency - Prophecy
 
-#Currency - Bestiary Thaumaturgical Net
+#Currency - Incursion
 Show
 	Class "Currency"
-	BaseType "Thaumaturgical Net"
-	SetTextColor 218 188 101	#Currency - Bestiary Thaumaturgical Net
-	SetBorderColor 218 188 101 255	#Currency - Bestiary Thaumaturgical Net
-	SetBackgroundColor 0 0 0	#Currency - Bestiary Thaumaturgical Net
+	BaseType "Vial of"
+	SetTextColor 170 158 130	#Currency - Incursion
+	SetBorderColor 170 158 130	#Currency - Incursion
+	SetBackgroundColor 0 0 0 255	#Currency - Incursion
 	PlayAlertSound 9 225
-
-#Currency - Bestiary Necromancy Net
-Show
-	Class "Currency"
-	BaseType "Necromancy Net"
-	SetTextColor 218 188 101	#Currency - Bestiary Necromancy Net
-	SetBorderColor 218 188 101 255	#Currency - Bestiary Necromancy Net
-	SetBackgroundColor 0 0 0	#Currency - Bestiary Necromancy Net
-	PlayAlertSound 9 225
-
-#Currency - Bestiary Steel Nets
-Hide	#Currency - Bestiary Steel Nets
-	Class "Currency"
-	BaseType "Steel Net"
-	SetTextColor 218 188 101	#Currency - Bestiary Steel Nets
-	SetBorderColor 218 188 101 255	#Currency - Bestiary Steel Nets
-	SetBackgroundColor 0 0 0	#Currency - Bestiary Steel Nets
-
-#Currency - Bestiary Lower Tier Nets
-Hide	#Currency - Bestiary Lower Tier Nets
-	Class "Currency"
-	BaseType "Net"
-	SetTextColor 218 188 101	#Currency - Bestiary Lower Tier Nets
-	SetBorderColor 218 188 101 0	#Currency - Bestiary Lower Tier Nets
-	SetBackgroundColor 0 0 0	#Currency - Bestiary Lower Tier Nets
 
 #Currency - CatchAll
 Show
@@ -1034,7 +1016,7 @@ Show
 #Unique - Valuable
 Show
 	Rarity Unique
-	BaseType "Ancient Greaves" "Champion Kite Shield" "Citrine Amulet" "Penetrating Arrow Quiver" "Sanctified Life Flask" "Serpentscale Boots" "Siege Axe" "Slaughter Knife" "Spine Bow" "Steelhead" "Trapper Boots" "Gladiator Plate" "Desert Brigandine" "Jasper Chopper"
+	BaseType "Ancient Greaves" "Champion Kite Shield" "Citrine Amulet" "Penetrating Arrow Quiver" "Sanctified Life Flask" "Serpentscale Boots" "Siege Axe" "Slaughter Knife" "Steelhead" "Trapper Boots" "Gladiator Plate" "Jasper Chopper"
 	SetTextColor 175 96 37		#Unique - Valuable
 	SetBorderColor 175 96 37	#Unique - Valuable
 	SetFontSize 40
@@ -1112,7 +1094,7 @@ Show	#~Jewels - Normal & Magic
 #Divination Cards - Very Valuable
 Show	
 	Class "Divination Card"
-	BaseType "The Doctor" "The Hunger" "The Wind" "The Avenger" "The Celestial Justicar" "The Fiend" "The King's Heart" "The Queen" "The Last One Standing" "The Artist" "Wealth and Power" "House of Mirrors" "The Dragon's Heart" "Pride Before the Fall" "The Vast" "Bowyer's Dream" "Hunter's Reward" "The Thaumaturgist" "The Warlord" "The Offering" "Lost Worlds" "The Ethereal" "Abandoned Wealth" "The Dapper Prodigy" "Time-Lost Relic" "The Surveyor" "Last Hope" "The Enlightened" "The Immortal" "The Harvester" "The Devastator" "Mawr Blaidd" "The World Eater" "The Dreamer"
+	BaseType "The Doctor" "The Hunger" "The Wind" "The Avenger" "The Celestial Justicar" "The Fiend" "The King's Heart" "The Queen" "The Last One Standing" "The Artist" "Wealth and Power" "House of Mirrors" "The Dragon's Heart" "Pride Before the Fall" "The Vast" "Bowyer's Dream" "Hunter's Reward" "The Thaumaturgist" "The Warlord" "The Offering" "Lost Worlds" "The Ethereal" "Abandoned Wealth" "The Dapper Prodigy" "Time-Lost Relic" "Last Hope" "The Enlightened" "The Immortal" "The Harvester" "The Devastator" "Mawr Blaidd" "The World Eater" "The Dreamer" "Immortal Resolve" "The Master"
 	SetTextColor 14 186 255		#Divination Card - Very Valuable
 	SetBorderColor 14 186 255	#Divination Card - Very Valuable
 	SetBackgroundColor 0 0 0 255	#Divination Card - Very Valuable
@@ -1122,7 +1104,7 @@ Show
 #Divination Cards - Valuable
 Show	
 	Class "Divination Card"
-	BaseType "The Hoarder" "The Drunken Aristocrat" "The Pack Leader" "The Gladiator" "The Road to Power" "The Chains that Bind" "The Betrayal" "The Fletcher" "Tranquillity" "Earth Drinker" "Rats" "The Watcher" "Chaotic Disposition" "The Cartographer" "Emperor of Purity" "Lysah's Respite" "The Calling" "The Formless Sea" "The Valkyrie" "The Wolf" "Lucky Deck" "The Scavenger" "The Trial" "The Brittle Emperor" "The Saint's Treasure" "The Obscured" "The Breach"
+	BaseType "The Hoarder" "The Drunken Aristocrat" "The Pack Leader" "The Gladiator" "The Road to Power" "The Chains that Bind" "The Betrayal" "The Fletcher" "Tranquillity" "Earth Drinker" "Rats" "The Watcher" "Chaotic Disposition" "The Cartographer" "Emperor of Purity" "Lysah's Respite" "The Calling" "The Formless Sea" "The Valkyrie" "The Wolf" "Lucky Deck" "The Scavenger" "The Trial" "The Brittle Emperor" "The Saint's Treasure" "The Obscured" "The Breach" "The Surveyor" "Harmony of Souls" "The Dreamland" "The Jeweller's Boon" "The Mayor" "The Professor" "The Samurai's Eye" "The Sword King's Salute" "The Undisputed" "The Hale Heart"
 	SetTextColor 14 186 255		#Divination Card - Valuable
 	SetBorderColor 14 186 255	#Divination Card - Valuable
 	PlayAlertSound 9 225
@@ -2596,24 +2578,36 @@ Show	#Gear - ~Link Exceptions
 
 
 ###############################################################################
+# Section: ### Incursion ######################################################
+###############################################################################
+
+#Incursion
+Show
+	Identified True
+	HasExplicitMod "Tacati" "Citaqualotl" "Matatl" "Topotante" "Xopec" "Guatelitzi" "Puhuarte"
+	ItemLevel >= 68	
+	SetBorderColor 136 136 255
+	PlayAlertSound 6 175
+	SetFontSize 45
+
+### /Incursion ################################################################
+###############################################################################
+
+
+
+
+###############################################################################
 # Section: ### Warbands #######################################################
 ###############################################################################
 
 #Warbands
-Hide
+Show
 	Identified True
-	Class "Helmets" "Gloves" "Boots"
-	Rarity Magic	
+	HasExplicitMod "Brinerot" "Mutewind" "Redblade" "Betrayer's" "Deceiver's" "Turncoat's"	
 	ItemLevel >= 68	
 	SetBorderColor 136 136 255
-	SetFontSize 28
-Hide
-	Identified True
-	Class "Axes" "Bows" "Claws" "Daggers" "Maces" "Sceptres" "Staves" "Swords" "Wands"
-	Rarity Magic	
-	ItemLevel >= 70
-	SetBorderColor 136 136 255
-	SetFontSize 28
+	PlayAlertSound 6 175
+	SetFontSize 45
 
 ### /Warbands #################################################################
 ###############################################################################
