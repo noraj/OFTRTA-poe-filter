@@ -1,5 +1,5 @@
 ###############################################################################
-#################### Copyright 2015 - 2017 Florian Thießen ####################
+#################### Copyright 2015 - 2018 Florian Thießen ####################
 ############### "Path of Exile" Item Filter - Script by Muldini ###############
 ############ http://www.pathofexile.com/forum/view-thread/1259059 #############
 
@@ -268,6 +268,8 @@ Show
 	Class "Incursion Item"
 	SetTextColor 74 230 58		#Incursion Item
 	SetBorderColor 74 230 58	#Incursion Item
+	SetFontSize 38
+	PlayAlertSound 1 175	
 
 #Quest Items
 Show
@@ -291,6 +293,7 @@ Show
 	SetBorderColor 0 255 150	#6L
 	SetFontSize 45
 	PlayAlertSound 5 300
+	MinimapIcon 1 Green Hexagon
 
 #5L
 Show
@@ -360,6 +363,7 @@ Show
 	SetBackgroundColor 0 0 0 255	#Currency - Mirror of Kalandra
 	SetFontSize 45
 	PlayAlertSound 5 300
+	MinimapIcon 0 Yellow Diamond
 
 #Currency - Mirror Shard
 Show
@@ -369,6 +373,7 @@ Show
 	SetBackgroundColor 0 0 0 255	#Currency - Mirror Shard
 	SetFontSize 45
 	PlayAlertSound 5 300
+	MinimapIcon 2 Yellow Hexagon
 
 #Currency - Albino Rhoa Feather
 Show
@@ -386,6 +391,7 @@ Show
 	SetTextColor 200 200 175	#Currency - Divine Orb
 	SetBackgroundColor 85 65 15 230	#Currency - Divine Orb
 	PlayAlertSound 5 250
+	MinimapIcon 2 Yellow Hexagon
 
 #Currency - Harbinger's Orb
 Show
@@ -419,6 +425,7 @@ Show
 	SetBackgroundColor 85 65 15 230	#Currency - Exalted Orb
 	SetFontSize 40
 	PlayAlertSound 5 250
+	MinimapIcon 0 Yellow Hexagon
 
 #Currency - Exalted Shard
 Show
@@ -436,6 +443,7 @@ Show
 	SetBackgroundColor 85 65 15 230	#Currency - Eternal Orb
 	SetFontSize 40
 	PlayAlertSound 5 250
+	MinimapIcon 0 Yellow Hexagon
 
 #Currency - Valuable
 Show
@@ -550,6 +558,40 @@ Show	#Currency - Scroll Fragment & Alteration Shard
 	SetTextColor 170 158 130	#Currency - Scroll Fragment & Alteration Shard
 	SetBorderColor 170 158 130 0	#Currency - Scroll Fragment & Alteration Shard
 	SetBackgroundColor 0 0 0 220	#Currency - Scroll Fragment & Alteration Shard
+
+#Currency - Delve High Fossil
+Show
+	Class "Currency"
+	BaseType "Tangled Fossil" "Sanctified Fossil" "Gilded Fossil"
+	SetTextColor 120 165 240		#Currency - Delve Fossil
+	SetBorderColor 120 165 240 255	#Currency - Delve Fossil
+	SetBackgroundColor 0 0 0	#Currency - Delve Fossil
+	PlayAlertSound 9 225
+
+#Currency - Delve Fossil
+Show
+	Class "Currency"
+	BaseType "Fossil"
+	SetTextColor 120 165 240		#Currency - Delve Fossil
+	SetBorderColor 120 165 240 0	#Currency - Delve Fossil
+	SetBackgroundColor 0 0 0	#Currency - Delve Fossil
+
+#Currency - Delve Prime Resonator
+Show
+	Class "Currency"
+	BaseType "Prime Alchemical Resonator" "Prime Chaotic Resonator"
+	SetTextColor 120 165 240		#Currency - Delve Resonator
+	SetBorderColor 120 165 240 255	#Currency - Delve Resonator
+	SetBackgroundColor 0 0 0	#Currency - Delve Resonator
+	PlayAlertSound 9 225
+
+#Currency - Delve Resonator
+Show
+	Class "Currency"
+	BaseType "Resonator"
+	SetTextColor 120 165 240		#Currency - Delve Resonator
+	SetBorderColor 120 165 240 0	#Currency - Delve Resonator
+	SetBackgroundColor 0 0 0	#Currency - Delve Resonator
 
 #Currency - Breach Splinter
 Show
@@ -735,40 +777,43 @@ Show	#Gems - ~CatchAll
 Show
 	Class "Maps"
 	Rarity Normal
-	DropLevel >= 81
+	MapTier >= 14
 	SetTextColor 240 240 240	#Maps - 81+ - Normal
 	SetBorderColor 200 200 200	#Maps - 81+ - Normal
 	SetBackgroundColor 0 0 0	#Maps - 81+ - Normal
 	SetFontSize 42
 	PlayAlertSound 6 150
+	MinimapIcon 2 Red Circle
 
 #Maps - DropLevel 81+ - Magic
 Show
 	Class "Maps"
 	Rarity Magic
-	DropLevel >= 81
+	MapTier >= 14
 	SetTextColor 140 190 255	#Maps - 81+ - Magic
 	SetBorderColor 136 136 255	#Maps - 81+ - Magic
 	SetBackgroundColor 0 0 0	#Maps - 81+ - Magic
 	SetFontSize 42
 	PlayAlertSound 6 150
+	MinimapIcon 2 Red Circle
 
 #Maps - DropLevel 81+ - Rare
 Show
 	Class "Maps"
 	Rarity Rare
-	DropLevel >= 81
+	MapTier >= 14
 	SetTextColor 255 200 0		#Maps - 81+ - Rare
 	SetBorderColor 255 255 119	#Maps - 81+ - Rare
 	SetBackgroundColor 0 0 0	#Maps - 81+ - Rare
 	SetFontSize 42
 	PlayAlertSound 6 150
+	MinimapIcon 2 Red Circle
 
 #Maps - DropLevel 78+ - Normal
 Show
 	Class "Maps"
 	Rarity Normal
-	DropLevel >= 78
+	MapTier >= 11
 	SetBorderColor 200 200 200	#Maps - 78+ - Normal
 	SetBackgroundColor 0 0 0	#Maps - 78+ - Normal
 	SetFontSize 42
@@ -778,7 +823,7 @@ Show
 Show
 	Class "Maps"
 	Rarity Magic
-	DropLevel >= 78
+	MapTier >= 11
 	SetBorderColor 136 136 255	#Maps - 78+ - Magic
 	SetBackgroundColor 0 0 0	#Maps - 78+ - Magic
 	SetFontSize 42
@@ -788,7 +833,7 @@ Show
 Show
 	Class "Maps"
 	Rarity Rare
-	DropLevel >= 78
+	MapTier >= 11
 	SetBorderColor 255 255 119	#Maps - 78+ - Rare
 	SetBackgroundColor 0 0 0	#Maps - 78+ - Rare
 	SetFontSize 42
@@ -804,6 +849,7 @@ Show	#~Maps - Elder Normal
 	SetBackgroundColor 0 0 0	#Maps - Elder Normal
 	SetFontSize 42
 	PlayAlertSound 6 125
+	MinimapIcon 0 Red Circle
 
 #Maps - Elder Magic
 Show	#~Maps - Elder Magic
@@ -815,6 +861,7 @@ Show	#~Maps - Elder Magic
 	SetBackgroundColor 0 0 0	#Maps - Elder Magic
 	SetFontSize 42
 	PlayAlertSound 6 125
+	MinimapIcon 0 Red Circle
 
 #Maps - Elder Rare
 Show	#~Maps - Elder Rare
@@ -826,6 +873,7 @@ Show	#~Maps - Elder Rare
 	SetBackgroundColor 0 0 0	#Maps - Elder Rare
 	SetFontSize 42
 	PlayAlertSound 6 125
+	MinimapIcon 0 Red Circle
 
 #Maps - Shaped Normal
 Show	#~Maps - Shaped Normal
@@ -864,8 +912,8 @@ Show	#~Maps - Shaped Rare
 Show	#~Maps - DropLevel 73 to 77
 	Class "Maps"
 	Rarity Normal
-	DropLevel >= 73
-	DropLevel <= 77
+	MapTier >= 6
+	MapTier <= 10
 	SetTextColor 200 200 200	#Maps - 73 to 77 - Normal
 	SetBorderColor 200 200 200	#Maps - 73 to 77 - Normal
 	SetBackgroundColor 0 0 0	#Maps - 73 to 77 - Normal
@@ -875,8 +923,8 @@ Show	#~Maps - DropLevel 73 to 77
 Show	#~Maps - DropLevel 73 to 77
 	Class "Maps"
 	Rarity Magic
-	DropLevel >= 73
-	DropLevel <= 77
+	MapTier >= 6
+	MapTier <= 10
 	SetTextColor 136 136 255	#Maps - 73 to 77 - Magic
 	SetBorderColor 136 136 255	#Maps - 73 to 77 - Magic
 	SetBackgroundColor 0 0 0	#Maps - 73 to 77 - Magic
@@ -886,8 +934,8 @@ Show	#~Maps - DropLevel 73 to 77
 Show	#~Maps - DropLevel 73 to 77
 	Class "Maps"
 	Rarity Rare
-	DropLevel >= 73
-	DropLevel <= 77
+	MapTier >= 6
+	MapTier <= 10
 	SetTextColor 255 255 119	#Maps - 73 to 77 - Rare
 	SetBorderColor 255 255 119	#Maps - 73 to 77 - Rare
 	SetBackgroundColor 0 0 0	#Maps - 73 to 77 - Rare
@@ -897,28 +945,28 @@ Show	#~Maps - DropLevel 73 to 77
 Show	#~Maps - DropLevel <= 72
 	Class "Maps"
 	Rarity Normal
+	MapTier <= 5
 	SetTextColor 200 200 200	#Maps - <= 72 - Normal
 	SetBorderColor 200 200 200	#Maps - <= 72 - Normal
 	SetBackgroundColor 0 0 0	#Maps - <= 72 - Normal
-	DropLevel <= 72
 
 #Maps - DropLevel <= 72 - Magic
 Show	#~Maps - DropLevel <= 72
 	Class "Maps"
 	Rarity Magic
+	MapTier <= 5
 	SetTextColor 136 136 255	#Maps - <= 72 - Magic
 	SetBorderColor 136 136 255	#Maps - <= 72 - Magic
 	SetBackgroundColor 0 0 0	#Maps - <= 72 - Magic
-	DropLevel <= 72
 
 #Maps - DropLevel <= 72 - Rare
 Show	#~Maps - DropLevel <= 72
 	Class "Maps"
 	Rarity Rare
+	MapTier <= 5
 	SetTextColor 255 255 119	#Maps - <= 72 - Rare
 	SetBorderColor 255 255 119	#Maps - <= 72 - Rare
 	SetBackgroundColor 0 0 0	#Maps - <= 72 - Rare
-	DropLevel <= 72
 
 #Maps - Unique
 Show	#~Maps - Unique
@@ -962,13 +1010,15 @@ Show	#~Maps - Misc Map Items - Breachstones
 	SetTextColor 255 36 49		#Maps - Breachstones
 	SetBorderColor 255 36 49 0	#Maps - Breachstones
 
-#Maps - Misc Map Items - Ancient Reliquary Key
-Show	#~Maps - Misc Map Items - Ancient Reliquary Key
+#Maps - Misc Map Items - Reliquary Key
+Show	#~Maps - Misc Map Items - Reliquary Key
 	Class "Misc Map Items"
-	BaseType "Ancient Reliquary Key"
-	SetTextColor 74 230 58		#Maps - Misc Map Items - Ancient Reliquary Key
-	SetBorderColor 74 230 58	#Maps - Misc Map Items - Ancient Reliquary Key
+	BaseType "Reliquary Key"
+	SetTextColor 74 230 58		#Maps - Misc Map Items - Reliquary Key
+	SetBorderColor 74 230 58	#Maps - Misc Map Items - Reliquary Key
 	PlayAlertSound 5 175
+	SetFontSize 42
+	MinimapIcon 2 Green Star
 
 #Maps - Map Fragments - Sacrifice at Midnight
 Show	#~Maps - Map Fragments - Sacrifice at Midnight
@@ -1012,6 +1062,7 @@ Show
 	SetBackgroundColor 0 0 0	#Unique - Very Valuable
 	SetFontSize 45
 	PlayAlertSound 5 200
+	MinimapIcon 1 Green Hexagon
 
 #Unique - Valuable
 Show
@@ -1094,17 +1145,18 @@ Show	#~Jewels - Normal & Magic
 #Divination Cards - Very Valuable
 Show	
 	Class "Divination Card"
-	BaseType "The Doctor" "The Hunger" "The Wind" "The Avenger" "The Celestial Justicar" "The Fiend" "The King's Heart" "The Queen" "The Last One Standing" "The Artist" "Wealth and Power" "House of Mirrors" "The Dragon's Heart" "Pride Before the Fall" "The Vast" "Bowyer's Dream" "Hunter's Reward" "The Thaumaturgist" "The Warlord" "The Offering" "Lost Worlds" "The Ethereal" "Abandoned Wealth" "The Dapper Prodigy" "Time-Lost Relic" "Last Hope" "The Enlightened" "The Immortal" "The Harvester" "The Devastator" "Mawr Blaidd" "The World Eater" "The Dreamer" "Immortal Resolve" "The Master"
+	BaseType "The Doctor" "The Hunger" "The Wind" "The Celestial Justicar" "The Fiend" "The King's Heart" "The Queen" "The Last One Standing" "The Artist" "Wealth and Power" "House of Mirrors" "The Dragon's Heart" "Pride Before the Fall" "The Vast" "Bowyer's Dream" "Hunter's Reward" "The Thaumaturgist" "The Warlord" "The Offering" "Lost Worlds" "The Ethereal" "Abandoned Wealth" "The Dapper Prodigy" "Time-Lost Relic" "Last Hope" "The Enlightened" "The Immortal" "The Harvester" "The Devastator" "Mawr Blaidd" "The World Eater" "The Dreamer" "Immortal Resolve" "The Master" "Beauty Through Death" "The Endless Darkness"
 	SetTextColor 14 186 255		#Divination Card - Very Valuable
 	SetBorderColor 14 186 255	#Divination Card - Very Valuable
 	SetBackgroundColor 0 0 0 255	#Divination Card - Very Valuable
 	SetFontSize 42
 	PlayAlertSound 5 225
+	MinimapIcon 0 Blue Square
 
 #Divination Cards - Valuable
 Show	
 	Class "Divination Card"
-	BaseType "The Hoarder" "The Drunken Aristocrat" "The Pack Leader" "The Gladiator" "The Road to Power" "The Chains that Bind" "The Betrayal" "The Fletcher" "Tranquillity" "Earth Drinker" "Rats" "The Watcher" "Chaotic Disposition" "The Cartographer" "Emperor of Purity" "Lysah's Respite" "The Calling" "The Formless Sea" "The Valkyrie" "The Wolf" "Lucky Deck" "The Scavenger" "The Trial" "The Brittle Emperor" "The Saint's Treasure" "The Obscured" "The Breach" "The Surveyor" "Harmony of Souls" "The Dreamland" "The Jeweller's Boon" "The Mayor" "The Professor" "The Samurai's Eye" "The Sword King's Salute" "The Undisputed" "The Hale Heart"
+	BaseType "The Hoarder" "The Drunken Aristocrat" "The Pack Leader" "The Gladiator" "The Road to Power" "The Chains that Bind" "The Betrayal" "The Fletcher" "Tranquillity" "Earth Drinker" "Rats" "The Watcher" "Chaotic Disposition" "The Cartographer" "Emperor of Purity" "Lysah's Respite" "The Calling" "The Formless Sea" "The Valkyrie" "The Wolf" "Lucky Deck" "The Scavenger" "The Trial" "The Brittle Emperor" "The Saint's Treasure" "The Obscured" "The Breach" "The Surveyor" "Harmony of Souls" "The Dreamland" "The Jeweller's Boon" "The Mayor" "The Professor" "The Samurai's Eye" "The Sword King's Salute" "The Undisputed" "The Hale Heart" "The Innocent" "The Twilight Moon" "The Price of Protection" "The Cacophony"
 	SetTextColor 14 186 255		#Divination Card - Valuable
 	SetBorderColor 14 186 255	#Divination Card - Valuable
 	PlayAlertSound 9 225
@@ -1112,9 +1164,16 @@ Show
 #Divination Cards - Low Value
 Show	#Divination Cards - Low Value
 	Class "Divination Card"
-	BaseType "The Carrion Crow" "Turn the Other Cheek" "Thunderous Skies"
+	BaseType "The Incantation"
 	SetTextColor 14 186 255		#Divination Card - Low Value
 	SetBorderColor 14 186 255 0	#Divination Card - Low Value
+
+#Divination Cards - No Value
+Show	#Divination Cards - No Value
+	Class "Divination Card"
+	BaseType "The Carrion Crow" "Turn the Other Cheek" "Thunderous Skies"
+	SetTextColor 14 186 255		#Divination Card - No Value
+	SetBorderColor 14 186 255 0	#Divination Card - No Value
 
 #Divination Cards - CatchAll
 Show	#Divination Cards - ~CatchAll
@@ -1782,16 +1841,6 @@ Show	#Misc - Chromatic Orb Recipe - Large
 #	SetBorderColor 175 96 37 150	#Chance
 #	SetTextColor 200 200 200	#Chance
 #Disabled Block End
-#Disabled Block Start
-#Misc - Chance - Leather Belt
-#Show
-#	BaseType "Leather Belt"
-#	Rarity Normal
-#	SetFontSize 28
-#	SetBackgroundColor 0 0 0 200	#Dimmed Background
-#	SetBorderColor 175 96 37 150	#Chance
-#	SetTextColor 200 200 200	#Chance
-#Disabled Block End
 #Misc - Chance - Glorious Plate
 Show
 	BaseType "Glorious Plate"
@@ -1811,6 +1860,14 @@ Show
 #Misc - Chance - Rawhide Tower Shield
 Show
 	BaseType "Rawhide Tower Shield"
+	Rarity Normal
+	SetFontSize 28
+	SetBackgroundColor 0 0 0 200	#Dimmed Background
+	SetBorderColor 175 96 37 150	#Chance
+	SetTextColor 200 200 200	#Chance
+#Misc - Chance - Leather Belt
+Show
+	BaseType "Leather Belt"
 	Rarity Normal
 	SetFontSize 28
 	SetBackgroundColor 0 0 0 200	#Dimmed Background
