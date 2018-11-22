@@ -273,8 +273,9 @@ Show
 
 #Quest Items
 Show
-	Class "Quest"	
-
+	Class "Quest"
+	MinimapIcon 2 White Circle
+	
 #Pantheon Soul - CatchAll
 Show
 	Class "Pantheon Soul"
@@ -326,6 +327,15 @@ Show
 	SetBorderColor 0 255 150	#6s
 	PlayAlertSound 9 225
 
+#Delve ExplicitMod
+Show
+	Identified True
+	HasExplicitMod "Subterranean" "of the Underground" "of Weaponcraft" "of Spellcraft" "of Crafting"
+	SetBorderColor 136 136 255
+	PlayAlertSound 6 175
+	SetFontSize 40
+	PlayEffect Blue
+
 #Sacrificial Garb
 Show
 	BaseType "Sacrificial Garb"
@@ -364,6 +374,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 5 300
 	MinimapIcon 0 Yellow Diamond
+	PlayEffect Yellow
 
 #Currency - Mirror Shard
 Show
@@ -374,6 +385,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 5 300
 	MinimapIcon 2 Yellow Hexagon
+	PlayEffect Yellow
 
 #Currency - Albino Rhoa Feather
 Show
@@ -383,6 +395,8 @@ Show
 	SetBackgroundColor 0 0 0 255	#Currency - Albino Rhoa Feather
 	SetFontSize 45
 	PlayAlertSound 5 300
+	MinimapIcon 2 Yellow Hexagon
+	PlayEffect Yellow
 
 #Currency - Divine Orb
 Show
@@ -392,6 +406,7 @@ Show
 	SetBackgroundColor 85 65 15 230	#Currency - Divine Orb
 	PlayAlertSound 5 250
 	MinimapIcon 2 Yellow Hexagon
+	PlayEffect Yellow
 
 #Currency - Harbinger's Orb
 Show
@@ -426,6 +441,7 @@ Show
 	SetFontSize 40
 	PlayAlertSound 5 250
 	MinimapIcon 0 Yellow Hexagon
+	PlayEffect Yellow
 
 #Currency - Exalted Shard
 Show
@@ -444,6 +460,7 @@ Show
 	SetFontSize 40
 	PlayAlertSound 5 250
 	MinimapIcon 0 Yellow Hexagon
+	PlayEffect Yellow
 
 #Currency - Valuable
 Show
@@ -567,13 +584,14 @@ Show
 	SetBorderColor 120 165 240 255	#Currency - Delve Fossil
 	SetBackgroundColor 0 0 0	#Currency - Delve Fossil
 	PlayAlertSound 9 225
+	PlayEffect Blue
 
 #Currency - Delve Fossil
 Show
 	Class "Currency"
 	BaseType "Fossil"
 	SetTextColor 120 165 240		#Currency - Delve Fossil
-	SetBorderColor 120 165 240 0	#Currency - Delve Fossil
+	SetBorderColor 120 165 240 255	#Currency - Delve Fossil
 	SetBackgroundColor 0 0 0	#Currency - Delve Fossil
 
 #Currency - Delve Prime Resonator
@@ -584,13 +602,14 @@ Show
 	SetBorderColor 120 165 240 255	#Currency - Delve Resonator
 	SetBackgroundColor 0 0 0	#Currency - Delve Resonator
 	PlayAlertSound 9 225
+	PlayEffect Blue
 
 #Currency - Delve Resonator
 Show
 	Class "Currency"
 	BaseType "Resonator"
 	SetTextColor 120 165 240		#Currency - Delve Resonator
-	SetBorderColor 120 165 240 0	#Currency - Delve Resonator
+	SetBorderColor 120 165 240 255	#Currency - Delve Resonator
 	SetBackgroundColor 0 0 0	#Currency - Delve Resonator
 
 #Currency - Breach Splinter
@@ -1063,6 +1082,7 @@ Show
 	SetFontSize 45
 	PlayAlertSound 5 200
 	MinimapIcon 1 Green Hexagon
+	PlayEffect Brown
 
 #Unique - Valuable
 Show
@@ -1072,6 +1092,7 @@ Show
 	SetBorderColor 175 96 37	#Unique - Valuable
 	SetFontSize 40
 	PlayAlertSound 5 120
+	PlayEffect Brown Temp
 
 #Piece - CatchAll
 Show
@@ -1145,21 +1166,23 @@ Show	#~Jewels - Normal & Magic
 #Divination Cards - Very Valuable
 Show	
 	Class "Divination Card"
-	BaseType "The Doctor" "The Hunger" "The Wind" "The Celestial Justicar" "The Fiend" "The King's Heart" "The Queen" "The Last One Standing" "The Artist" "Wealth and Power" "House of Mirrors" "The Dragon's Heart" "Pride Before the Fall" "The Vast" "Bowyer's Dream" "Hunter's Reward" "The Thaumaturgist" "The Warlord" "The Offering" "Lost Worlds" "The Ethereal" "Abandoned Wealth" "The Dapper Prodigy" "Time-Lost Relic" "Last Hope" "The Enlightened" "The Immortal" "The Harvester" "The Devastator" "Mawr Blaidd" "The World Eater" "The Dreamer" "Immortal Resolve" "The Master" "Beauty Through Death" "The Endless Darkness"
+	BaseType "The Doctor" "The Hunger" "The Wind" "The Celestial Justicar" "The Fiend" "The King's Heart" "The Queen" "The Last One Standing" "The Artist" "Wealth and Power" "House of Mirrors" "The Dragon's Heart" "Pride Before the Fall" "The Vast" "Bowyer's Dream" "Hunter's Reward" "The Thaumaturgist" "The Warlord" "The Offering" "Lost Worlds" "The Ethereal" "Abandoned Wealth" "The Dapper Prodigy" "Time-Lost Relic" "The Enlightened" "The Immortal" "The Harvester" "The Devastator" "Mawr Blaidd" "The World Eater" "The Dreamer" "Immortal Resolve" "The Master" "Beauty Through Death" "The Endless Darkness"
 	SetTextColor 14 186 255		#Divination Card - Very Valuable
 	SetBorderColor 14 186 255	#Divination Card - Very Valuable
 	SetBackgroundColor 0 0 0 255	#Divination Card - Very Valuable
 	SetFontSize 42
 	PlayAlertSound 5 225
 	MinimapIcon 0 Blue Square
+	PlayEffect Blue
 
 #Divination Cards - Valuable
 Show	
 	Class "Divination Card"
-	BaseType "The Hoarder" "The Drunken Aristocrat" "The Pack Leader" "The Gladiator" "The Road to Power" "The Chains that Bind" "The Betrayal" "The Fletcher" "Tranquillity" "Earth Drinker" "Rats" "The Watcher" "Chaotic Disposition" "The Cartographer" "Emperor of Purity" "Lysah's Respite" "The Calling" "The Formless Sea" "The Valkyrie" "The Wolf" "Lucky Deck" "The Scavenger" "The Trial" "The Brittle Emperor" "The Saint's Treasure" "The Obscured" "The Breach" "The Surveyor" "Harmony of Souls" "The Dreamland" "The Jeweller's Boon" "The Mayor" "The Professor" "The Samurai's Eye" "The Sword King's Salute" "The Undisputed" "The Hale Heart" "The Innocent" "The Twilight Moon" "The Price of Protection" "The Cacophony"
+	BaseType "The Hoarder" "The Drunken Aristocrat" "The Pack Leader" "The Gladiator" "The Road to Power" "The Chains that Bind" "The Betrayal" "The Fletcher" "Tranquillity" "Earth Drinker" "Rats" "The Watcher" "Chaotic Disposition" "The Cartographer" "Emperor of Purity" "Lysah's Respite" "The Calling" "The Formless Sea" "The Valkyrie" "The Wolf" "Lucky Deck" "The Scavenger" "The Trial" "The Brittle Emperor" "The Saint's Treasure" "The Obscured" "The Breach" "The Surveyor" "Harmony of Souls" "The Dreamland" "The Jeweller's Boon" "The Mayor" "The Professor" "The Samurai's Eye" "The Sword King's Salute" "The Undisputed" "The Hale Heart" "The Innocent" "The Twilight Moon" "The Price of Protection" "The Cacophony" "Last Hope"
 	SetTextColor 14 186 255		#Divination Card - Valuable
 	SetBorderColor 14 186 255	#Divination Card - Valuable
 	PlayAlertSound 9 225
+	PlayEffect Blue Temp
 
 #Divination Cards - Low Value
 Show	#Divination Cards - Low Value
@@ -1921,21 +1944,20 @@ Show	#~Talisman - Normal
 # Section: ### Amulets, Rings, Belts ##########################################
 ###############################################################################
 
-#Does anyone ever use these to craft/alch?
 Hide	#Amulets, Rings, Belts - Scarcely used ring bases
 	BaseType "Coral Amulet" "Paua Ring" "Paua Amulet"
 	Rarity <= Magic
 	ItemLevel >= 45
 	SetFontSize 28
-
 	SetBackgroundColor 0 0 0 190	#Hide
+
 Hide	#Amulets, Rings, Belts - Iron Ring
 	BaseType "Iron Ring"
 	Rarity <= Magic
 	ItemLevel >= 45
 	SetFontSize 28
-
 	SetBackgroundColor 0 0 0 190	#Hide
+
 Hide	#Amulets, Rings, Belts - Scarcely used belt bases
 	BaseType "Cloth Belt" "Studded Belt" "Heavy Belt"
 	Rarity <= Magic
