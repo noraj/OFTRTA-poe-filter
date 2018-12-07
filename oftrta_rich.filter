@@ -1022,6 +1022,13 @@ Show	#~Maps - Leaguestones
 	SetTextColor 229 160 12		#Maps - Leaguestones
 	SetBorderColor 229 160 12	#Maps - Leaguestones
 
+#Maps - Scarabs
+Show	#~Maps - Scarabs
+	Class "Map Fragments"
+	BaseType "Scarab"
+	SetTextColor 229 160 12		#Maps - Scarabs
+	SetBorderColor 229 160 12	#Maps - Scarabs
+
 #Maps - Misc Map Items - Breachstones
 Show	#~Maps - Misc Map Items - Breachstones
 	Class "Misc Map Items"
@@ -1166,7 +1173,7 @@ Show	#~Jewels - Normal & Magic
 #Divination Cards - Very Valuable
 Show	
 	Class "Divination Card"
-	BaseType "The Doctor" "The Hunger" "The Wind" "The Celestial Justicar" "The Fiend" "The King's Heart" "The Queen" "The Last One Standing" "The Artist" "Wealth and Power" "House of Mirrors" "The Dragon's Heart" "Pride Before the Fall" "The Vast" "Bowyer's Dream" "Hunter's Reward" "The Thaumaturgist" "The Warlord" "The Offering" "Lost Worlds" "The Ethereal" "Abandoned Wealth" "The Dapper Prodigy" "Time-Lost Relic" "The Enlightened" "The Immortal" "The Harvester" "The Devastator" "Mawr Blaidd" "The World Eater" "The Dreamer" "Immortal Resolve" "The Master" "Beauty Through Death" "The Endless Darkness"
+	BaseType "The Doctor" "The Hunger" "The Wind" "The Celestial Justicar" "The Fiend" "The King's Heart" "The Queen" "The Last One Standing" "The Artist" "Wealth and Power" "House of Mirrors" "The Dragon's Heart" "Pride Before the Fall" "The Vast" "Bowyer's Dream" "Hunter's Reward" "The Thaumaturgist" "The Warlord" "The Offering" "Lost Worlds" "The Ethereal" "Abandoned Wealth" "The Dapper Prodigy" "Time-Lost Relic" "The Enlightened" "The Immortal" "The Harvester" "The Devastator" "Mawr Blaidd" "The World Eater" "The Dreamer" "Immortal Resolve" "The Master" "Beauty Through Death" "The Endless Darkness" "The Nurse" "The Life Thief"
 	SetTextColor 14 186 255		#Divination Card - Very Valuable
 	SetBorderColor 14 186 255	#Divination Card - Very Valuable
 	SetBackgroundColor 0 0 0 255	#Divination Card - Very Valuable
@@ -1178,7 +1185,7 @@ Show
 #Divination Cards - Valuable
 Show	
 	Class "Divination Card"
-	BaseType "The Hoarder" "The Drunken Aristocrat" "The Pack Leader" "The Gladiator" "The Road to Power" "The Chains that Bind" "The Betrayal" "The Fletcher" "Tranquillity" "Earth Drinker" "Rats" "The Watcher" "Chaotic Disposition" "The Cartographer" "Emperor of Purity" "Lysah's Respite" "The Calling" "The Formless Sea" "The Valkyrie" "The Wolf" "Lucky Deck" "The Scavenger" "The Trial" "The Brittle Emperor" "The Saint's Treasure" "The Obscured" "The Breach" "The Surveyor" "Harmony of Souls" "The Dreamland" "The Jeweller's Boon" "The Mayor" "The Professor" "The Samurai's Eye" "The Sword King's Salute" "The Undisputed" "The Hale Heart" "The Innocent" "The Twilight Moon" "The Price of Protection" "The Cacophony" "Last Hope"
+	BaseType "The Hoarder" "The Drunken Aristocrat" "The Pack Leader" "The Gladiator" "The Road to Power" "The Chains that Bind" "The Betrayal" "The Fletcher" "Tranquillity" "Earth Drinker" "The Watcher" "Chaotic Disposition" "The Cartographer" "Emperor of Purity" "Lysah's Respite" "The Calling" "The Formless Sea" "The Valkyrie" "The Wolf" "Lucky Deck" "The Scavenger" "The Trial" "The Brittle Emperor" "The Saint's Treasure" "The Obscured" "The Breach" "The Surveyor" "Harmony of Souls" "The Dreamland" "The Jeweller's Boon" "The Mayor" "The Professor" "The Samurai's Eye" "The Sword King's Salute" "The Undisputed" "The Hale Heart" "The Innocent" "The Twilight Moon" "The Price of Protection" "The Cacophony" "Last Hope" "A Dab of Ink" "The Sacrifice"
 	SetTextColor 14 186 255		#Divination Card - Valuable
 	SetBorderColor 14 186 255	#Divination Card - Valuable
 	PlayAlertSound 9 225
@@ -1825,16 +1832,6 @@ Hide	#Misc - Chromatic Orb Recipe - Large
 ###############################################################################
 
 #Disabled Block Start
-#Misc - Chance - Occultist's Vestment
-#Show
-#	BaseType "Occultist's Vestment"
-#	Rarity Normal
-#	SetFontSize 28
-#	SetBackgroundColor 0 0 0 200	#Dimmed Background
-#	SetBorderColor 175 96 37 150	#Chance
-#	SetTextColor 200 200 200	#Chance
-#Disabled Block End
-#Disabled Block Start
 #Misc - Chance - Full Wyrmscale
 #Show
 #	BaseType "Full Wyrmscale"
@@ -1888,9 +1885,9 @@ Show
 	SetBackgroundColor 0 0 0 200	#Dimmed Background
 	SetBorderColor 175 96 37 150	#Chance
 	SetTextColor 200 200 200	#Chance
-#Misc - Chance - Leather Belt
+#Misc - Chance - Occultist's Vestment
 Show
-	BaseType "Leather Belt"
+	BaseType "Occultist's Vestment"
 	Rarity Normal
 	SetFontSize 28
 	SetBackgroundColor 0 0 0 200	#Dimmed Background
@@ -6049,6 +6046,14 @@ Show	#Gear - ~Rare - Shaper
 	SetBorderColor 181 75 255	#Shaper
 	SetTextColor 255 255 119	#Shaper
 	SetBackgroundColor 0 0 0 255	#Shaper
+	SetFontSize 38
+
+Show	#Gear - ~Rare - Veiled
+	Identified True
+	HasExplicitMod "Veil"
+	SetBorderColor 181 75 255	#Veiled
+	SetTextColor 255 255 119	#Veiled
+	SetBackgroundColor 0 0 0 255	#Veiled
 	SetFontSize 38
 
 ### Armour ###
