@@ -266,10 +266,11 @@ Show
 #Incursion Item
 Show
 	Class "Incursion Item"
-	SetTextColor 74 230 58		#Incursion Item
-	SetBorderColor 74 230 58	#Incursion Item
-	SetFontSize 38
-	PlayAlertSound 1 175	
+	SetTextColor 74 230 58
+	SetBorderColor 74 230 58
+	SetFontSize 35
+	PlayAlertSound 1 125
+	MinimapIcon 2 Green Circle	
 
 #Quest Items
 Show
@@ -281,11 +282,24 @@ Show
 	Class "Pantheon Soul"
 	SetTextColor 74 230 58		#Pantheon Soul - CatchAll
 
-#Tabula Rasa Exception, show it as a regular unique
+#Tabula Rasa Exception
 Show
+	SocketGroup WWWWWW
+	ItemLevel <= 70
 	Rarity Unique
-	SocketGroup WWWWWW	
 	BaseType "Simple Robe"
+	SetBorderColor 175 96 37
+	SetFontSize 38
+	MinimapIcon 2 Brown Star
+	PlayEffect Brown
+
+Show
+	SocketGroup WWWWWW
+	Rarity Unique
+	BaseType "Simple Robe"
+	SetBorderColor 175 96 37
+	SetFontSize 32
+	MinimapIcon 2 Brown Star
 	
 #6L
 Show
@@ -351,375 +365,552 @@ Show
 # Section: ### Currency #######################################################
 ###############################################################################
 
-#Currency - Wisdom Scroll
-Hide	#Currency - Wisdom Scroll
-	BaseType "Scroll of Wisdom"
-	SetTextColor 170 158 130	#Currency - Wisdom Scroll
-	SetBorderColor 170 158 130 0	#Currency - Wisdom Scroll
-	SetBackgroundColor 0 0 0 220	#Currency - Wisdom Scroll
-
-#Currency - Portal Scroll
-Hide	#Currency - Portal Scroll
-	BaseType "Portal Scroll"
-	SetTextColor 170 158 130	#Currency - Portal Scroll
-	SetBorderColor 170 158 130 0	#Currency - Portal Scroll
-	SetBackgroundColor 0 0 0 220	#Currency - Portal Scroll
-
-#Currency - Mirror of Kalandra
 Show
-	BaseType "Mirror of Kalandra"
-	SetTextColor 0 255 150		#Currency - Mirror of Kalandra
-	SetBorderColor 0 255 150	#Currency - Mirror of Kalandra
-	SetBackgroundColor 0 0 0 255	#Currency - Mirror of Kalandra
+	Class "Currency"
+	BaseType "Scroll of Wisdom"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 220
+	SetBorderColor 170 158 130 0
+	SetFontSize 32
+
+Show
+	Class "Currency"
+	BaseType "Portal Scroll"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 220
+	SetBorderColor 170 158 130 0
+	SetFontSize 32
+
+Show
+	Class "Currency"
+	BaseType "Alteration Shard" "Scroll Fragment"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 220
+	SetBorderColor 170 158 130 0
+	SetFontSize 32
+
+Show
+	Class "Currency"
+	BaseType "Armourer's Scrap"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 235
+	SetBorderColor 170 158 130 0
+	SetFontSize 32
+
+Show
+	Class "Currency"
+	BaseType "Blacksmith's Whetstone"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 235
+	SetBorderColor 170 158 130 0
+	SetFontSize 32
+
+Show
+	Class "Currency"
+	BaseType "Orb of Chance"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 235
+	SetBorderColor 170 158 130 0
+	SetFontSize 32
+
+Show
+	Class "Currency"
+	BaseType "Glassblower's Bauble"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 235
+	SetBorderColor 170 158 130 0
+	SetFontSize 32
+
+Show
+	Class "Currency"
+	BaseType "Orb of Alteration"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 235
+	SetBorderColor 170 158 130 0
+	SetFontSize 32
+
+Show
+	Class "Currency"
+	BaseType "Chromatic Orb"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 235
+	SetBorderColor 170 158 130 0
+	SetFontSize 32
+
+Show
+	Class "Currency"
+	BaseType "Jeweller's Orb"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 235
+	SetBorderColor 170 158 130 0
+	SetFontSize 32
+
+Show
+	Class "Currency"
+	BaseType "Harbinger's Shard"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 170 158 130
+	SetFontSize 32
+
+Show
+	Class "Currency"
+	BaseType "Annulment Shard"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 170 158 130
+	SetFontSize 32
+
+Show
+	Class "Currency"
+	BaseType "Perandus Coin"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 170 158 130 0
+	SetFontSize 32
+
+Show
+	Class "Currency"
+	BaseType "Silver Coin"
+	SetTextColor 181 75 255
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 170 158 130 0
+	SetFontSize 32
+	PlayAlertSound 9 225
+
+Show
+	Class "Currency"
+	BaseType "Orb of Alchemy"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 170 158 130
+	SetFontSize 32
+	PlayAlertSound 9 225
+	MinimapIcon 2 Yellow Diamond
+
+Show
+	Class "Currency"
+	BaseType "Orb of Fusing"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 170 158 130
+	SetFontSize 32
+	PlayAlertSound 9 225
+	MinimapIcon 2 Yellow Diamond
+
+Show
+	Class "Currency"
+	BaseType "Blessed Orb"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 170 158 130
+	SetFontSize 32
+	PlayAlertSound 9 225
+	MinimapIcon 2 Yellow Diamond
+
+Show
+	Class "Currency"
+	BaseType "Orb of Scouring"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 170 158 130
+	SetFontSize 32
+	PlayAlertSound 9 225
+	MinimapIcon 2 Yellow Diamond
+
+Show
+	Class "Currency"
+	BaseType "Cartographer's Chisel"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 170 158 130
+	SetFontSize 32
+	PlayAlertSound 9 225
+	MinimapIcon 2 Yellow Diamond
+
+Show
+	Class "Currency"
+	BaseType "Vaal Orb"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 170 158 130
+	SetFontSize 32
+	PlayAlertSound 9 225
+	MinimapIcon 2 Yellow Diamond
+
+Show
+	Class "Currency"
+	BaseType "Orb of Regret"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 170 158 130
+	SetFontSize 32
+	PlayAlertSound 9 225
+	MinimapIcon 2 Yellow Diamond
+
+Show
+	Class "Currency"
+	BaseType "Gemcutter's Prism"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 170 158 130
+	SetFontSize 32
+	PlayAlertSound 9 225
+	MinimapIcon 2 Yellow Diamond
+
+Show
+	Class "Currency"
+	BaseType "Chaos Orb"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 170 158 130
+	SetFontSize 32
+	PlayAlertSound 9 225
+	MinimapIcon 2 Yellow Diamond
+
+Show
+	Class "Currency"
+	BaseType "Regal Orb"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 170 158 130
+	SetFontSize 32
+	PlayAlertSound 9 225
+	MinimapIcon 2 Yellow Diamond
+
+Show
+	Class "Currency"
+	BaseType "Orb of Binding"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 170 158 130
+	SetFontSize 32
+	PlayAlertSound 9 225
+	MinimapIcon 2 Yellow Diamond
+
+Show
+	Class "Currency"
+	BaseType "Orb of Horizons"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 170 158 130
+	SetFontSize 32
+	PlayAlertSound 9 225
+	MinimapIcon 2 Yellow Diamond
+
+Show
+	Class "Currency"
+	BaseType "Apprentice Cartographer's Sextant"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 170 158 130
+	SetFontSize 32
+	PlayAlertSound 9 225
+	MinimapIcon 2 Yellow Diamond
+
+Show
+	Class "Currency"
+	BaseType "Journeyman Cartographer's Sextant"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 170 158 130
+	SetFontSize 32
+	PlayAlertSound 9 225
+	MinimapIcon 2 Yellow Diamond
+
+Show
+	Class "Currency"
+	BaseType "Master Cartographer's Sextant"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 170 158 130
+	SetFontSize 32
+	PlayAlertSound 9 225
+	MinimapIcon 2 Yellow Diamond
+
+Show
+	Class "Currency"
+	BaseType "Splinter of Chayula" "Splinter of Esh" "Splinter of Tul" "Splinter of Uul-Netol" "Splinter of Xoph"
+	SetTextColor 255 36 49
+	SetBackgroundColor 0 0 0
+	SetBorderColor 255 36 49 255
+	SetFontSize 32
+	PlayAlertSound 9 225
+	MinimapIcon 2 Yellow Diamond
+
+Show
+	Class "Currency"
+	BaseType "Blessing of Chayula"
+	SetTextColor 200 200 175
+	SetBackgroundColor 85 65 15 230
+	SetBorderColor 170 158 130
+	SetFontSize 32
+	PlayAlertSound 4 150
+	MinimapIcon 2 Yellow Diamond
+
+Show
+	Class "Currency"
+	BaseType "Blessing of Esh" "Blessing of Tul" "Blessing of Uul-Netol" "Blessing of Xoph"
+	SetTextColor 200 200 175
+	SetBackgroundColor 85 65 15 230
+	SetBorderColor 170 158 130
+	SetFontSize 32
+	PlayAlertSound 4 150
+	MinimapIcon 2 Yellow Diamond
+
+Show
+	Class "Currency"
+	BaseType "Prophecy"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 181 75 255 150
+	SetFontSize 32
+	PlayAlertSound 9 225
+
+Show
+	Class "Currency"
+	BaseType "Stacked Deck"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 170 158 130
+	SetFontSize 32
+	PlayAlertSound 9 225
+
+Show
+	Class "Currency"
+	BaseType "Essence of Delirium" "Essence of Horror" "Essence of Hysteria" "Essence of Insanity"
+	SetTextColor 164 210 255
+	SetBackgroundColor 0 0 0
+	SetBorderColor 164 210 255
+	SetFontSize 40
+	PlayAlertSound 4 150
+
+Show
+	Class "Currency"
+	BaseType "Deafening Essence" "Screaming Essence" "Shrieking Essence"
+	SetTextColor 164 210 255
+	SetBackgroundColor 0 0 0
+	SetBorderColor 164 210 255
+	SetFontSize 32
+	PlayAlertSound 9 225
+
+Show
+	Class "Currency"
+	BaseType "Essence"
+	SetTextColor 164 210 255
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 170 158 130 0
+	SetFontSize 32
+
+Show
+	Class "Currency"
+	BaseType "Remnant of Corruption"
+	SetTextColor 164 210 255
+	SetBackgroundColor 0 0 0
+	SetBorderColor 164 210 255
+	SetFontSize 32
+	PlayAlertSound 9 225
+
+Show
+	Class "Currency"
+	BaseType "Bloodstained Fossil" "Faceted Fossil" "Fractured Fossil" "Glyphic Fossil" "Hollow Fossil"
+	SetTextColor 120 165 240
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 120 165 240 255
+	SetFontSize 40
+	PlayAlertSound 5 250
+	MinimapIcon 0 Yellow Diamond
+	PlayEffect Yellow
+
+Show
+	Class "Currency"
+	BaseType "Sanctified Fossil" "Tangled Fossil"
+	SetTextColor 120 165 240
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 120 165 240 255
+	SetFontSize 32
+	PlayAlertSound 4 150
+	MinimapIcon 1 Yellow Diamond
+	PlayEffect Yellow
+
+Show
+	Class "Currency"
+	BaseType "Fossil"
+	SetTextColor 120 165 240
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 120 165 240 255
+	SetFontSize 32
+	PlayAlertSound 9 225
+	MinimapIcon 2 Yellow Diamond
+
+Show
+	Class "Currency"
+	BaseType "Prime Alchemical Resonator" "Prime Chaotic Resonator"
+	SetTextColor 120 165 240
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 120 165 240 255
+	SetFontSize 32
+	PlayAlertSound 4 150
+	MinimapIcon 1 Yellow Diamond
+	PlayEffect Yellow
+
+Show
+	Class "Currency"
+	BaseType "Resonator"
+	SetTextColor 120 165 240
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 120 165 240 255
+	SetFontSize 32
+	PlayAlertSound 9 225
+	MinimapIcon 2 Yellow Diamond
+
+Show
+	Class "Currency"
+	BaseType "Vial of Awakening" "Vial of Sacrifice" "Vial of the Ghost"
+	SetTextColor 120 165 240
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 120 165 240 255
+	SetFontSize 32
+	PlayAlertSound 4 150
+	MinimapIcon 1 Yellow Diamond
+	PlayEffect Yellow
+
+Show
+	Class "Currency"
+	BaseType "Vial of Consequence" "Vial of Dominance" "Vial of Fate" "Vial of Summoning" "Vial of Transcendence" "Vial of the Ritual"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 170 158 130
+	SetFontSize 32
+	PlayAlertSound 9 225
+	MinimapIcon 2 Yellow Diamond
+
+Show
+	Class "Currency"
+	BaseType "Vial of"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 170 158 130
+	SetFontSize 32
+	PlayAlertSound 9 225
+	MinimapIcon 2 Yellow Diamond
+
+Show
+	Class "Currency"
+	BaseType "Exalted Shard"
+	SetTextColor 200 200 175
+	SetBackgroundColor 85 65 15 230
+	SetBorderColor 170 158 130
+	SetFontSize 32
+	PlayAlertSound 4 150
+	MinimapIcon 1 Yellow Diamond
+	PlayEffect Yellow
+
+Show
+	Class "Currency"
+	BaseType "Divine Orb"
+	SetTextColor 200 200 175
+	SetBackgroundColor 85 65 15 230
+	SetBorderColor 170 158 130
+	SetFontSize 32
+	PlayAlertSound 4 150
+	MinimapIcon 1 Yellow Diamond
+	PlayEffect Yellow
+
+Show
+	Class "Currency"
+	BaseType "Ancient Orb"
+	SetTextColor 200 200 175
+	SetBackgroundColor 85 65 15 230
+	SetBorderColor 170 158 130
+	SetFontSize 32
+	PlayAlertSound 4 150
+	MinimapIcon 1 Yellow Diamond
+	PlayEffect Yellow
+
+Show
+	Class "Currency"
+	BaseType "Orb of Annulment"
+	SetTextColor 200 200 175
+	SetBackgroundColor 85 65 15 230
+	SetBorderColor 170 158 130
+	SetFontSize 32
+	PlayAlertSound 4 150
+	MinimapIcon 1 Yellow Diamond
+	PlayEffect Yellow
+
+Show
+	Class "Currency"
+	BaseType "Harbinger's Orb"
+	SetTextColor 200 200 175
+	SetBackgroundColor 85 65 15 230
+	SetBorderColor 170 158 130
+	SetFontSize 32
+	PlayAlertSound 4 150
+	MinimapIcon 1 Yellow Diamond
+	PlayEffect Yellow
+
+Show
+	Class "Currency"
+	BaseType "Albino Rhoa Feather"
+	SetTextColor 0 255 150
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 0 255 150
+	SetFontSize 45
+	PlayAlertSound 5 300
+	MinimapIcon 1 Yellow Diamond
+	PlayEffect Yellow
+
+Show
+	Class "Currency"
+	BaseType "Eternal Orb"
+	SetTextColor 200 200 175
+	SetBackgroundColor 85 65 15 230
+	SetBorderColor 170 158 130
+	SetFontSize 40
+	PlayAlertSound 5 250
+	MinimapIcon 1 Yellow Diamond
+	PlayEffect Yellow
+
+Show
+	Class "Currency"
+	BaseType "Exalted Orb"
+	SetTextColor 200 200 175
+	SetBackgroundColor 85 65 15 230
+	SetBorderColor 170 158 130
+	SetFontSize 40
+	PlayAlertSound 5 250
+	MinimapIcon 1 Yellow Diamond
+	PlayEffect Yellow
+
+Show
+	Class "Currency"
+	BaseType "Mirror Shard"
+	SetTextColor 0 255 150
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 0 255 150
 	SetFontSize 45
 	PlayAlertSound 5 300
 	MinimapIcon 0 Yellow Diamond
 	PlayEffect Yellow
 
-#Currency - Mirror Shard
 Show
-	BaseType "Mirror Shard"
-	SetTextColor 0 255 150		#Currency - Mirror Shard
-	SetBorderColor 0 255 150	#Currency - Mirror Shard
-	SetBackgroundColor 0 0 0 255	#Currency - Mirror Shard
+	Class "Currency"
+	BaseType "Mirror of Kalandra"
+	SetTextColor 0 255 150
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 0 255 150
 	SetFontSize 45
 	PlayAlertSound 5 300
-	MinimapIcon 2 Yellow Hexagon
+	MinimapIcon 0 Yellow Diamond
 	PlayEffect Yellow
 
-#Currency - Albino Rhoa Feather
-Show
-	BaseType "Albino Rhoa Feather"
-	SetTextColor 0 255 150		#Currency - Albino Rhoa Feather
-	SetBorderColor 0 255 150	#Currency - Albino Rhoa Feather
-	SetBackgroundColor 0 0 0 255	#Currency - Albino Rhoa Feather
-	SetFontSize 45
-	PlayAlertSound 5 300
-	MinimapIcon 2 Yellow Hexagon
-	PlayEffect Yellow
-
-#Currency - Divine Orb
-Show
-	BaseType "Divine Orb"
-	SetBorderColor 170 158 130	#Currency - Divine Orb
-	SetTextColor 200 200 175	#Currency - Divine Orb
-	SetBackgroundColor 85 65 15 230	#Currency - Divine Orb
-	PlayAlertSound 5 250
-	MinimapIcon 2 Yellow Hexagon
-	PlayEffect Yellow
-
-#Currency - Harbinger's Orb
-Show
-	BaseType "Harbinger's Orb"
-	SetBorderColor 170 158 130	#Currency - Harbinger's Orb
-	SetTextColor 200 200 175	#Currency - Harbinger's Orb
-	SetBackgroundColor 85 65 15 230	#Currency - Harbinger's Orb
-	PlayAlertSound 5 200
-
-#Currency - Bestiary Orb
-Show
-	BaseType "Bestiary Orb"
-	SetBorderColor 170 158 130	#Currency - Bestiary Orb
-	SetTextColor 200 200 175	#Currency - Bestiary Orb
-	SetBackgroundColor 85 65 15 230	#Currency - Bestiary Orb
-	PlayAlertSound 5 200
-
-#Currency - Orb of Annulment
-Show
-	BaseType "Orb of Annulment"
-	SetBorderColor 170 158 130	#Currency - Orb of Annulment
-	SetTextColor 200 200 175	#Currency - Orb of Annulment
-	SetBackgroundColor 85 65 15 230	#Currency - Orb of Annulment
-	PlayAlertSound 5 250
-
-#Currency - Exalted Orb
-Show
-	BaseType "Exalted Orb"
-	SetBorderColor 170 158 130	#Currency - Exalted Orb
-	SetTextColor 200 200 175	#Currency - Exalted Orb
-	SetBackgroundColor 85 65 15 230	#Currency - Exalted Orb
-	SetFontSize 40
-	PlayAlertSound 5 250
-	MinimapIcon 0 Yellow Hexagon
-	PlayEffect Yellow
-
-#Currency - Exalted Shard
-Show
-	BaseType "Exalted Shard"
-	SetBorderColor 170 158 130	#Currency - Exalted Shard
-	SetTextColor 170 158 130	#Currency - Exalted Shard
-	SetBackgroundColor 0 0 0 255	#Currency - Exalted Shard
-	PlayAlertSound 9 225
-
-#Currency - Eternal Orb
-Show
-	BaseType "Eternal Orb"
-	SetBorderColor 170 158 130	#Currency - Eternal Orb
-	SetTextColor 200 200 175	#Currency - Eternal Orb
-	SetBackgroundColor 85 65 15 230	#Currency - Eternal Orb
-	SetFontSize 40
-	PlayAlertSound 5 250
-	MinimapIcon 0 Yellow Hexagon
-	PlayEffect Yellow
-
-#Currency - Valuable
-Show
-	BaseType "Regal Orb" "Chaos Orb" "Gemcutter's Prism" "Orb of Regret"
-	SetBorderColor 170 158 130	#Currency - Valuable
-	SetTextColor 170 158 130	#Currency - Valuable
-	SetBackgroundColor 0 0 0 255	#Currency - Valuable
-	PlayAlertSound 9 225
-
-#Currency - Harbinger
-Show
-	BaseType "Orb of Binding" "Ancient Orb" "Orb of Horizons" "Annulment Shard" "Harbinger's Shard"
-	SetBorderColor 170 158 130	#Currency - Harbinger
-	SetTextColor 170 158 130	#Currency - Harbinger
-	SetBackgroundColor 0 0 0 255	#Currency - Harbinger
-	PlayAlertSound 9 225
-
-#Currency - Orb of Fusing
-Show
-	BaseType "Orb of Fusing"
-	SetTextColor 170 158 130	#Currency - Orb of Fusing
-	SetBorderColor 170 158 130	#Currency - Orb of Fusing
-	SetBackgroundColor 0 0 0 255	#Currency - Orb of Fusing
-	PlayAlertSound 9 225
-
-#Currency - Blessed Orb
-Show
-	BaseType "Blessed Orb"
-	SetTextColor 170 158 130	#Currency - Blessed Orb
-	SetBorderColor 170 158 130	#Currency - Blessed Orb
-	SetBackgroundColor 0 0 0 255	#Currency - Blessed Orb
-	PlayAlertSound 9 225
-
-#Currency - Orb of Scouring
-Show
-	BaseType "Orb of Scouring"
-	SetTextColor 170 158 130	#Currency - Orb of Scouring
-	SetBorderColor 170 158 130	#Currency - Orb of Scouring
-	SetBackgroundColor 0 0 0 255	#Currency - Orb of Scouring
-	PlayAlertSound 9 225
-
-#Currency - Orb of Alchemy
-Show
-	BaseType "Orb of Alchemy"
-	SetTextColor 170 158 130	#Currency - Orb of Alchemy
-	SetBorderColor 170 158 130	#Currency - Orb of Alchemy
-	SetBackgroundColor 0 0 0 255	#Currency - Orb of Alchemy
-	PlayAlertSound 9 225
-
-#Currency - Stacked Deck
-Show
-	BaseType "Stacked Deck"
-	SetTextColor 170 158 130	#Currency - Stacked Deck
-	SetBorderColor 170 158 130	#Currency - Stacked Deck
-	SetBackgroundColor 0 0 0 255	#Currency - Stacked Deck
-	PlayAlertSound 9 225
-
-#Currency - Vaal Orb
-Show
-	BaseType "Vaal Orb"
-	SetTextColor 170 158 130	#Currency - Vaal Orb
-	SetBorderColor 170 158 130	#Currency - Vaal Orb
-	SetBackgroundColor 0 0 0 255	#Currency - Vaal Orb
-	PlayAlertSound 9 225
-
-#Currency - Cartographer's Chisel
-Show
-	BaseType "Cartographer's Chisel"
-	SetTextColor 170 158 130	#Currency - Cartographer's Chisel
-	SetBorderColor 170 158 130	#Currency - Cartographer's Chisel
-	SetBackgroundColor 0 0 0 255	#Currency - Cartographer's Chisel
-	PlayAlertSound 9 225
-
-#Currency - Perandus Coin
-Show
-	BaseType "Perandus Coin"
-	SetTextColor 170 158 130	#Currency - Perandus Coin
-	SetBorderColor 170 158 130 0	#Currency - Perandus Coin
-	SetBackgroundColor 0 0 0 255	#Currency - Perandus Coin
-
-#Currency - Medium Value
-Show
-	BaseType "Orb of Alteration" "Chromatic Orb" "Jeweller's Orb" "Orb of Chance" "Glassblower's Bauble"
-	SetTextColor 170 158 130	#Currency - Medium Value
-	SetBorderColor 170 158 130 0	#Currency - Medium Value
-	SetBackgroundColor 0 0 0 235	#Currency - Medium Value
-
-#Currency - Orb of Augmentation
-Hide	#Currency - Orb of Augmentation
-	BaseType "Orb of Augmentation"
-	SetTextColor 170 158 130	#Currency - Orb of Augmentation
-	SetBorderColor 170 158 130 0	#Currency - Orb of Augmentation
-	SetBackgroundColor 0 0 0 235	#Currency - Orb of Augmentation
-
-#Currency - Orb of Transmutation
-Show	#Currency - Orb of Transmutation
-	BaseType "Orb of Transmutation"
-	SetTextColor 170 158 130	#Currency - Orb of Transmutation
-	SetBorderColor 170 158 130 0	#Currency - Orb of Transmutation
-	SetBackgroundColor 0 0 0 235	#Currency - Orb of Transmutation
-
-#Currency - Armourer's Scrap & Blacksmith's Whetstone
-Hide	#Currency - Armourer's Scrap & Blacksmith's Whetstone
-	BaseType "Armourer's Scrap" "Blacksmith's Whetstone"
-	SetTextColor 170 158 130	#Currency - Armourer's Scrap & Blacksmith's Whetstone
-	SetBorderColor 170 158 130 0	#Currency - Armourer's Scrap & Blacksmith's Whetstone
-	SetBackgroundColor 0 0 0 220	#Currency - Armourer's Scrap & Blacksmith's Whetstone
-
-#Currency - Scroll Fragment & Alteration Shard
-Hide	#Currency - Scroll Fragment & Alteration Shard
-	BaseType "Scroll Fragment" "Alteration Shard"
-	SetTextColor 170 158 130	#Currency - Scroll Fragment & Alteration Shard
-	SetBorderColor 170 158 130 0	#Currency - Scroll Fragment & Alteration Shard
-	SetBackgroundColor 0 0 0 220	#Currency - Scroll Fragment & Alteration Shard
-
-#Currency - Delve High Fossil
 Show
 	Class "Currency"
-	BaseType "Tangled Fossil" "Sanctified Fossil" "Gilded Fossil"
-	SetTextColor 120 165 240		#Currency - Delve Fossil
-	SetBorderColor 120 165 240 255	#Currency - Delve Fossil
-	SetBackgroundColor 0 0 0	#Currency - Delve Fossil
-	PlayAlertSound 9 225
-	PlayEffect Blue
-
-#Currency - Delve Fossil
-Show
-	Class "Currency"
-	BaseType "Fossil"
-	SetTextColor 120 165 240		#Currency - Delve Fossil
-	SetBorderColor 120 165 240 255	#Currency - Delve Fossil
-	SetBackgroundColor 0 0 0	#Currency - Delve Fossil
-
-#Currency - Delve Prime Resonator
-Show
-	Class "Currency"
-	BaseType "Prime Alchemical Resonator" "Prime Chaotic Resonator"
-	SetTextColor 120 165 240		#Currency - Delve Resonator
-	SetBorderColor 120 165 240 255	#Currency - Delve Resonator
-	SetBackgroundColor 0 0 0	#Currency - Delve Resonator
-	PlayAlertSound 9 225
-	PlayEffect Blue
-
-#Currency - Delve Resonator
-Show
-	Class "Currency"
-	BaseType "Resonator"
-	SetTextColor 120 165 240		#Currency - Delve Resonator
-	SetBorderColor 120 165 240 255	#Currency - Delve Resonator
-	SetBackgroundColor 0 0 0	#Currency - Delve Resonator
-
-#Currency - Breach Splinter
-Show
-	BaseType "Splinter of Xoph" "Splinter of Tul" "Splinter of Esh" "Splinter of Uul-Netol" "Splinter of Chayula"
-	SetTextColor 255 36 49		#Currency - Breach Splinter
-	SetBorderColor 255 36 49 0	#Currency - Breach Splinter
-	SetBackgroundColor 0 0 0	#Currency - Breach Splinter
-
-#Currency - Breach Blessing
-Show
-	BaseType "Blessing of Xoph" "Blessing of Tul" "Blessing of Esh" "Blessing of Uul-Netol" "Blessing of Chayula"
-	SetTextColor 200 200 175	#Currency - Breach Blessing
-	SetBorderColor 170 158 130	#Currency - Breach Blessing
-	SetBackgroundColor 85 65 15 230	#Currency - Breach Blessing
-	PlayAlertSound 6 175
-
-#Currency - Labyrinth
-Show
-	BaseType "Absorption" "Bane of the Loyal" "Cogs of Disruption" "Golden Key" "Heart of the Gargoyle" "Orb of Elemental Dispersion" "Portal Shredder" "Rod of Detonation" "Sand of Eternity" "Silver Key" "Treasure Key" "Eber's Key" "Yriel's Key" "Inya's Key" "Volkuur's Key"
-	SetTextColor 74 230 58		#Currency - Labyrinth
-	SetBorderColor 0 0 0		#Currency - Labyrinth
-	SetBackgroundColor 0 0 0	#Currency - Labyrinth
-
-#Currency - Remnant of Corruption
-Show
-	Class "Currency"
-	BaseType "Remnant of Corruption"
-	SetTextColor 164 210 255	#Currency - Remnant of Corruption
-	SetBorderColor 164 210 255	#Currency - Remnant of Corruption
-	SetBackgroundColor 0 0 0	#Currency - Remnant of Corruption
-	PlayAlertSound 9 225
-	
-#Currency - Cartographer's Sextant
-Show
-	Class "Currency"
-	BaseType "Cartographer's Sextant"
-	SetTextColor 170 158 130	#Currency - Cartographer's Sextant
-	SetBorderColor 170 158 130	#Currency - Cartographer's Sextant
-	SetBackgroundColor 0 0 0	#Currency - Cartographer's Sextant
-	PlayAlertSound 9 225
-	
-#Currency - Cartographer's Seal
-Show
-	Class "Currency"
-	BaseType "Cartographer's Seal"
-	SetTextColor 170 158 130	#Currency - Cartographer's Seal
-	SetBorderColor 170 158 130	#Currency - Cartographer's Seal
-	SetBackgroundColor 0 0 0	#Currency - Cartographer's Seal
-	PlayAlertSound 9 225
-
-#Currency - Unshaping Orb
-Show
-	Class "Currency"
-	BaseType "Unshaping Orb"
-	SetTextColor 170 158 130	#Currency - Unshaping Orb
-	SetBorderColor 170 158 130	#Currency - Unshaping Orb
-	SetBackgroundColor 0 0 0	#Currency - Unshaping Orb
-	PlayAlertSound 9 225
-
-#Currency - Essence Corrupted
-Show
-	Class "Currency"
-	BaseType "Essence of Insanity" "Essence of Horror" "Essence of Delirium" "Essence of Hysteria"
-	SetTextColor 164 210 255	#Currency - Essence Corrupted
-	SetBorderColor 164 210 255	#Currency - Essence Corrupted
-	SetBackgroundColor 0 0 0	#Currency - Essence Corrupted
-	SetFontSize 40
-	PlayAlertSound 9 225
-
-#Currency - Essence T5+
-Show
-	Class "Currency"
-	BaseType "Screaming Essence" "Shrieking Essence" "Deafening Essence"
-	SetTextColor 164 210 255	#Currency - Essence T5+
-	SetBorderColor 164 210 255	#Currency - Essence T5+
-	SetBackgroundColor 0 0 0	#Currency - Essence T5+
-	PlayAlertSound 9 225
-
-#Currency - Essence
-Show
-	Class "Currency"
-	BaseType "Essence"
-	SetTextColor 164 210 255	#Currency - Essence
-	SetBorderColor 170 158 130 0	#Currency - Essence
-	SetBackgroundColor 0 0 0	#Currency - Essence
-
-#Currency - Prophecy
-Show
-	Class "Currency"
-	BaseType "Silver Coin" "Prophecy"
-	SetTextColor 181 75 255		#Currency - Prophecy
-	SetBorderColor 170 158 130 0	#Currency - Prophecy
-	SetBackgroundColor 0 0 0	#Currency - Prophecy
-
-#Currency - Incursion
-Show
-	Class "Currency"
-	BaseType "Vial of"
-	SetTextColor 170 158 130	#Currency - Incursion
-	SetBorderColor 170 158 130	#Currency - Incursion
-	SetBackgroundColor 0 0 0 255	#Currency - Incursion
-	PlayAlertSound 9 225
-
-#Currency - CatchAll
-Show
-	Class "Currency"
-	SetTextColor 170 158 130	#Currency - CatchAll
-	SetBorderColor 170 158 130 0	#Currency - CatchAll
-	SetBackgroundColor 0 0 0 255	#Currency - CatchAll
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 170 158 130 0
+	SetFontSize 32
 
 ### /Currency #################################################################
 ###############################################################################
@@ -792,282 +983,434 @@ Show	#Gems - ~CatchAll
 # Section: ### Maps ###########################################################
 ###############################################################################
 
-#Maps - DropLevel 81+ - Normal
 Show
-	Class "Maps"
-	Rarity Normal
-	MapTier >= 14
-	SetTextColor 240 240 240	#Maps - 81+ - Normal
-	SetBorderColor 200 200 200	#Maps - 81+ - Normal
-	SetBackgroundColor 0 0 0	#Maps - 81+ - Normal
-	SetFontSize 42
-	PlayAlertSound 6 150
-	MinimapIcon 2 Red Circle
+	Class "Map Fragments"
+	BaseType "Eber's Key" "Inya's Key" "Volkuur's Key" "Yriel's Key"
+	SetTextColor 74 230 58
+	SetBackgroundColor 0 0 0
+	SetBorderColor 74 230 58
+	SetFontSize 36
 
-#Maps - DropLevel 81+ - Magic
 Show
-	Class "Maps"
-	Rarity Magic
-	MapTier >= 14
-	SetTextColor 140 190 255	#Maps - 81+ - Magic
-	SetBorderColor 136 136 255	#Maps - 81+ - Magic
-	SetBackgroundColor 0 0 0	#Maps - 81+ - Magic
-	SetFontSize 42
-	PlayAlertSound 6 150
-	MinimapIcon 2 Red Circle
+	Class "Map Fragments"
+	BaseType "Scarab"
+	SetTextColor 229 160 12
+	SetBorderColor 229 160 12
+	SetFontSize 36
 
-#Maps - DropLevel 81+ - Rare
 Show
-	Class "Maps"
-	Rarity Rare
-	MapTier >= 14
-	SetTextColor 255 200 0		#Maps - 81+ - Rare
-	SetBorderColor 255 255 119	#Maps - 81+ - Rare
-	SetBackgroundColor 0 0 0	#Maps - 81+ - Rare
-	SetFontSize 42
-	PlayAlertSound 6 150
-	MinimapIcon 2 Red Circle
-
-#Maps - DropLevel 78+ - Normal
-Show
-	Class "Maps"
-	Rarity Normal
-	MapTier >= 11
-	SetBorderColor 200 200 200	#Maps - 78+ - Normal
-	SetBackgroundColor 0 0 0	#Maps - 78+ - Normal
-	SetFontSize 42
-	PlayAlertSound 6 125
-
-#Maps - DropLevel 78+ - Magic
-Show
-	Class "Maps"
-	Rarity Magic
-	MapTier >= 11
-	SetBorderColor 136 136 255	#Maps - 78+ - Magic
-	SetBackgroundColor 0 0 0	#Maps - 78+ - Magic
-	SetFontSize 42
-	PlayAlertSound 6 125
-
-#Maps - DropLevel 78+ - Rare
-Show
-	Class "Maps"
-	Rarity Rare
-	MapTier >= 11
-	SetBorderColor 255 255 119	#Maps - 78+ - Rare
-	SetBackgroundColor 0 0 0	#Maps - 78+ - Rare
-	SetFontSize 42
-	PlayAlertSound 6 125
-
-#Maps - Elder Normal
-Show	#~Maps - Elder Normal
-	Class "Maps"
-	ElderMap True
-	Rarity Normal
-	SetTextColor 240 240 240	#Maps - Elder Normal
-	SetBorderColor 200 200 200	#Maps - Elder Normal
-	SetBackgroundColor 0 0 0	#Maps - Elder Normal
-	SetFontSize 42
-	PlayAlertSound 6 125
-	MinimapIcon 0 Red Circle
-
-#Maps - Elder Magic
-Show	#~Maps - Elder Magic
-	Class "Maps"
-	ElderMap True
-	Rarity Magic
-	SetTextColor 140 190 255	#Maps - Elder Magic
-	SetBorderColor 136 136 255	#Maps - Elder Magic
-	SetBackgroundColor 0 0 0	#Maps - Elder Magic
-	SetFontSize 42
-	PlayAlertSound 6 125
-	MinimapIcon 0 Red Circle
-
-#Maps - Elder Rare
-Show	#~Maps - Elder Rare
-	Class "Maps"
-	ElderMap True
-	Rarity Rare
-	SetTextColor 255 200 0		#Maps - Elder Rare
-	SetBorderColor 255 255 119	#Maps - Elder Rare
-	SetBackgroundColor 0 0 0	#Maps - Elder Rare
-	SetFontSize 42
-	PlayAlertSound 6 125
-	MinimapIcon 0 Red Circle
-
-#Maps - Shaped Normal
-Show	#~Maps - Shaped Normal
-	Class "Maps"
-	ShapedMap True
-	Rarity Normal
-	SetTextColor 200 200 200	#Maps - Shaped Normal
-	SetBorderColor 200 200 200	#Maps - Shaped Normal
-	SetBackgroundColor 0 0 0	#Maps - Shaped Normal
-	PlayAlertSound 2 125
-	SetFontSize 38
-
-#Maps - Shaped Magic
-Show	#~Maps - Shaped Magic
-	Class "Maps"
-	ShapedMap True
-	Rarity Magic
-	SetTextColor 136 136 255	#Maps - Shaped Magic
-	SetBorderColor 136 136 255	#Maps - Shaped Magic
-	SetBackgroundColor 0 0 0	#Maps - Shaped Magic
-	PlayAlertSound 2 125
-	SetFontSize 38
-
-#Maps - Shaped Rare
-Show	#~Maps - Shaped Rare
-	Class "Maps"
-	ShapedMap True
-	Rarity Rare
-	SetTextColor 255 255 119	#Maps - Shaped Rare
-	SetBorderColor 255 255 119	#Maps - Shaped Rare
-	SetBackgroundColor 0 0 0	#Maps - Shaped Rare
-	PlayAlertSound 2 125
-	SetFontSize 38
-
-#Maps - DropLevel 73 to 77 - Normal
-Hide	#~Maps - DropLevel 73 to 77
-	Class "Maps"
-	Rarity Normal
-	MapTier >= 6
-	MapTier <= 10
-	SetTextColor 200 200 200	#Maps - 73 to 77 - Normal
-	SetBorderColor 200 200 200	#Maps - 73 to 77 - Normal
-	SetBackgroundColor 0 0 0	#Maps - 73 to 77 - Normal
-	SetFontSize 38
-
-#Maps - DropLevel 73 to 77 - Magic
-Hide	#~Maps - DropLevel 73 to 77
-	Class "Maps"
-	Rarity Magic
-	MapTier >= 6
-	MapTier <= 10
-	SetTextColor 136 136 255	#Maps - 73 to 77 - Magic
-	SetBorderColor 136 136 255	#Maps - 73 to 77 - Magic
-	SetBackgroundColor 0 0 0	#Maps - 73 to 77 - Magic
-	SetFontSize 38
-
-#Maps - DropLevel 73 to 77 - Rare
-Hide	#~Maps - DropLevel 73 to 77
-	Class "Maps"
-	Rarity Rare
-	MapTier >= 6
-	MapTier <= 10
-	SetTextColor 255 255 119	#Maps - 73 to 77 - Rare
-	SetBorderColor 255 255 119	#Maps - 73 to 77 - Rare
-	SetBackgroundColor 0 0 0	#Maps - 73 to 77 - Rare
-	SetFontSize 38
-
-#Maps - DropLevel <= 72 - Normal
-Hide	#~Maps - DropLevel <= 72
-	Class "Maps"
-	Rarity Normal
-	MapTier <= 5
-	SetTextColor 200 200 200	#Maps - <= 72 - Normal
-	SetBorderColor 200 200 200	#Maps - <= 72 - Normal
-	SetBackgroundColor 0 0 0	#Maps - <= 72 - Normal
-
-#Maps - DropLevel <= 72 - Magic
-Hide	#~Maps - DropLevel <= 72
-	Class "Maps"
-	Rarity Magic
-	MapTier <= 5
-	SetTextColor 136 136 255	#Maps - <= 72 - Magic
-	SetBorderColor 136 136 255	#Maps - <= 72 - Magic
-	SetBackgroundColor 0 0 0	#Maps - <= 72 - Magic
-
-#Maps - DropLevel <= 72 - Rare
-Hide	#~Maps - DropLevel <= 72
-	Class "Maps"
-	Rarity Rare
-	MapTier <= 5
-	SetTextColor 255 255 119	#Maps - <= 72 - Rare
-	SetBorderColor 255 255 119	#Maps - <= 72 - Rare
-	SetBackgroundColor 0 0 0	#Maps - <= 72 - Rare
-
-#Maps - Unique
-Show	#~Maps - Unique
-	Class "Maps"
-	Rarity Unique
-	SetTextColor 175 96 37		#Maps - Unique
-	SetBorderColor 175 96 37	#Maps - Unique
-
-#Maps - Labyrinth
-Show	#~Maps - Labyrinth
-	Class "Labyrinth"
-	SetTextColor 74 230 58		#Maps - Labyrinth
-	SetBorderColor 74 230 58	#Maps - Labyrinth
-	SetBackgroundColor 0 0 0	#Maps - Labyrinth
-
-#Maps - Map Fragments - Mortal Hope
-Show	#~Maps - Map Fragments - Mortal Hope
 	Class "Map Fragments"
 	BaseType "Mortal Hope"
-	SetBorderColor 150 0 0		#Maps - Mortal Hope
+	SetBorderColor 150 0 0
 	SetFontSize 42
 	PlayAlertSound 6 200
 
-#Maps - Map Fragments - Shaper Fragments
-Show	#~Maps - Map Fragments - Shaper Fragments
-	Class "Map Fragments"
-	BaseType "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of the Chimera" "Fragment of the Hydra"
-	PlayAlertSound 2 75
-	SetFontSize 42
-
-#Maps - Leaguestones
-Show	#~Maps - Leaguestones
-	Class "Leaguestone"
-	SetTextColor 229 160 12		#Maps - Leaguestones
-	SetBorderColor 229 160 12	#Maps - Leaguestones
-
-#Maps - Scarabs
-Show	#~Maps - Scarabs
-	Class "Map Fragments"
-	BaseType "Scarab"
-	SetTextColor 229 160 12		#Maps - Scarabs
-	SetBorderColor 229 160 12	#Maps - Scarabs
-
-#Maps - Misc Map Items - Breachstones
-Show	#~Maps - Misc Map Items - Breachstones
-	Class "Misc Map Items"
-	BaseType "Xoph's Breachstone" "Tul's Breachstone" "Esh's Breachstone" "Uul-Netol's Breachstone" "Chayula's Breachstone"
-	SetTextColor 255 36 49		#Maps - Breachstones
-	SetBorderColor 255 36 49 0	#Maps - Breachstones
-
-#Maps - Misc Map Items - Reliquary Key
-Show	#~Maps - Misc Map Items - Reliquary Key
-	Class "Misc Map Items"
-	BaseType "Reliquary Key"
-	SetTextColor 74 230 58		#Maps - Misc Map Items - Reliquary Key
-	SetBorderColor 74 230 58	#Maps - Misc Map Items - Reliquary Key
-	PlayAlertSound 5 175
-	SetFontSize 42
-	MinimapIcon 2 Green Star
-
-#Maps - Map Fragments - Sacrifice at Midnight
-Show	#~Maps - Map Fragments - Sacrifice at Midnight
+Show
 	Class "Map Fragments"
 	BaseType "Sacrifice at Midnight"
-	SetBorderColor 150 0 0		#Maps - Sacrifice at Midnight
-	PlayAlertSound 2 150
+	SetBorderColor 150 0 0
+	SetFontSize 36
+	PlayAlertSound 6 150
 
-#Maps - Map Fragments - Divine Vessel
-Show	#~Maps - Map Fragments - Divine Vessel
+Show
+	Class "Map Fragments"
+	BaseType "Fragment of the Chimera" "Fragment of the Hydra" "Fragment of the Minotaur" "Fragment of the Phoenix"
+	SetFontSize 39
+	PlayAlertSound 2 75
+
+Show
 	Class "Map Fragments"
 	BaseType "Divine Vessel"
-	SetBorderColor 150 0 0		#Maps - Divine Vessel
+	SetBorderColor 150 0 0
+	SetFontSize 39
 	PlayAlertSound 14 250
-	SetFontSize 40
 
-#Maps - Map Fragments - CatchAll
-Show	#~Maps - Map Fragments - CatchAll
+Show
 	Class "Map Fragments"
+	SetFontSize 36
 
-#Maps - CatchAll
-Show	#~Maps - CatchAll
-	Class "Map"
+Show
+	MapTier >= 16
+	Rarity Normal
+	Class "Maps"
+	SetTextColor 240 240 240
+	SetBackgroundColor 0 0 0
+	SetBorderColor 200 200 200
+	SetFontSize 42
+	PlayAlertSound 6 200
+	MinimapIcon 0 Red Circle
+	PlayEffect Red
+
+Show
+	MapTier >= 16
+	Rarity Magic
+	Class "Maps"
+	SetTextColor 140 190 255
+	SetBackgroundColor 0 0 0
+	SetBorderColor 136 136 255
+	SetFontSize 42
+	PlayAlertSound 6 200
+	MinimapIcon 0 Red Circle
+	PlayEffect Red
+
+Show
+	MapTier >= 16
+	Rarity Rare
+	Class "Maps"
+	SetTextColor 255 200 0
+	SetBackgroundColor 0 0 0
+	SetBorderColor 255 255 119
+	SetFontSize 42
+	PlayAlertSound 6 200
+	MinimapIcon 0 Red Circle
+	PlayEffect Red
+
+Show
+	MapTier >= 14
+	Rarity Normal
+	Class "Maps"
+	SetTextColor 240 240 240
+	SetBackgroundColor 0 0 0
+	SetBorderColor 200 200 200
+	SetFontSize 42
+	PlayAlertSound 6 125
+	MinimapIcon 1 Red Circle
+	PlayEffect Red
+
+Show
+	MapTier >= 14
+	Rarity Magic
+	Class "Maps"
+	SetTextColor 140 190 255
+	SetBackgroundColor 0 0 0
+	SetBorderColor 136 136 255
+	SetFontSize 42
+	PlayAlertSound 6 125
+	MinimapIcon 1 Red Circle
+	PlayEffect Red
+
+Show
+	MapTier >= 14
+	Rarity Rare
+	Class "Maps"
+	SetTextColor 255 200 0
+	SetBackgroundColor 0 0 0
+	SetBorderColor 255 255 119
+	SetFontSize 42
+	PlayAlertSound 6 125
+	MinimapIcon 1 Red Circle
+	PlayEffect Red
+
+Show
+	MapTier >= 11
+	ShapedMap True
+	Rarity Normal
+	Class "Maps"
+	SetBackgroundColor 0 0 0
+	SetBorderColor 200 200 200
+	SetFontSize 42
+	PlayAlertSound 2 175
+	MinimapIcon 2 Red Circle
+	PlayEffect Red Temp
+
+Show
+	MapTier >= 11
+	ShapedMap True
+	Rarity Magic
+	Class "Maps"
+	SetBackgroundColor 0 0 0
+	SetBorderColor 136 136 255
+	SetFontSize 42
+	PlayAlertSound 2 175
+	MinimapIcon 2 Red Circle
+	PlayEffect Red Temp
+
+Show
+	MapTier >= 11
+	ShapedMap True
+	Rarity Rare
+	Class "Maps"
+	SetBackgroundColor 0 0 0
+	SetBorderColor 255 255 119
+	SetFontSize 42
+	PlayAlertSound 2 175
+	MinimapIcon 2 Red Circle
+	PlayEffect Red Temp
+
+Show
+	MapTier >= 11
+	Rarity Normal
+	Class "Maps"
+	SetBackgroundColor 0 0 0
+	SetBorderColor 200 200 200
+	SetFontSize 42
+	PlayAlertSound 2 175
+	MinimapIcon 2 Red Circle
+	PlayEffect Red Temp
+
+Show
+	MapTier >= 11
+	Rarity Magic
+	Class "Maps"
+	SetBackgroundColor 0 0 0
+	SetBorderColor 136 136 255
+	SetFontSize 42
+	PlayAlertSound 2 175
+	MinimapIcon 2 Red Circle
+	PlayEffect Red Temp
+
+Show
+	MapTier >= 11
+	Rarity Rare
+	Class "Maps"
+	SetBackgroundColor 0 0 0
+	SetBorderColor 255 255 119
+	SetFontSize 42
+	PlayAlertSound 2 175
+	MinimapIcon 2 Red Circle
+	PlayEffect Red Temp
+
+Show
+	MapTier >= 6
+	ShapedMap True
+	ItemLevel <= 78
+	Rarity Normal
+	Class "Maps"
+	SetTextColor 200 200 200
+	SetBackgroundColor 0 0 0
+	SetBorderColor 200 200 200
+	SetFontSize 39
+	PlayAlertSound 16 150
+	MinimapIcon 2 Yellow Circle
+	PlayEffect Yellow Temp
+
+Show
+	MapTier >= 6
+	ShapedMap True
+	ItemLevel <= 78
+	Rarity Magic
+	Class "Maps"
+	SetTextColor 136 136 255
+	SetBackgroundColor 0 0 0
+	SetBorderColor 136 136 255
+	SetFontSize 39
+	PlayAlertSound 16 150
+	MinimapIcon 2 Yellow Circle
+	PlayEffect Yellow Temp
+
+Show
+	MapTier >= 6
+	ShapedMap True
+	ItemLevel <= 78
+	Rarity Rare
+	Class "Maps"
+	SetTextColor 255 255 119
+	SetBackgroundColor 0 0 0
+	SetBorderColor 255 255 119
+	SetFontSize 39
+	PlayAlertSound 16 150
+	MinimapIcon 2 Yellow Circle
+	PlayEffect Yellow Temp
+
+Show
+	MapTier >= 6
+	ShapedMap True
+	Rarity Normal
+	Class "Maps"
+	SetTextColor 200 200 200
+	SetBackgroundColor 0 0 0
+	SetBorderColor 200 200 200
+	SetFontSize 39
+	PlayAlertSound 16 100
+	MinimapIcon 2 Yellow Circle
+
+Show
+	MapTier >= 6
+	ShapedMap True
+	Rarity Magic
+	Class "Maps"
+	SetTextColor 136 136 255
+	SetBackgroundColor 0 0 0
+	SetBorderColor 136 136 255
+	SetFontSize 39
+	PlayAlertSound 16 100
+	MinimapIcon 2 Yellow Circle
+
+Show
+	MapTier >= 6
+	ShapedMap True
+	Rarity Rare
+	Class "Maps"
+	SetTextColor 255 255 119
+	SetBackgroundColor 0 0 0
+	SetBorderColor 255 255 119
+	SetFontSize 39
+	PlayAlertSound 16 100
+	MinimapIcon 2 Yellow Circle
+
+Show
+	MapTier >= 6
+	ItemLevel <= 78
+	Rarity Normal
+	Class "Maps"
+	SetTextColor 200 200 200
+	SetBackgroundColor 0 0 0
+	SetBorderColor 200 200 200
+	SetFontSize 39
+	PlayAlertSound 16 125
+	MinimapIcon 2 Yellow Circle
+	PlayEffect Yellow Temp
+
+Show
+	MapTier >= 6
+	ItemLevel <= 78
+	Rarity Magic
+	Class "Maps"
+	SetTextColor 136 136 255
+	SetBackgroundColor 0 0 0
+	SetBorderColor 136 136 255
+	SetFontSize 39
+	PlayAlertSound 16 125
+	MinimapIcon 2 Yellow Circle
+	PlayEffect Yellow Temp
+
+Show
+	MapTier >= 6
+	ItemLevel <= 78
+	Rarity Rare
+	Class "Maps"
+	SetTextColor 255 255 119
+	SetBackgroundColor 0 0 0
+	SetBorderColor 255 255 119
+	SetFontSize 39
+	PlayAlertSound 16 125
+	MinimapIcon 2 Yellow Circle
+	PlayEffect Yellow Temp
+
+Show
+	MapTier >= 6
+	Rarity Normal
+	Class "Maps"
+	SetTextColor 200 200 200
+	SetBackgroundColor 0 0 0
+	SetBorderColor 200 200 200
+	SetFontSize 39
+	PlayAlertSound 16 75
+	MinimapIcon 2 Yellow Circle
+
+Show
+	MapTier >= 6
+	Rarity Magic
+	Class "Maps"
+	SetTextColor 136 136 255
+	SetBackgroundColor 0 0 0
+	SetBorderColor 136 136 255
+	SetFontSize 39
+	PlayAlertSound 16 75
+	MinimapIcon 2 Yellow Circle
+
+Show
+	MapTier >= 6
+	Rarity Rare
+	Class "Maps"
+	SetTextColor 255 255 119
+	SetBackgroundColor 0 0 0
+	SetBorderColor 255 255 119
+	SetFontSize 39
+	PlayAlertSound 16 75
+	MinimapIcon 2 Yellow Circle
+
+Show
+	MapTier >= 1
+	ItemLevel <= 73
+	Rarity Normal
+	Class "Maps"
+	SetFontSize 36
+	PlayAlertSound 11 200
+	MinimapIcon 2 White Circle
+	PlayEffect White Temp
+
+Show
+	MapTier >= 1
+	ItemLevel <= 73
+	Rarity Magic
+	Class "Maps"
+	SetFontSize 36
+	PlayAlertSound 11 200
+	MinimapIcon 2 White Circle
+	PlayEffect White Temp
+
+Show
+	MapTier >= 1
+	ItemLevel <= 73
+	Rarity Rare
+	Class "Maps"
+	SetFontSize 36
+	PlayAlertSound 11 200
+	MinimapIcon 2 White Circle
+	PlayEffect White Temp
+
+Show
+	MapTier >= 1
+	Rarity Normal
+	Class "Maps"
+	SetFontSize 36
+	PlayAlertSound 11 125
+	MinimapIcon 2 White Circle
+
+Show
+	MapTier >= 1
+	Rarity Magic
+	Class "Maps"
+	SetFontSize 36
+	PlayAlertSound 11 125
+	MinimapIcon 2 White Circle
+
+Show
+	MapTier >= 1
+	Rarity Rare
+	Class "Maps"
+	SetFontSize 36
+	PlayAlertSound 11 125
+	MinimapIcon 2 White Circle
+
+Show
+	Rarity Unique
+	Class "Maps"
+	SetTextColor 175 96 37
+	SetBorderColor 175 96 37
+	SetFontSize 36
+	MinimapIcon 2 Brown Circle
+
+Show
+	Class "Maps"
+	SetFontSize 36
+
+Show
+	Class "Misc Map Items"
+	BaseType "Ancient Reliquary Key"
+	SetTextColor 0 255 150
+	SetBackgroundColor 0 0 0
+	SetBorderColor 0 255 150
+	SetFontSize 42
+	PlayAlertSound 6 200
+	MinimapIcon 0 Green Hexagon
+	PlayEffect Green
+
+Show
+	Class "Misc Map Items"
+	BaseType "Timeworn Reliquary Key"
+	SetTextColor 0 255 150
+	SetBackgroundColor 0 0 0
+	SetBorderColor 0 255 150
+	SetFontSize 42
+	PlayAlertSound 6 200
+	MinimapIcon 0 Green Hexagon
+	PlayEffect Green
+
+Show
+	Class "Misc Map Items"
+	SetFontSize 36
 
 ### /Maps #####################################################################
 ###############################################################################
