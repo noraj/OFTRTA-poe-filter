@@ -2,6 +2,8 @@
 
 [Loot Filter] One Filter to Rule Them All for Path Of Exile
 
+![](https://i.imgur.com/KisKtQ9.jpg)
+
 ## Disclaimer
 
 Those filters are not my work, all credits go to Florian Thießen. The goal of this repository is archiving, easier access and easier way to fork to create modified filters. I'll have my modified version on other branches.
