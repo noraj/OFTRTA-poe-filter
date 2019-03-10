@@ -29,6 +29,7 @@
 ### Divination Cards
 ### High Itemlevel Rares
 ### Leveling Specials
+### Synthesis
 ### Chromatic Orb Recipe - Normal & Magic
 ### Chance
 ### Talisman
@@ -1537,46 +1538,67 @@ Show	#~Jewels - Normal & Magic
 # Section: ### Divination Cards ###############################################
 ###############################################################################
 
-#Divination Cards - Very Valuable
-Show	
+Show
 	Class "Divination Card"
-	BaseType "The Doctor" "The Hunger" "The Wind" "The Celestial Justicar" "The Fiend" "The King's Heart" "The Queen" "The Last One Standing" "The Artist" "Wealth and Power" "House of Mirrors" "The Dragon's Heart" "Pride Before the Fall" "The Vast" "Bowyer's Dream" "Hunter's Reward" "The Thaumaturgist" "The Warlord" "The Offering" "Lost Worlds" "The Ethereal" "Abandoned Wealth" "The Dapper Prodigy" "Time-Lost Relic" "The Enlightened" "The Immortal" "The Harvester" "The Devastator" "Mawr Blaidd" "The World Eater" "The Dreamer" "Immortal Resolve" "The Master" "Beauty Through Death" "The Endless Darkness" "The Nurse" "The Life Thief"
-	SetTextColor 14 186 255		#Divination Card - Very Valuable
-	SetBorderColor 14 186 255	#Divination Card - Very Valuable
-	SetBackgroundColor 0 0 0 255	#Divination Card - Very Valuable
+	BaseType "The Master Artisan" "The Wolf's Shadow"
+	SetTextColor 14 186 255
+	SetBorderColor 14 186 255
+	SetFontSize 36
+	MinimapIcon 2 Blue Square
+
+Show
+	Class "Divination Card"
+	BaseType "Abandoned Wealth" "Beauty Through Death" "Bowyer's Dream" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Seven Years Bad Luck" "The Artist" "The Celestial Justicar" "The Devastator" "The Doctor" "The Dragon's Heart" "The Dreamer" "The Endless Darkness" "The Fiend" "The Immortal" "The Last One Standing" "The Queen" "The Thaumaturgist" "The Vast" "The Warlord" "The World Eater" "Wealth and Power"
+	SetTextColor 14 186 255
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 14 186 255
 	SetFontSize 42
 	PlayAlertSound 5 225
 	MinimapIcon 0 Blue Square
 	PlayEffect Blue
 
-#Divination Cards - Valuable
-Show	
+Show
 	Class "Divination Card"
-	BaseType "The Hoarder" "The Drunken Aristocrat" "The Pack Leader" "The Gladiator" "The Road to Power" "The Chains that Bind" "The Betrayal" "The Fletcher" "Tranquillity" "Earth Drinker" "The Watcher" "Chaotic Disposition" "The Cartographer" "Emperor of Purity" "Lysah's Respite" "The Calling" "The Formless Sea" "The Valkyrie" "The Wolf" "Lucky Deck" "The Scavenger" "The Trial" "The Brittle Emperor" "The Saint's Treasure" "The Obscured" "The Breach" "The Surveyor" "Harmony of Souls" "The Dreamland" "The Jeweller's Boon" "The Mayor" "The Professor" "The Samurai's Eye" "The Sword King's Salute" "The Undisputed" "The Hale Heart" "The Innocent" "The Twilight Moon" "The Price of Protection" "The Cacophony" "Last Hope" "A Dab of Ink" "The Sacrifice"
-	SetTextColor 14 186 255		#Divination Card - Valuable
-	SetBorderColor 14 186 255	#Divination Card - Valuable
+	BaseType "Lost Worlds" "Mawr Blaidd" "Pride Before the Fall" "The Dapper Prodigy" "The Enlightened" "The Ethereal" "The King's Heart" "The Life Thief" "The Master" "The Nurse" "The Offering" "Time-Lost Relic"
+	SetTextColor 14 186 255
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 14 186 255
+	SetFontSize 39
+	PlayAlertSound 5 125
+	MinimapIcon 1 Blue Square
+	PlayEffect Blue
+
+Show
+	Class "Divination Card"
+	BaseType "A Dab of Ink" "Chaotic Disposition" "Earth Drinker" "Emperor of Purity" "Harmony of Souls" "Last Hope" "Lucky Deck" "Lysah's Respite" "Sambodhi's Vow" "The Betrayal" "The Breach" "The Brittle Emperor" "The Cacophony" "The Calling" "The Cartographer" "The Chains that Bind" "The Dreamland" "The Drunken Aristocrat" "The Fletcher" "The Formless Sea" "The Gladiator" "The Hale Heart" "The Harvester" "The Hoarder" "The Hunger" "The Innocent" "The Jeweller's Boon" "The Journey" "The Landing" "The Mad King" "The Mayor" "The Obscured" "The Pack Leader" "The Price of Protection" "The Professor" "The Road to Power" "The Sacrifice" "The Saint's Treasure" "The Samurai's Eye" "The Scavenger" "The Sephirot" "The Surveyor" "The Sword King's Salute" "The Trial" "The Twilight Moon" "The Undisputed" "The Valkyrie" "The Valley of Steel Boxes" "The Watcher" "The Wolf" "Tranquillity"
+	SetTextColor 14 186 255
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 14 186 255
+	SetFontSize 36
 	PlayAlertSound 9 225
+	MinimapIcon 2 Blue Square
 	PlayEffect Blue Temp
 
-#Divination Cards - Low Value
-Show	#Divination Cards - Low Value
+Show
 	Class "Divination Card"
-	BaseType "The Incantation"
-	SetTextColor 14 186 255		#Divination Card - Low Value
-	SetBorderColor 14 186 255 0	#Divination Card - Low Value
+	BaseType "Struck by Lightning" "The Incantation" "The Lunaris Priestess" "The Scholar"
+	SetTextColor 14 186 255
+	SetBorderColor 14 186 255 0
+	SetFontSize 36
 
-#Divination Cards - No Value
-Show	#Divination Cards - No Value
+Show
 	Class "Divination Card"
-	BaseType "The Carrion Crow" "Turn the Other Cheek" "Thunderous Skies"
-	SetTextColor 14 186 255		#Divination Card - No Value
-	SetBorderColor 14 186 255 0	#Divination Card - No Value
+	BaseType "The Carrion Crow" "Thunderous Skies" "Turn the Other Cheek"
+	SetTextColor 14 186 255
+	SetBorderColor 14 186 255 0
+	SetFontSize 36
 
-#Divination Cards - CatchAll
-Show	#Divination Cards - ~CatchAll
+Show
 	Class "Divination Card"
-	SetTextColor 14 186 255		#Divination Card
-	SetBorderColor 14 186 255	#Divination Card
+	SetTextColor 14 186 255
+	SetBorderColor 14 186 255
+	SetFontSize 36
+	MinimapIcon 2 Blue Square
 
 ### /Divination Cards #########################################################
 ###############################################################################
@@ -2157,6 +2179,30 @@ Show
 
 
 ###############################################################################
+# Section: ### Synthesis ######################################################
+###############################################################################
+
+Show
+	FracturedItem True
+	SetBorderColor 181 75 255
+	SetFontSize 36
+	MinimapIcon 2 White Star
+	PlayEffect White Temp
+
+Show
+	SynthesisedItem True
+	SetBorderColor 181 75 255
+	SetFontSize 36
+	MinimapIcon 2 White Star
+	PlayEffect White Temp
+
+### /Synthesis ################################################################
+###############################################################################
+
+
+
+
+###############################################################################
 # Section: ### Chromatic Orb Recipe - Normal & Magic ##########################
 ###############################################################################
 
@@ -2198,68 +2244,13 @@ Show	#Misc - Chromatic Orb Recipe - Large
 # Section: ### Chance #########################################################
 ###############################################################################
 
-#Disabled Block Start
-#Misc - Chance - Full Wyrmscale
-#Show
-#	BaseType "Full Wyrmscale"
-#	Rarity Normal
-#	SetFontSize 28
-#	SetBackgroundColor 0 0 0 200	#Dimmed Background
-#	SetBorderColor 175 96 37 150	#Chance
-#	SetTextColor 200 200 200	#Chance
-#Disabled Block End
-#Disabled Block Start
-#Misc - Chance - Titanium Spirit Shield
-#Show
-#	BaseType "Titanium Spirit Shield"
-#	Rarity Normal
-#	SetFontSize 28
-#	SetBackgroundColor 0 0 0 200	#Dimmed Background
-#	SetBorderColor 175 96 37 150	#Chance
-#	SetTextColor 200 200 200	#Chance
-#Disabled Block End
-#Disabled Block Start
-#Misc - Chance - Gladiator Plate
-#Show
-#	BaseType "Gladiator Plate"
-#	Rarity Normal
-#	SetFontSize 28
-#	SetBackgroundColor 0 0 0 200	#Dimmed Background
-#	SetBorderColor 175 96 37 150	#Chance
-#	SetTextColor 200 200 200	#Chance
-#Disabled Block End
-#Misc - Chance - Glorious Plate
 Show
-	BaseType "Glorious Plate"
 	Rarity Normal
-	SetFontSize 28
-	SetBackgroundColor 0 0 0 200	#Dimmed Background
-	SetBorderColor 175 96 37 150	#Chance
-	SetTextColor 200 200 200	#Chance
-#Misc - Chance - Sorcerer Boots
-Show
-	BaseType "Sorcerer Boots"
-	Rarity Normal
-	SetFontSize 28
-	SetBackgroundColor 0 0 0 200	#Dimmed Background
-	SetBorderColor 175 96 37 150	#Chance
-	SetTextColor 200 200 200	#Chance
-#Misc - Chance - Rawhide Tower Shield
-Show
-	BaseType "Rawhide Tower Shield"
-	Rarity Normal
-	SetFontSize 28
-	SetBackgroundColor 0 0 0 200	#Dimmed Background
-	SetBorderColor 175 96 37 150	#Chance
-	SetTextColor 200 200 200	#Chance
-#Misc - Chance - Occultist's Vestment
-Show
-	BaseType "Occultist's Vestment"
-	Rarity Normal
-	SetFontSize 28
-	SetBackgroundColor 0 0 0 200	#Dimmed Background
-	SetBorderColor 175 96 37 150	#Chance
-	SetTextColor 200 200 200	#Chance
+	BaseType "Glorious Plate" "Leather Belt" "Occultist's Vestment" "Prophecy Wand" "Sadist Garb" "Sapphire Flask"
+	SetTextColor 200 200 200
+	SetBackgroundColor 0 0 0 200
+	SetBorderColor 175 96 37 150
+	SetFontSize 33
 
 ### /Chance ###################################################################
 ###############################################################################
