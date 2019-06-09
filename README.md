@@ -48,13 +48,7 @@ Highlight/Show:
 
 ## Change behavior based on zone level
 
-During leveling you will see less and less normal/magic items as you progress. Generally normal and magic items are shown as long as they are appropriate for the current zone.
-By default items need a certain amount of sockets to be shown to reduce clutter. This can be modified using the various toggles existing in the script.
-
-Rare items are highlighted if their basetype is the currently highest available.
-Example: You are in a level 21 zone and a rare "Recurve Bow" (DropLevel = 20) drops, it will receive a rare border to indicate that there is currently no better bow basetype available. Once "Bone Bows" (DropLevel = 24) become available because you moved to a higher zone, those will receive the border.
-
-This is done for every Body Armour / Weapon basetype currently in the game.
+During leveling you will see less and less items as you progress. Generally items are shown as long as they are appropriate for the current zone.
 
 ## Other
 
