@@ -3,7 +3,7 @@
 #                         One Filter to Rule Them All                         #
 #                         "Path of Exile" Item Filter                         #
 #                                                                             #
-#                     Version: 4.2.0    Strictness: tight                     #
+#                     Version: 4.2.1    Strictness: tight                     #
 #                                                                             #
 #            https://www.pathofexile.com/forum/view-thread/1259059            #
 #                                                                             #
@@ -904,7 +904,7 @@ Show	#51LSN0
 	Identified True
 	Rarity Normal Magic
 	Class "Body Armour"
-	HasExplicitMod "of the Underground"
+	HasExplicitMod "Subterranean"
 	SetBorderColor 127 127 127
 	SetFontSize 39
 	PlayAlertSound 6 100
@@ -1685,6 +1685,7 @@ Show	#YEXO3G
 	Rarity Normal
 	Class "Amulets" "Belts" "Rings"
 	BaseType "Cerulean Ring" "Opal Ring" "Steel Ring" "Vermillion Ring"
+	SetBorderColor 200 200 200
 	SetFontSize 30
 
 #8D8NF1
@@ -1692,6 +1693,7 @@ Show	#8D8NF1
 	Rarity Magic
 	Class "Amulets" "Belts" "Rings"
 	BaseType "Cerulean Ring" "Opal Ring" "Steel Ring" "Vermillion Ring"
+	SetBorderColor 136 136 255
 	SetFontSize 30
 
 #1CSIYM
@@ -1699,6 +1701,7 @@ Hide	#1CSIYM
 	Rarity Normal
 	Class "Amulets" "Belts" "Rings"
 	BaseType "Diamond Ring" "Prismatic Ring" "Two-Stone Ring"
+	SetBorderColor 200 200 200
 	SetFontSize 30
 
 #Z4WDIP
@@ -1706,6 +1709,7 @@ Hide	#Z4WDIP
 	Rarity Magic
 	Class "Amulets" "Belts" "Rings"
 	BaseType "Diamond Ring" "Prismatic Ring" "Two-Stone Ring"
+	SetBorderColor 136 136 255
 	SetFontSize 30
 
 #4S2V1O
@@ -2619,7 +2623,7 @@ Show	#9CWMDH
 	Identified True
 	Rarity Rare
 	Class "Body Armour"
-	HasExplicitMod "of the Underground"
+	HasExplicitMod "Subterranean"
 	SetBorderColor 127 127 127
 	SetFontSize 39
 	PlayAlertSound 6 100
@@ -2699,6 +2703,7 @@ Show	#8ME0Q5
 	BaseType "Assassin's Garb" "Astral Plate" "Bone Helmet" "Champion Kite Shield" "Convoking Wand" "Crusader Boots" "Crusader Gloves" "Dragonscale Boots" "Dragonscale Gauntlets" "Eternal Burgonet" "Fingerless Silk Gloves" "Fossilised Spirit Shield" "Glorious Plate" "Gripped Gloves" "Hubris Circlet" "Lion Pelt" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet" "Saintly Chainmail" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Gloves" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Triumphant Lamellar" "Two-Toned Boots" "Vaal Regalia"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 250
+	SetBorderColor 255 255 119
 	SetFontSize 36
 
 #D72N6O
@@ -3242,7 +3247,7 @@ Show	#U5U75I
 
 #B164V7
 Show	#B164V7
-	MapTier >= 14
+	MapTier >= 15
 	Rarity Normal
 	Class "Maps"
 	SetTextColor 240 240 240
@@ -3255,7 +3260,7 @@ Show	#B164V7
 
 #V1NZHC
 Show	#V1NZHC
-	MapTier >= 14
+	MapTier >= 15
 	Rarity Magic
 	Class "Maps"
 	SetTextColor 140 190 255
@@ -3268,7 +3273,7 @@ Show	#V1NZHC
 
 #AJW4DX
 Show	#AJW4DX
-	MapTier >= 14
+	MapTier >= 15
 	Rarity Rare
 	Class "Maps"
 	SetTextColor 255 200 0
@@ -3283,7 +3288,6 @@ Show	#AJW4DX
 Show	#FN7K7M
 	MapTier >= 11
 	BlightedMap True
-	ItemLevel <= 80
 	Rarity Normal
 	Class "Maps"
 	SetBackgroundColor 0 0 0
@@ -3297,7 +3301,6 @@ Show	#FN7K7M
 Show	#D22FT0
 	MapTier >= 11
 	BlightedMap True
-	ItemLevel <= 80
 	Rarity Magic
 	Class "Maps"
 	SetBackgroundColor 0 0 0
@@ -3311,7 +3314,6 @@ Show	#D22FT0
 Show	#20327B
 	MapTier >= 11
 	BlightedMap True
-	ItemLevel <= 80
 	Rarity Rare
 	Class "Maps"
 	SetBackgroundColor 0 0 0
@@ -3321,50 +3323,10 @@ Show	#20327B
 	MinimapIcon 2 Red Circle
 	PlayEffect Red
 
-#J4M551
-Show	#J4M551
-	MapTier >= 11
-	BlightedMap True
-	Rarity Normal
-	Class "Maps"
-	SetBackgroundColor 0 0 0
-	SetBorderColor 200 200 200
-	SetFontSize 42
-	PlayAlertSound 2 175
-	MinimapIcon 2 Red Circle
-	PlayEffect Red Temp
-
-#6ARBBU
-Show	#6ARBBU
-	MapTier >= 11
-	BlightedMap True
-	Rarity Magic
-	Class "Maps"
-	SetBackgroundColor 0 0 0
-	SetBorderColor 136 136 255
-	SetFontSize 42
-	PlayAlertSound 2 175
-	MinimapIcon 2 Red Circle
-	PlayEffect Red Temp
-
-#4BGHJ2
-Show	#4BGHJ2
-	MapTier >= 11
-	BlightedMap True
-	Rarity Rare
-	Class "Maps"
-	SetBackgroundColor 0 0 0
-	SetBorderColor 255 255 119
-	SetFontSize 42
-	PlayAlertSound 2 175
-	MinimapIcon 2 Red Circle
-	PlayEffect Red Temp
-
 #5AX977
 Show	#5AX977
 	MapTier >= 11
 	ShapedMap True
-	ItemLevel <= 80
 	Rarity Normal
 	Class "Maps"
 	SetBackgroundColor 0 0 0
@@ -3378,7 +3340,6 @@ Show	#5AX977
 Show	#P5QLPB
 	MapTier >= 11
 	ShapedMap True
-	ItemLevel <= 80
 	Rarity Magic
 	Class "Maps"
 	SetBackgroundColor 0 0 0
@@ -3392,85 +3353,6 @@ Show	#P5QLPB
 Show	#A3V5JM
 	MapTier >= 11
 	ShapedMap True
-	ItemLevel <= 80
-	Rarity Rare
-	Class "Maps"
-	SetBackgroundColor 0 0 0
-	SetBorderColor 255 255 119
-	SetFontSize 42
-	PlayAlertSound 2 175
-	MinimapIcon 2 Red Circle
-	PlayEffect Red
-
-#A1IE49
-Show	#A1IE49
-	MapTier >= 11
-	ShapedMap True
-	Rarity Normal
-	Class "Maps"
-	SetBackgroundColor 0 0 0
-	SetBorderColor 200 200 200
-	SetFontSize 42
-	PlayAlertSound 2 175
-	MinimapIcon 2 Red Circle
-	PlayEffect Red Temp
-
-#4CAE30
-Show	#4CAE30
-	MapTier >= 11
-	ShapedMap True
-	Rarity Magic
-	Class "Maps"
-	SetBackgroundColor 0 0 0
-	SetBorderColor 136 136 255
-	SetFontSize 42
-	PlayAlertSound 2 175
-	MinimapIcon 2 Red Circle
-	PlayEffect Red Temp
-
-#BEPL81
-Show	#BEPL81
-	MapTier >= 11
-	ShapedMap True
-	Rarity Rare
-	Class "Maps"
-	SetBackgroundColor 0 0 0
-	SetBorderColor 255 255 119
-	SetFontSize 42
-	PlayAlertSound 2 175
-	MinimapIcon 2 Red Circle
-	PlayEffect Red Temp
-
-#T1QL63
-Show	#T1QL63
-	MapTier >= 11
-	ItemLevel <= 80
-	Rarity Normal
-	Class "Maps"
-	SetBackgroundColor 0 0 0
-	SetBorderColor 200 200 200
-	SetFontSize 42
-	PlayAlertSound 2 175
-	MinimapIcon 2 Red Circle
-	PlayEffect Red
-
-#ZVMX4Z
-Show	#ZVMX4Z
-	MapTier >= 11
-	ItemLevel <= 80
-	Rarity Magic
-	Class "Maps"
-	SetBackgroundColor 0 0 0
-	SetBorderColor 136 136 255
-	SetFontSize 42
-	PlayAlertSound 2 175
-	MinimapIcon 2 Red Circle
-	PlayEffect Red
-
-#K1TPHD
-Show	#K1TPHD
-	MapTier >= 11
-	ItemLevel <= 80
 	Rarity Rare
 	Class "Maps"
 	SetBackgroundColor 0 0 0
@@ -3490,7 +3372,7 @@ Show	#GOQDAS
 	SetFontSize 42
 	PlayAlertSound 2 175
 	MinimapIcon 2 Red Circle
-	PlayEffect Red Temp
+	PlayEffect Red
 
 #4UGSFG
 Show	#4UGSFG
@@ -3502,7 +3384,7 @@ Show	#4UGSFG
 	SetFontSize 42
 	PlayAlertSound 2 175
 	MinimapIcon 2 Red Circle
-	PlayEffect Red Temp
+	PlayEffect Red
 
 #XY7DPG
 Show	#XY7DPG
@@ -3514,13 +3396,12 @@ Show	#XY7DPG
 	SetFontSize 42
 	PlayAlertSound 2 175
 	MinimapIcon 2 Red Circle
-	PlayEffect Red Temp
+	PlayEffect Red
 
 #OD8A01
 Show	#OD8A01
 	MapTier >= 6
 	BlightedMap True
-	ItemLevel <= 77
 	Rarity Normal
 	Class "Maps"
 	SetTextColor 200 200 200
@@ -3535,7 +3416,6 @@ Show	#OD8A01
 Show	#H1G5D3
 	MapTier >= 6
 	BlightedMap True
-	ItemLevel <= 77
 	Rarity Magic
 	Class "Maps"
 	SetTextColor 136 136 255
@@ -3550,7 +3430,6 @@ Show	#H1G5D3
 Show	#M79673
 	MapTier >= 6
 	BlightedMap True
-	ItemLevel <= 77
 	Rarity Rare
 	Class "Maps"
 	SetTextColor 255 255 119
@@ -3560,45 +3439,6 @@ Show	#M79673
 	PlayAlertSound 16 150
 	MinimapIcon 2 Yellow Circle
 	PlayEffect Yellow
-
-#68EMOB
-Show	#68EMOB
-	MapTier >= 6
-	BlightedMap True
-	Rarity Normal
-	Class "Maps"
-	SetTextColor 200 200 200
-	SetBackgroundColor 0 0 0
-	SetBorderColor 200 200 200
-	SetFontSize 39
-	PlayAlertSound 16 100
-	MinimapIcon 2 Yellow Circle
-
-#3F1UB1
-Show	#3F1UB1
-	MapTier >= 6
-	BlightedMap True
-	Rarity Magic
-	Class "Maps"
-	SetTextColor 136 136 255
-	SetBackgroundColor 0 0 0
-	SetBorderColor 136 136 255
-	SetFontSize 39
-	PlayAlertSound 16 100
-	MinimapIcon 2 Yellow Circle
-
-#S4WBPN
-Show	#S4WBPN
-	MapTier >= 6
-	BlightedMap True
-	Rarity Rare
-	Class "Maps"
-	SetTextColor 255 255 119
-	SetBackgroundColor 0 0 0
-	SetBorderColor 255 255 119
-	SetFontSize 39
-	PlayAlertSound 16 100
-	MinimapIcon 2 Yellow Circle
 
 #XO9704
 Show	#XO9704
@@ -3766,7 +3606,6 @@ Show	#MLNNAY
 Show	#O3FDO8
 	MapTier >= 1
 	BlightedMap True
-	ItemLevel <= 72
 	Rarity Normal
 	Class "Maps"
 	SetFontSize 36
@@ -3778,7 +3617,6 @@ Show	#O3FDO8
 Show	#7EAL7U
 	MapTier >= 1
 	BlightedMap True
-	ItemLevel <= 72
 	Rarity Magic
 	Class "Maps"
 	SetFontSize 36
@@ -3790,40 +3628,12 @@ Show	#7EAL7U
 Show	#1DGJ55
 	MapTier >= 1
 	BlightedMap True
-	ItemLevel <= 72
 	Rarity Rare
 	Class "Maps"
 	SetFontSize 36
 	PlayAlertSound 11 200
 	MinimapIcon 2 White Circle
 	PlayEffect White
-
-#V3K8ZD
-Show	#V3K8ZD
-	MapTier >= 1
-	Rarity Normal
-	Class "Maps"
-	SetFontSize 36
-	PlayAlertSound 11 125
-	MinimapIcon 2 White Circle
-
-#EQ3V03
-Show	#EQ3V03
-	MapTier >= 1
-	Rarity Magic
-	Class "Maps"
-	SetFontSize 36
-	PlayAlertSound 11 125
-	MinimapIcon 2 White Circle
-
-#982ACI
-Show	#982ACI
-	MapTier >= 1
-	Rarity Rare
-	Class "Maps"
-	SetFontSize 36
-	PlayAlertSound 11 125
-	MinimapIcon 2 White Circle
 
 #3TDC2W
 Hide	#3TDC2W
@@ -4162,7 +3972,7 @@ Show	#I3GED9
 #OL8PE9
 Show	#OL8PE9
 	Class "Divination Card"
-	BaseType "The Master Artisan" "The Wolf's Shadow"
+	BaseType "The Demoness" "The Master Artisan" "The Wolf's Shadow"
 	SetTextColor 14 186 255
 	SetBorderColor 14 186 255
 	SetFontSize 36
@@ -4183,7 +3993,7 @@ Show	#SW9XOU
 #55NE3V
 Show	#55NE3V
 	Class "Divination Card"
-	BaseType "Burning Blood" "Dark Dreams" "Lost Worlds" "Mawr Blaidd" "Pride Before the Fall" "The Bargain" "The Dapper Prodigy" "The Enlightened" "The Ethereal" "The Eye of Terror" "The Iron Bard" "The King's Heart" "The Life Thief" "The Master" "The Nurse" "The Offering" "The Saint's Treasure" "Time-Lost Relic"
+	BaseType "Burning Blood" "Dark Dreams" "Lost Worlds" "Mawr Blaidd" "Pride Before the Fall" "The Bargain" "The Dapper Prodigy" "The Enlightened" "The Ethereal" "The Eye of Terror" "The Iron Bard" "The King's Heart" "The Life Thief" "The Master" "The Nurse" "The Offering" "The Saint's Treasure" "The Samurai's Eye" "Time-Lost Relic"
 	SetTextColor 14 186 255
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 14 186 255
@@ -4195,7 +4005,7 @@ Show	#55NE3V
 #9FDGJL
 Show	#9FDGJL
 	Class "Divination Card"
-	BaseType "A Dab of Ink" "Akil's Prophecy" "Azyran's Reward" "Buried Treasure" "Chaotic Disposition" "Demigod's Wager" "Earth Drinker" "Emperor of Purity" "Harmony of Souls" "Last Hope" "Lucky Deck" "Lysah's Respite" "Monochrome" "More is Never Enough" "Remembrance" "Sambodhi's Vow" "The Betrayal" "The Breach" "The Brittle Emperor" "The Cacophony" "The Calling" "The Cartographer" "The Chains that Bind" "The Deal" "The Dreamland" "The Drunken Aristocrat" "The Fletcher" "The Formless Sea" "The Gladiator" "The Hale Heart" "The Harvester" "The Heroic Shot" "The Hoarder" "The Hunger" "The Innocent" "The Jeweller's Boon" "The Journey" "The Landing" "The Mad King" "The Mayor" "The Obscured" "The Pack Leader" "The Price of Loyalty" "The Price of Protection" "The Professor" "The Road to Power" "The Sacrifice" "The Samurai's Eye" "The Scavenger" "The Seeker" "The Sephirot" "The Side Quest" "The Skeleton" "The Surveyor" "The Sword King's Salute" "The Trial" "The Twilight Moon" "The Undisputed" "The Valkyrie" "The Valley of Steel Boxes" "The Warlord" "The Watcher" "The Wolf" "Tranquillity"
+	BaseType "A Dab of Ink" "Akil's Prophecy" "Azyran's Reward" "Boon of the First Ones" "Buried Treasure" "Chaotic Disposition" "Demigod's Wager" "Earth Drinker" "Emperor of Purity" "Harmony of Souls" "Last Hope" "Lucky Deck" "Lysah's Respite" "Monochrome" "More is Never Enough" "Remembrance" "Sambodhi's Vow" "The Betrayal" "The Breach" "The Brittle Emperor" "The Cacophony" "The Calling" "The Cartographer" "The Chains that Bind" "The Deal" "The Dreamland" "The Drunken Aristocrat" "The Fletcher" "The Formless Sea" "The Gladiator" "The Hale Heart" "The Harvester" "The Heroic Shot" "The Hoarder" "The Hunger" "The Innocent" "The Jeweller's Boon" "The Journey" "The Landing" "The Mad King" "The Mayor" "The Obscured" "The Pack Leader" "The Price of Loyalty" "The Price of Protection" "The Professor" "The Road to Power" "The Sacrifice" "The Scavenger" "The Seeker" "The Sephirot" "The Side Quest" "The Skeleton" "The Surveyor" "The Sword King's Salute" "The Trial" "The Twilight Moon" "The Undisputed" "The Valkyrie" "The Valley of Steel Boxes" "The Warlord" "The Watcher" "The Wolf" "Tranquillity"
 	SetTextColor 14 186 255
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 14 186 255
@@ -5084,7 +4894,7 @@ Show	#NSSQP4
 #A83SGG
 Show	#A83SGG
 	Class "Currency"
-	BaseType "Black Oil" "Opalescent Oil"
+	BaseType "Black Oil" "Crimson Oil" "Opalescent Oil"
 	SetTextColor 200 200 175
 	SetBackgroundColor 85 65 15 230
 	SetBorderColor 170 158 130
