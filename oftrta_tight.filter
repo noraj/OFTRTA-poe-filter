@@ -3,7 +3,7 @@
 #                         One Filter to Rule Them All                         #
 #                         "Path of Exile" Item Filter                         #
 #                                                                             #
-#                     Version: 4.2.1    Strictness: tight                     #
+#                     Version: 4.3.0    Strictness: tight                     #
 #                                                                             #
 #            https://www.pathofexile.com/forum/view-thread/1259059            #
 #                                                                             #
@@ -109,10 +109,10 @@ Show	#CRC5E6
 
 #E4IA32
 Show	#E4IA32
-	ElderItem True
 	ItemLevel >= 86
 	Rarity Normal
 	BaseType "Assassin's Garb" "Astral Plate" "Bone Helmet" "Champion Kite Shield" "Crusader Boots" "Dragonscale Boots" "Eternal Burgonet" "Fossilised Spirit Shield" "Glorious Plate" "Hubris Circlet" "Lion Pelt" "Murder Boots" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet" "Saintly Chainmail" "Slink Boots" "Sorcerer Boots" "Titan Greaves" "Titanium Spirit Shield" "Triumphant Lamellar" "Two-Toned Boots" "Vaal Regalia"
+	HasInfluence "Elder"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70
 	SetBorderColor 200 200 200
@@ -122,10 +122,10 @@ Show	#E4IA32
 
 #4GGJKH
 Show	#4GGJKH
-	ElderItem True
 	ItemLevel >= 86
 	Rarity Magic
 	BaseType "Assassin's Garb" "Astral Plate" "Bone Helmet" "Champion Kite Shield" "Crusader Boots" "Dragonscale Boots" "Eternal Burgonet" "Fossilised Spirit Shield" "Glorious Plate" "Hubris Circlet" "Lion Pelt" "Murder Boots" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet" "Saintly Chainmail" "Slink Boots" "Sorcerer Boots" "Titan Greaves" "Titanium Spirit Shield" "Triumphant Lamellar" "Two-Toned Boots" "Vaal Regalia"
+	HasInfluence "Elder"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70
 	SetBorderColor 136 136 255
@@ -135,10 +135,10 @@ Show	#4GGJKH
 
 #Z63D94
 Show	#Z63D94
-	ElderItem True
 	ItemLevel >= 85
 	Rarity Normal
 	BaseType "Crusader Gloves" "Dragonscale Gauntlets" "Fingerless Silk Gloves" "Gripped Gloves" "Murder Mitts" "Slink Gloves" "Sorcerer Gloves" "Spiked Gloves" "Titan Gauntlets"
+	HasInfluence "Elder"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70
 	SetBorderColor 200 200 200
@@ -148,10 +148,10 @@ Show	#Z63D94
 
 #DB767F
 Show	#DB767F
-	ElderItem True
 	ItemLevel >= 85
 	Rarity Magic
 	BaseType "Crusader Gloves" "Dragonscale Gauntlets" "Fingerless Silk Gloves" "Gripped Gloves" "Murder Mitts" "Slink Gloves" "Sorcerer Gloves" "Spiked Gloves" "Titan Gauntlets"
+	HasInfluence "Elder"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70
 	SetBorderColor 136 136 255
@@ -161,10 +161,10 @@ Show	#DB767F
 
 #8Z0FPN
 Show	#8Z0FPN
-	ElderItem True
 	ItemLevel >= 85
 	Rarity Normal
 	BaseType "Eternal Burgonet" "Hubris Circlet" "Lion Pelt" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet"
+	HasInfluence "Elder"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 200 200 200
@@ -174,10 +174,10 @@ Show	#8Z0FPN
 
 #LQCZ09
 Show	#LQCZ09
-	ElderItem True
 	ItemLevel >= 85
 	Rarity Magic
 	BaseType "Eternal Burgonet" "Hubris Circlet" "Lion Pelt" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet"
+	HasInfluence "Elder"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 136 136 255
@@ -187,10 +187,10 @@ Show	#LQCZ09
 
 #OSC8GQ
 Show	#OSC8GQ
-	ElderItem True
 	ItemLevel >= 84
 	Rarity Normal
 	BaseType "Crusader Boots" "Crusader Gloves" "Dragonscale Boots" "Dragonscale Gauntlets" "Fingerless Silk Gloves" "Fossilised Spirit Shield" "Gripped Gloves" "Murder Boots" "Murder Mitts" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Gloves" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Two-Toned Boots"
+	HasInfluence "Elder"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 200 200 200
@@ -200,10 +200,10 @@ Show	#OSC8GQ
 
 #6B45EH
 Show	#6B45EH
-	ElderItem True
 	ItemLevel >= 84
 	Rarity Magic
 	BaseType "Crusader Boots" "Crusader Gloves" "Dragonscale Boots" "Dragonscale Gauntlets" "Fingerless Silk Gloves" "Fossilised Spirit Shield" "Gripped Gloves" "Murder Boots" "Murder Mitts" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Gloves" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Two-Toned Boots"
+	HasInfluence "Elder"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 136 136 255
@@ -213,10 +213,10 @@ Show	#6B45EH
 
 #LPCQ9Y
 Show	#LPCQ9Y
-	ElderItem True
 	ItemLevel >= 84
 	Rarity Normal
 	BaseType "Eternal Burgonet" "Hubris Circlet" "Lion Pelt" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet"
+	HasInfluence "Elder"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 200 200 200
@@ -226,10 +226,10 @@ Show	#LPCQ9Y
 
 #7H831Y
 Show	#7H831Y
-	ElderItem True
 	ItemLevel >= 84
 	Rarity Magic
 	BaseType "Eternal Burgonet" "Hubris Circlet" "Lion Pelt" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet"
+	HasInfluence "Elder"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 136 136 255
@@ -239,28 +239,28 @@ Show	#7H831Y
 
 #N97UEF
 Show	#N97UEF
-	ElderItem True
 	Rarity Normal Magic
 	BaseType "Assassin's Garb" "Astral Plate" "Bone Helmet" "Crusader Boots" "Dragonscale Boots" "Eternal Burgonet" "Fossilised Spirit Shield" "Glorious Plate" "Hubris Circlet" "Lion Pelt" "Murder Boots" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet" "Saintly Chainmail" "Slink Boots" "Sorcerer Boots" "Titan Greaves" "Titanium Spirit Shield" "Triumphant Lamellar" "Two-Toned Boots" "Vaal Regalia"
+	HasInfluence "Elder"
 	SetFontSize 36
 	MinimapIcon 2 White Star
 	PlayEffect White
 
 #YAD3DD
 Show	#YAD3DD
-	ElderItem True
 	Rarity Normal Magic
 	BaseType "Crusader Gloves" "Dragonscale Gauntlets" "Fingerless Silk Gloves" "Gripped Gloves" "Murder Mitts" "Slink Gloves" "Sorcerer Gloves" "Spiked Gloves" "Titan Gauntlets"
+	HasInfluence "Elder"
 	SetFontSize 36
 	MinimapIcon 2 White Star
 	PlayEffect White
 
 #5RB0D5
 Show	#5RB0D5
-	ElderItem True
 	ItemLevel >= 86
 	Rarity Normal
 	Class "Amulets" "Belts" "Quiver"
+	HasInfluence "Elder"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 200 200 200
@@ -270,10 +270,10 @@ Show	#5RB0D5
 
 #MMKC1R
 Show	#MMKC1R
-	ElderItem True
 	ItemLevel >= 86
 	Rarity Magic
 	Class "Amulets" "Belts" "Quiver"
+	HasInfluence "Elder"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 136 136 255
@@ -283,10 +283,10 @@ Show	#MMKC1R
 
 #2005KJ
 Show	#2005KJ
-	ElderItem True
 	ItemLevel >= 85
 	Rarity Normal
 	Class "Amulets" "Belts" "Quiver"
+	HasInfluence "Elder"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 200 200 200
@@ -296,10 +296,10 @@ Show	#2005KJ
 
 #LJB571
 Show	#LJB571
-	ElderItem True
 	ItemLevel >= 85
 	Rarity Magic
 	Class "Amulets" "Belts" "Quiver"
+	HasInfluence "Elder"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 136 136 255
@@ -309,9 +309,9 @@ Show	#LJB571
 
 #KUFGNC
 Show	#KUFGNC
-	ElderItem True
 	Rarity Normal
 	Class "Amulets" "Belts" "Quiver"
+	HasInfluence "Elder"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 200 200 200
@@ -321,9 +321,9 @@ Show	#KUFGNC
 
 #DW0ZLR
 Show	#DW0ZLR
-	ElderItem True
 	Rarity Magic
 	Class "Amulets" "Belts" "Quiver"
+	HasInfluence "Elder"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 136 136 255
@@ -333,10 +333,10 @@ Show	#DW0ZLR
 
 #BCBL9E
 Show	#BCBL9E
-	ElderItem True
 	ItemLevel >= 84
 	Rarity Normal
 	Class "Rings"
+	HasInfluence "Elder"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 200 200 200
@@ -346,10 +346,10 @@ Show	#BCBL9E
 
 #H3A3DS
 Show	#H3A3DS
-	ElderItem True
 	ItemLevel >= 84
 	Rarity Magic
 	Class "Rings"
+	HasInfluence "Elder"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 136 136 255
@@ -359,10 +359,10 @@ Show	#H3A3DS
 
 #10ESBB
 Show	#10ESBB
-	ElderItem True
 	ItemLevel >= 83
 	Rarity Normal
 	Class "Rings"
+	HasInfluence "Elder"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 200 200 200
@@ -372,10 +372,10 @@ Show	#10ESBB
 
 #Q03E4Y
 Show	#Q03E4Y
-	ElderItem True
 	ItemLevel >= 83
 	Rarity Magic
 	Class "Rings"
+	HasInfluence "Elder"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 136 136 255
@@ -385,9 +385,9 @@ Show	#Q03E4Y
 
 #RSJZP1
 Show	#RSJZP1
-	ElderItem True
 	Rarity Normal
 	Class "Rings"
+	HasInfluence "Elder"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 200 200 200
@@ -397,9 +397,9 @@ Show	#RSJZP1
 
 #SGHDGF
 Show	#SGHDGF
-	ElderItem True
 	Rarity Magic
 	Class "Rings"
+	HasInfluence "Elder"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 136 136 255
@@ -409,10 +409,10 @@ Show	#SGHDGF
 
 #BIC1P1
 Show	#BIC1P1
-	ElderItem True
 	ItemLevel >= 83
 	Rarity Normal
 	BaseType "Ambusher" "Coronal Maul" "Demon Dagger" "Exquisite Blade" "Fleshripper" "Gemini Claw" "Harbinger Bow" "Harpy Rapier" "Jewelled Foil" "Siege Axe" "Skean" "Spiraled Foil" "Vaal Axe"
+	HasInfluence "Elder"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70
 	SetBorderColor 200 200 200
@@ -422,10 +422,10 @@ Show	#BIC1P1
 
 #Z8ZA3B
 Show	#Z8ZA3B
-	ElderItem True
 	ItemLevel >= 83
 	Rarity Magic
 	BaseType "Ambusher" "Coronal Maul" "Demon Dagger" "Exquisite Blade" "Fleshripper" "Gemini Claw" "Harbinger Bow" "Harpy Rapier" "Jewelled Foil" "Siege Axe" "Skean" "Spiraled Foil" "Vaal Axe"
+	HasInfluence "Elder"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70
 	SetBorderColor 136 136 255
@@ -435,10 +435,10 @@ Show	#Z8ZA3B
 
 #Z802XS
 Show	#Z802XS
-	ElderItem True
 	ItemLevel >= 84
 	Rarity Normal
 	BaseType "Convoking Wand" "Imbued Wand" "Kris" "Profane Wand" "Sambar Sceptre" "Void Sceptre"
+	HasInfluence "Elder"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70
 	SetBorderColor 200 200 200
@@ -448,10 +448,10 @@ Show	#Z802XS
 
 #6EC9QE
 Show	#6EC9QE
-	ElderItem True
 	ItemLevel >= 84
 	Rarity Magic
 	BaseType "Convoking Wand" "Imbued Wand" "Kris" "Profane Wand" "Sambar Sceptre" "Void Sceptre"
+	HasInfluence "Elder"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70
 	SetBorderColor 136 136 255
@@ -461,18 +461,18 @@ Show	#6EC9QE
 
 #KR9326
 Show	#KR9326
-	ElderItem True
 	Rarity Normal Magic
 	BaseType "Ambusher" "Coronal Maul" "Demon Dagger" "Exquisite Blade" "Fleshripper" "Gemini Claw" "Harbinger Bow" "Harpy Rapier" "Jewelled Foil" "Siege Axe" "Skean" "Spiraled Foil" "Vaal Axe"
+	HasInfluence "Elder"
 	SetFontSize 36
 	MinimapIcon 2 White Star
 	PlayEffect White
 
 #39DT16
 Show	#39DT16
-	ElderItem True
 	Rarity Normal Magic
 	BaseType "Convoking Wand" "Imbued Wand" "Kris" "Profane Wand" "Sambar Sceptre" "Void Sceptre"
+	HasInfluence "Elder"
 	SetFontSize 36
 	MinimapIcon 2 White Star
 	PlayEffect White
@@ -488,10 +488,10 @@ Show	#39DT16
 
 #D7MK9G
 Show	#D7MK9G
-	ShaperItem True
 	ItemLevel >= 86
 	Rarity Normal
 	BaseType "Assassin's Garb" "Astral Plate" "Bone Helmet" "Champion Kite Shield" "Crusader Boots" "Dragonscale Boots" "Eternal Burgonet" "Fossilised Spirit Shield" "Glorious Plate" "Hubris Circlet" "Lion Pelt" "Murder Boots" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet" "Saintly Chainmail" "Slink Boots" "Sorcerer Boots" "Titan Greaves" "Titanium Spirit Shield" "Triumphant Lamellar" "Two-Toned Boots" "Vaal Regalia"
+	HasInfluence "Shaper"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70
 	SetBorderColor 200 200 200
@@ -501,10 +501,10 @@ Show	#D7MK9G
 
 #9XD6M9
 Show	#9XD6M9
-	ShaperItem True
 	ItemLevel >= 86
 	Rarity Magic
 	BaseType "Assassin's Garb" "Astral Plate" "Bone Helmet" "Champion Kite Shield" "Crusader Boots" "Dragonscale Boots" "Eternal Burgonet" "Fossilised Spirit Shield" "Glorious Plate" "Hubris Circlet" "Lion Pelt" "Murder Boots" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet" "Saintly Chainmail" "Slink Boots" "Sorcerer Boots" "Titan Greaves" "Titanium Spirit Shield" "Triumphant Lamellar" "Two-Toned Boots" "Vaal Regalia"
+	HasInfluence "Shaper"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70
 	SetBorderColor 136 136 255
@@ -514,10 +514,10 @@ Show	#9XD6M9
 
 #GC3ATD
 Show	#GC3ATD
-	ShaperItem True
 	ItemLevel >= 85
 	Rarity Normal
 	BaseType "Crusader Gloves" "Dragonscale Gauntlets" "Fingerless Silk Gloves" "Gripped Gloves" "Murder Mitts" "Slink Gloves" "Sorcerer Gloves" "Spiked Gloves" "Titan Gauntlets"
+	HasInfluence "Shaper"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70
 	SetBorderColor 200 200 200
@@ -527,10 +527,10 @@ Show	#GC3ATD
 
 #0R9O5Y
 Show	#0R9O5Y
-	ShaperItem True
 	ItemLevel >= 85
 	Rarity Magic
 	BaseType "Crusader Gloves" "Dragonscale Gauntlets" "Fingerless Silk Gloves" "Gripped Gloves" "Murder Mitts" "Slink Gloves" "Sorcerer Gloves" "Spiked Gloves" "Titan Gauntlets"
+	HasInfluence "Shaper"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70
 	SetBorderColor 136 136 255
@@ -540,10 +540,10 @@ Show	#0R9O5Y
 
 #PMQL2L
 Show	#PMQL2L
-	ShaperItem True
 	ItemLevel >= 85
 	Rarity Normal
 	BaseType "Eternal Burgonet" "Hubris Circlet" "Lion Pelt" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet"
+	HasInfluence "Shaper"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 200 200 200
@@ -553,10 +553,10 @@ Show	#PMQL2L
 
 #522368
 Show	#522368
-	ShaperItem True
 	ItemLevel >= 85
 	Rarity Magic
 	BaseType "Eternal Burgonet" "Hubris Circlet" "Lion Pelt" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet"
+	HasInfluence "Shaper"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 136 136 255
@@ -566,10 +566,10 @@ Show	#522368
 
 #2N8Z5O
 Show	#2N8Z5O
-	ShaperItem True
 	ItemLevel >= 84
 	Rarity Normal
 	BaseType "Crusader Boots" "Crusader Gloves" "Dragonscale Boots" "Dragonscale Gauntlets" "Fingerless Silk Gloves" "Fossilised Spirit Shield" "Gripped Gloves" "Murder Boots" "Murder Mitts" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Gloves" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Two-Toned Boots"
+	HasInfluence "Shaper"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 200 200 200
@@ -579,10 +579,10 @@ Show	#2N8Z5O
 
 #4T34DA
 Show	#4T34DA
-	ShaperItem True
 	ItemLevel >= 84
 	Rarity Magic
 	BaseType "Crusader Boots" "Crusader Gloves" "Dragonscale Boots" "Dragonscale Gauntlets" "Fingerless Silk Gloves" "Fossilised Spirit Shield" "Gripped Gloves" "Murder Boots" "Murder Mitts" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Gloves" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Two-Toned Boots"
+	HasInfluence "Shaper"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 136 136 255
@@ -592,10 +592,10 @@ Show	#4T34DA
 
 #IK32AP
 Show	#IK32AP
-	ShaperItem True
 	ItemLevel >= 84
 	Rarity Normal
 	BaseType "Eternal Burgonet" "Hubris Circlet" "Lion Pelt" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet"
+	HasInfluence "Shaper"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 200 200 200
@@ -605,10 +605,10 @@ Show	#IK32AP
 
 #D09RLE
 Show	#D09RLE
-	ShaperItem True
 	ItemLevel >= 84
 	Rarity Magic
 	BaseType "Eternal Burgonet" "Hubris Circlet" "Lion Pelt" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet"
+	HasInfluence "Shaper"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 136 136 255
@@ -618,28 +618,28 @@ Show	#D09RLE
 
 #H4EE4V
 Show	#H4EE4V
-	ShaperItem True
 	Rarity Normal Magic
 	BaseType "Assassin's Garb" "Astral Plate" "Bone Helmet" "Crusader Boots" "Dragonscale Boots" "Eternal Burgonet" "Fossilised Spirit Shield" "Glorious Plate" "Hubris Circlet" "Lion Pelt" "Murder Boots" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet" "Saintly Chainmail" "Slink Boots" "Sorcerer Boots" "Titan Greaves" "Titanium Spirit Shield" "Triumphant Lamellar" "Two-Toned Boots" "Vaal Regalia"
+	HasInfluence "Shaper"
 	SetFontSize 36
 	MinimapIcon 2 White Star
 	PlayEffect White
 
 #E7RB33
 Show	#E7RB33
-	ShaperItem True
 	Rarity Normal Magic
 	BaseType "Crusader Gloves" "Dragonscale Gauntlets" "Fingerless Silk Gloves" "Gripped Gloves" "Murder Mitts" "Slink Gloves" "Sorcerer Gloves" "Spiked Gloves" "Titan Gauntlets"
+	HasInfluence "Shaper"
 	SetFontSize 36
 	MinimapIcon 2 White Star
 	PlayEffect White
 
 #0TDS7B
 Show	#0TDS7B
-	ShaperItem True
 	ItemLevel >= 86
 	Rarity Normal
 	Class "Amulets" "Belts" "Quiver"
+	HasInfluence "Shaper"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 200 200 200
@@ -649,10 +649,10 @@ Show	#0TDS7B
 
 #GZO040
 Show	#GZO040
-	ShaperItem True
 	ItemLevel >= 86
 	Rarity Magic
 	Class "Amulets" "Belts" "Quiver"
+	HasInfluence "Shaper"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 136 136 255
@@ -662,10 +662,10 @@ Show	#GZO040
 
 #9Q585K
 Show	#9Q585K
-	ShaperItem True
 	ItemLevel >= 85
 	Rarity Normal
 	Class "Amulets" "Belts" "Quiver"
+	HasInfluence "Shaper"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 200 200 200
@@ -675,10 +675,10 @@ Show	#9Q585K
 
 #AVQL85
 Show	#AVQL85
-	ShaperItem True
 	ItemLevel >= 85
 	Rarity Magic
 	Class "Amulets" "Belts" "Quiver"
+	HasInfluence "Shaper"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 136 136 255
@@ -688,9 +688,9 @@ Show	#AVQL85
 
 #3OS1E3
 Show	#3OS1E3
-	ShaperItem True
 	Rarity Normal
 	Class "Amulets" "Belts" "Quiver"
+	HasInfluence "Shaper"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 200 200 200
@@ -700,9 +700,9 @@ Show	#3OS1E3
 
 #81FF5J
 Show	#81FF5J
-	ShaperItem True
 	Rarity Magic
 	Class "Amulets" "Belts" "Quiver"
+	HasInfluence "Shaper"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 136 136 255
@@ -712,10 +712,10 @@ Show	#81FF5J
 
 #CNRIZJ
 Show	#CNRIZJ
-	ShaperItem True
 	ItemLevel >= 84
 	Rarity Normal
 	Class "Rings"
+	HasInfluence "Shaper"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 200 200 200
@@ -725,10 +725,10 @@ Show	#CNRIZJ
 
 #03U4DY
 Show	#03U4DY
-	ShaperItem True
 	ItemLevel >= 84
 	Rarity Magic
 	Class "Rings"
+	HasInfluence "Shaper"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 136 136 255
@@ -738,10 +738,10 @@ Show	#03U4DY
 
 #LNA38Y
 Show	#LNA38Y
-	ShaperItem True
 	ItemLevel >= 83
 	Rarity Normal
 	Class "Rings"
+	HasInfluence "Shaper"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 200 200 200
@@ -751,10 +751,10 @@ Show	#LNA38Y
 
 #VEDA3P
 Show	#VEDA3P
-	ShaperItem True
 	ItemLevel >= 83
 	Rarity Magic
 	Class "Rings"
+	HasInfluence "Shaper"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 136 136 255
@@ -764,9 +764,9 @@ Show	#VEDA3P
 
 #NLBC5X
 Show	#NLBC5X
-	ShaperItem True
 	Rarity Normal
 	Class "Rings"
+	HasInfluence "Shaper"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 200 200 200
@@ -776,9 +776,9 @@ Show	#NLBC5X
 
 #5TL4ZC
 Show	#5TL4ZC
-	ShaperItem True
 	Rarity Magic
 	Class "Rings"
+	HasInfluence "Shaper"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70 230
 	SetBorderColor 136 136 255
@@ -788,10 +788,10 @@ Show	#5TL4ZC
 
 #DSYK4X
 Show	#DSYK4X
-	ShaperItem True
 	ItemLevel >= 83
 	Rarity Normal
 	BaseType "Ambusher" "Coronal Maul" "Demon Dagger" "Exquisite Blade" "Fleshripper" "Gemini Claw" "Harbinger Bow" "Harpy Rapier" "Jewelled Foil" "Siege Axe" "Skean" "Spiraled Foil" "Vaal Axe"
+	HasInfluence "Shaper"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70
 	SetBorderColor 200 200 200
@@ -801,10 +801,10 @@ Show	#DSYK4X
 
 #XVJ9RF
 Show	#XVJ9RF
-	ShaperItem True
 	ItemLevel >= 83
 	Rarity Magic
 	BaseType "Ambusher" "Coronal Maul" "Demon Dagger" "Exquisite Blade" "Fleshripper" "Gemini Claw" "Harbinger Bow" "Harpy Rapier" "Jewelled Foil" "Siege Axe" "Skean" "Spiraled Foil" "Vaal Axe"
+	HasInfluence "Shaper"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70
 	SetBorderColor 136 136 255
@@ -814,10 +814,10 @@ Show	#XVJ9RF
 
 #RX897B
 Show	#RX897B
-	ShaperItem True
 	ItemLevel >= 84
 	Rarity Normal
 	BaseType "Convoking Wand" "Imbued Wand" "Kris" "Profane Wand" "Sambar Sceptre" "Void Sceptre"
+	HasInfluence "Shaper"
 	SetTextColor 240 240 240
 	SetBackgroundColor 70 70 70
 	SetBorderColor 200 200 200
@@ -827,10 +827,10 @@ Show	#RX897B
 
 #S24CA6
 Show	#S24CA6
-	ShaperItem True
 	ItemLevel >= 84
 	Rarity Magic
 	BaseType "Convoking Wand" "Imbued Wand" "Kris" "Profane Wand" "Sambar Sceptre" "Void Sceptre"
+	HasInfluence "Shaper"
 	SetTextColor 140 190 255
 	SetBackgroundColor 70 70 70
 	SetBorderColor 136 136 255
@@ -840,23 +840,402 @@ Show	#S24CA6
 
 #UAPQSF
 Show	#UAPQSF
-	ShaperItem True
 	Rarity Normal Magic
 	BaseType "Ambusher" "Coronal Maul" "Demon Dagger" "Exquisite Blade" "Fleshripper" "Gemini Claw" "Harbinger Bow" "Harpy Rapier" "Jewelled Foil" "Siege Axe" "Skean" "Spiraled Foil" "Vaal Axe"
+	HasInfluence "Shaper"
 	SetFontSize 36
 	MinimapIcon 2 White Star
 	PlayEffect White
 
 #UM02JZ
 Show	#UM02JZ
-	ShaperItem True
 	Rarity Normal Magic
 	BaseType "Convoking Wand" "Imbued Wand" "Kris" "Profane Wand" "Sambar Sceptre" "Void Sceptre"
+	HasInfluence "Shaper"
 	SetFontSize 36
 	MinimapIcon 2 White Star
 	PlayEffect White
 
 ### /Shaper (Normal & Magic) ##################################################
+###############################################################################
+
+
+
+###############################################################################
+# Section: ### Crusader Redeemer Hunter Warlord (Normal & Magic) [NWTLY4] #####
+###############################################################################
+
+#FBQ8JE
+Show	#FBQ8JE
+	ItemLevel >= 86
+	Rarity Normal
+	BaseType "Assassin's Garb" "Astral Plate" "Bone Helmet" "Champion Kite Shield" "Crusader Boots" "Dragonscale Boots" "Eternal Burgonet" "Fossilised Spirit Shield" "Glorious Plate" "Hubris Circlet" "Lion Pelt" "Murder Boots" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet" "Saintly Chainmail" "Slink Boots" "Sorcerer Boots" "Titan Greaves" "Titanium Spirit Shield" "Triumphant Lamellar" "Two-Toned Boots" "Vaal Regalia"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 240 240 240
+	SetBackgroundColor 70 70 70
+	SetBorderColor 200 200 200
+	SetFontSize 42
+	MinimapIcon 0 White Star
+	PlayEffect White
+
+#M47EGI
+Show	#M47EGI
+	ItemLevel >= 86
+	Rarity Magic
+	BaseType "Assassin's Garb" "Astral Plate" "Bone Helmet" "Champion Kite Shield" "Crusader Boots" "Dragonscale Boots" "Eternal Burgonet" "Fossilised Spirit Shield" "Glorious Plate" "Hubris Circlet" "Lion Pelt" "Murder Boots" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet" "Saintly Chainmail" "Slink Boots" "Sorcerer Boots" "Titan Greaves" "Titanium Spirit Shield" "Triumphant Lamellar" "Two-Toned Boots" "Vaal Regalia"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 140 190 255
+	SetBackgroundColor 70 70 70
+	SetBorderColor 136 136 255
+	SetFontSize 42
+	MinimapIcon 0 White Star
+	PlayEffect White
+
+#NCQIYA
+Show	#NCQIYA
+	ItemLevel >= 85
+	Rarity Normal
+	BaseType "Crusader Gloves" "Dragonscale Gauntlets" "Fingerless Silk Gloves" "Gripped Gloves" "Murder Mitts" "Slink Gloves" "Sorcerer Gloves" "Spiked Gloves" "Titan Gauntlets"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 240 240 240
+	SetBackgroundColor 70 70 70
+	SetBorderColor 200 200 200
+	SetFontSize 42
+	MinimapIcon 0 White Star
+	PlayEffect White
+
+#UHHRKY
+Show	#UHHRKY
+	ItemLevel >= 85
+	Rarity Magic
+	BaseType "Crusader Gloves" "Dragonscale Gauntlets" "Fingerless Silk Gloves" "Gripped Gloves" "Murder Mitts" "Slink Gloves" "Sorcerer Gloves" "Spiked Gloves" "Titan Gauntlets"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 140 190 255
+	SetBackgroundColor 70 70 70
+	SetBorderColor 136 136 255
+	SetFontSize 42
+	MinimapIcon 0 White Star
+	PlayEffect White
+
+#HJJMQ0
+Show	#HJJMQ0
+	ItemLevel >= 85
+	Rarity Normal
+	BaseType "Eternal Burgonet" "Hubris Circlet" "Lion Pelt" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 240 240 240
+	SetBackgroundColor 70 70 70 230
+	SetBorderColor 200 200 200
+	SetFontSize 39
+	MinimapIcon 1 White Star
+	PlayEffect White
+
+#DPCAFA
+Show	#DPCAFA
+	ItemLevel >= 85
+	Rarity Magic
+	BaseType "Eternal Burgonet" "Hubris Circlet" "Lion Pelt" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 140 190 255
+	SetBackgroundColor 70 70 70 230
+	SetBorderColor 136 136 255
+	SetFontSize 39
+	MinimapIcon 1 White Star
+	PlayEffect White
+
+#M37YNR
+Show	#M37YNR
+	ItemLevel >= 84
+	Rarity Normal
+	BaseType "Crusader Boots" "Crusader Gloves" "Dragonscale Boots" "Dragonscale Gauntlets" "Fingerless Silk Gloves" "Fossilised Spirit Shield" "Gripped Gloves" "Murder Boots" "Murder Mitts" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Gloves" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Two-Toned Boots"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 240 240 240
+	SetBackgroundColor 70 70 70 230
+	SetBorderColor 200 200 200
+	SetFontSize 39
+	MinimapIcon 1 White Star
+	PlayEffect White
+
+#3DJQZ6
+Show	#3DJQZ6
+	ItemLevel >= 84
+	Rarity Magic
+	BaseType "Crusader Boots" "Crusader Gloves" "Dragonscale Boots" "Dragonscale Gauntlets" "Fingerless Silk Gloves" "Fossilised Spirit Shield" "Gripped Gloves" "Murder Boots" "Murder Mitts" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Gloves" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Two-Toned Boots"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 140 190 255
+	SetBackgroundColor 70 70 70 230
+	SetBorderColor 136 136 255
+	SetFontSize 39
+	MinimapIcon 1 White Star
+	PlayEffect White
+
+#T8FJUS
+Show	#T8FJUS
+	ItemLevel >= 84
+	Rarity Normal
+	BaseType "Eternal Burgonet" "Hubris Circlet" "Lion Pelt" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 240 240 240
+	SetBackgroundColor 70 70 70 230
+	SetBorderColor 200 200 200
+	SetFontSize 36
+	MinimapIcon 2 White Star
+	PlayEffect White
+
+#V88BFG
+Show	#V88BFG
+	ItemLevel >= 84
+	Rarity Magic
+	BaseType "Eternal Burgonet" "Hubris Circlet" "Lion Pelt" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 140 190 255
+	SetBackgroundColor 70 70 70 230
+	SetBorderColor 136 136 255
+	SetFontSize 36
+	MinimapIcon 2 White Star
+	PlayEffect White
+
+#M64SYH
+Show	#M64SYH
+	Rarity Normal Magic
+	BaseType "Assassin's Garb" "Astral Plate" "Bone Helmet" "Crusader Boots" "Dragonscale Boots" "Eternal Burgonet" "Fossilised Spirit Shield" "Glorious Plate" "Hubris Circlet" "Lion Pelt" "Murder Boots" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet" "Saintly Chainmail" "Slink Boots" "Sorcerer Boots" "Titan Greaves" "Titanium Spirit Shield" "Triumphant Lamellar" "Two-Toned Boots" "Vaal Regalia"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetFontSize 36
+	MinimapIcon 2 White Star
+	PlayEffect White
+
+#2E87KO
+Show	#2E87KO
+	Rarity Normal Magic
+	BaseType "Crusader Gloves" "Dragonscale Gauntlets" "Fingerless Silk Gloves" "Gripped Gloves" "Murder Mitts" "Slink Gloves" "Sorcerer Gloves" "Spiked Gloves" "Titan Gauntlets"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetFontSize 36
+	MinimapIcon 2 White Star
+	PlayEffect White
+
+#EE768R
+Show	#EE768R
+	ItemLevel >= 86
+	Rarity Normal
+	Class "Amulets" "Belts" "Quiver"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 240 240 240
+	SetBackgroundColor 70 70 70 230
+	SetBorderColor 200 200 200
+	SetFontSize 42
+	MinimapIcon 0 White Star
+	PlayEffect White
+
+#C4YMJB
+Show	#C4YMJB
+	ItemLevel >= 86
+	Rarity Magic
+	Class "Amulets" "Belts" "Quiver"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 140 190 255
+	SetBackgroundColor 70 70 70 230
+	SetBorderColor 136 136 255
+	SetFontSize 42
+	MinimapIcon 0 White Star
+	PlayEffect White
+
+#UF0K3T
+Show	#UF0K3T
+	ItemLevel >= 85
+	Rarity Normal
+	Class "Amulets" "Belts" "Quiver"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 240 240 240
+	SetBackgroundColor 70 70 70 230
+	SetBorderColor 200 200 200
+	SetFontSize 39
+	MinimapIcon 1 White Star
+	PlayEffect White
+
+#A8ARWV
+Show	#A8ARWV
+	ItemLevel >= 85
+	Rarity Magic
+	Class "Amulets" "Belts" "Quiver"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 140 190 255
+	SetBackgroundColor 70 70 70 230
+	SetBorderColor 136 136 255
+	SetFontSize 39
+	MinimapIcon 1 White Star
+	PlayEffect White
+
+#Q61CE0
+Show	#Q61CE0
+	Rarity Normal
+	Class "Amulets" "Belts" "Quiver"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 240 240 240
+	SetBackgroundColor 70 70 70 230
+	SetBorderColor 200 200 200
+	SetFontSize 36
+	MinimapIcon 2 White Star
+	PlayEffect White
+
+#RZW6Y2
+Show	#RZW6Y2
+	Rarity Magic
+	Class "Amulets" "Belts" "Quiver"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 140 190 255
+	SetBackgroundColor 70 70 70 230
+	SetBorderColor 136 136 255
+	SetFontSize 36
+	MinimapIcon 2 White Star
+	PlayEffect White
+
+#OYL6TU
+Show	#OYL6TU
+	ItemLevel >= 84
+	Rarity Normal
+	Class "Rings"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 240 240 240
+	SetBackgroundColor 70 70 70 230
+	SetBorderColor 200 200 200
+	SetFontSize 42
+	MinimapIcon 0 White Star
+	PlayEffect White
+
+#98XVJ7
+Show	#98XVJ7
+	ItemLevel >= 84
+	Rarity Magic
+	Class "Rings"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 140 190 255
+	SetBackgroundColor 70 70 70 230
+	SetBorderColor 136 136 255
+	SetFontSize 42
+	MinimapIcon 0 White Star
+	PlayEffect White
+
+#U7UH0V
+Show	#U7UH0V
+	ItemLevel >= 83
+	Rarity Normal
+	Class "Rings"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 240 240 240
+	SetBackgroundColor 70 70 70 230
+	SetBorderColor 200 200 200
+	SetFontSize 39
+	MinimapIcon 1 White Star
+	PlayEffect White
+
+#PZ4TKV
+Show	#PZ4TKV
+	ItemLevel >= 83
+	Rarity Magic
+	Class "Rings"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 140 190 255
+	SetBackgroundColor 70 70 70 230
+	SetBorderColor 136 136 255
+	SetFontSize 39
+	MinimapIcon 1 White Star
+	PlayEffect White
+
+#9G32FY
+Show	#9G32FY
+	Rarity Normal
+	Class "Rings"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 240 240 240
+	SetBackgroundColor 70 70 70 230
+	SetBorderColor 200 200 200
+	SetFontSize 36
+	MinimapIcon 2 White Star
+	PlayEffect White
+
+#F8F2MF
+Show	#F8F2MF
+	Rarity Magic
+	Class "Rings"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 140 190 255
+	SetBackgroundColor 70 70 70 230
+	SetBorderColor 136 136 255
+	SetFontSize 36
+	MinimapIcon 2 White Star
+	PlayEffect White
+
+#I6L58U
+Show	#I6L58U
+	ItemLevel >= 83
+	Rarity Normal
+	BaseType "Ambusher" "Coronal Maul" "Demon Dagger" "Exquisite Blade" "Fleshripper" "Gemini Claw" "Harbinger Bow" "Harpy Rapier" "Jewelled Foil" "Siege Axe" "Skean" "Spiraled Foil" "Vaal Axe"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 240 240 240
+	SetBackgroundColor 70 70 70
+	SetBorderColor 200 200 200
+	SetFontSize 42
+	MinimapIcon 0 White Star
+	PlayEffect White
+
+#53SRC1
+Show	#53SRC1
+	ItemLevel >= 83
+	Rarity Magic
+	BaseType "Ambusher" "Coronal Maul" "Demon Dagger" "Exquisite Blade" "Fleshripper" "Gemini Claw" "Harbinger Bow" "Harpy Rapier" "Jewelled Foil" "Siege Axe" "Skean" "Spiraled Foil" "Vaal Axe"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 140 190 255
+	SetBackgroundColor 70 70 70
+	SetBorderColor 136 136 255
+	SetFontSize 42
+	MinimapIcon 0 White Star
+	PlayEffect White
+
+#DCPEO0
+Show	#DCPEO0
+	ItemLevel >= 84
+	Rarity Normal
+	BaseType "Convoking Wand" "Imbued Wand" "Kris" "Profane Wand" "Sambar Sceptre" "Void Sceptre"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 240 240 240
+	SetBackgroundColor 70 70 70
+	SetBorderColor 200 200 200
+	SetFontSize 42
+	MinimapIcon 0 White Star
+	PlayEffect White
+
+#IGH7WQ
+Show	#IGH7WQ
+	ItemLevel >= 84
+	Rarity Magic
+	BaseType "Convoking Wand" "Imbued Wand" "Kris" "Profane Wand" "Sambar Sceptre" "Void Sceptre"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetTextColor 140 190 255
+	SetBackgroundColor 70 70 70
+	SetBorderColor 136 136 255
+	SetFontSize 42
+	MinimapIcon 0 White Star
+	PlayEffect White
+
+#7UVDME
+Show	#7UVDME
+	Rarity Normal Magic
+	BaseType "Ambusher" "Coronal Maul" "Demon Dagger" "Exquisite Blade" "Fleshripper" "Gemini Claw" "Harbinger Bow" "Harpy Rapier" "Jewelled Foil" "Siege Axe" "Skean" "Spiraled Foil" "Vaal Axe"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetFontSize 36
+	MinimapIcon 2 White Star
+	PlayEffect White
+
+#0YYVH1
+Show	#0YYVH1
+	Rarity Normal Magic
+	BaseType "Convoking Wand" "Imbued Wand" "Kris" "Profane Wand" "Sambar Sceptre" "Void Sceptre"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
+	SetFontSize 36
+	MinimapIcon 2 White Star
+	PlayEffect White
+
+### /Crusader Redeemer Hunter Warlord (Normal & Magic) ########################
 ###############################################################################
 
 
@@ -1236,7 +1615,7 @@ Hide	#D96BT0
 Hide	#AB8U0M
 	ItemLevel > 64
 	Rarity Normal Magic
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetBackgroundColor 0 0 0 170
 	SetFontSize 21
 
@@ -1245,7 +1624,7 @@ Hide	#1FSD0Y
 	ItemLevel >= 60
 	DropLevel <= 56
 	Rarity Normal Magic
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetBackgroundColor 0 0 0 170
 	SetFontSize 21
 
@@ -1254,7 +1633,7 @@ Hide	#9PTNK9
 	ItemLevel >= 55
 	DropLevel <= 52
 	Rarity Normal Magic
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetBackgroundColor 0 0 0 170
 	SetFontSize 21
 
@@ -1263,7 +1642,7 @@ Hide	#4NL1SJ
 	ItemLevel >= 50
 	DropLevel <= 46
 	Rarity Normal Magic
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetBackgroundColor 0 0 0 170
 	SetFontSize 21
 
@@ -1272,7 +1651,7 @@ Hide	#J9O9T0
 	ItemLevel >= 45
 	DropLevel <= 40
 	Rarity Normal Magic
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetBackgroundColor 0 0 0 170
 	SetFontSize 21
 
@@ -1281,7 +1660,7 @@ Hide	#T3E144
 	ItemLevel >= 40
 	DropLevel <= 35
 	Rarity Normal Magic
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetBackgroundColor 0 0 0 170
 	SetFontSize 21
 
@@ -1290,7 +1669,7 @@ Hide	#2AYDTW
 	ItemLevel >= 35
 	DropLevel <= 30
 	Rarity Normal Magic
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetBackgroundColor 0 0 0 170
 	SetFontSize 21
 
@@ -1299,7 +1678,7 @@ Hide	#AAV5AJ
 	ItemLevel >= 30
 	DropLevel <= 25
 	Rarity Normal Magic
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetBackgroundColor 0 0 0 170
 	SetFontSize 21
 
@@ -1308,7 +1687,7 @@ Hide	#NBE437
 	ItemLevel >= 25
 	DropLevel <= 20
 	Rarity Normal Magic
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetBackgroundColor 0 0 0 170
 	SetFontSize 21
 
@@ -1317,7 +1696,7 @@ Hide	#YADAIU
 	ItemLevel >= 20
 	DropLevel <= 13
 	Rarity Normal Magic
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetBackgroundColor 0 0 0 170
 	SetFontSize 21
 
@@ -1326,7 +1705,7 @@ Hide	#DHCEUB
 	ItemLevel >= 15
 	DropLevel <= 10
 	Rarity Normal Magic
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetBackgroundColor 0 0 0 170
 	SetFontSize 21
 
@@ -1335,7 +1714,7 @@ Hide	#P3759K
 	ItemLevel >= 10
 	DropLevel <= 5
 	Rarity Normal Magic
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetBackgroundColor 0 0 0 170
 	SetFontSize 21
 
@@ -1344,7 +1723,7 @@ Hide	#NC0K68
 	ItemLevel >= 8
 	DropLevel <= 4
 	Rarity Normal Magic
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetBackgroundColor 0 0 0 170
 	SetFontSize 21
 
@@ -1353,7 +1732,7 @@ Hide	#DJTW63
 	ItemLevel >= 6
 	DropLevel <= 3
 	Rarity Normal Magic
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetBackgroundColor 0 0 0 170
 	SetFontSize 21
 
@@ -1362,7 +1741,7 @@ Hide	#422V3K
 	Sockets < 3
 	ItemLevel >= 15
 	Rarity Normal Magic
-	Class "Claws" "Daggers" "One Hand" "Rune Dagger" "Sceptre" "Shields" "Wands"
+	Class "Claws" "Daggers" "One Hand" "Rune Daggers" "Sceptre" "Shields" "Wands"
 	SetBackgroundColor 0 0 0 170
 	SetFontSize 21
 
@@ -1371,7 +1750,7 @@ Hide	#4K8F6H
 	Sockets < 4
 	ItemLevel >= 35
 	Rarity Normal Magic
-	Class "Body Armour" "Boots" "Bows" "Gloves" "Helmets" "Staves" "Two Hand" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Gloves" "Helmets" "Staves" "Two Hand" "Warstaves"
 	SetBackgroundColor 0 0 0 170
 	SetFontSize 21
 
@@ -1389,14 +1768,14 @@ Hide	#X3KTFJ
 	LinkedSockets < 4
 	ItemLevel >= 50
 	Rarity Normal Magic
-	Class "Body Armour" "Boots" "Bows" "Gloves" "Helmets" "Staves" "Two Hand" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Gloves" "Helmets" "Staves" "Two Hand" "Warstaves"
 	SetBackgroundColor 0 0 0 170
 	SetFontSize 21
 
 #LLDEEG
 Show	#LLDEEG
 	Rarity Normal Magic
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetBackgroundColor 0 0 0 200
 	SetFontSize 30
 
@@ -1609,7 +1988,7 @@ Show	#30POXC
 	ItemLevel >= 85
 	Rarity Normal
 	Class "Amulets" "Belts" "Rings"
-	BaseType "Cerulean Ring" "Opal Ring" "Steel Ring" "Vermillion Ring"
+	BaseType "Opal Ring" "Steel Ring" "Vermillion Ring"
 	SetTextColor 240 240 240
 	SetBorderColor 240 240 240
 	SetFontSize 30
@@ -1619,7 +1998,7 @@ Show	#F54Q2T
 	ItemLevel >= 85
 	Rarity Magic
 	Class "Amulets" "Belts" "Rings"
-	BaseType "Cerulean Ring" "Opal Ring" "Steel Ring" "Vermillion Ring"
+	BaseType "Opal Ring" "Steel Ring" "Vermillion Ring"
 	SetTextColor 140 190 255
 	SetBorderColor 140 190 255
 	SetFontSize 30
@@ -1629,7 +2008,7 @@ Hide	#R7NOCM
 	ItemLevel >= 85
 	Rarity Normal
 	Class "Amulets" "Belts" "Rings"
-	BaseType "Diamond Ring" "Prismatic Ring" "Two-Stone Ring"
+	BaseType "Cerulean Ring" "Diamond Ring" "Prismatic Ring" "Two-Stone Ring"
 	SetTextColor 240 240 240
 	SetBorderColor 240 240 240
 	SetFontSize 30
@@ -1639,7 +2018,7 @@ Hide	#XBCWVI
 	ItemLevel >= 85
 	Rarity Magic
 	Class "Amulets" "Belts" "Rings"
-	BaseType "Diamond Ring" "Prismatic Ring" "Two-Stone Ring"
+	BaseType "Cerulean Ring" "Diamond Ring" "Prismatic Ring" "Two-Stone Ring"
 	SetTextColor 140 190 255
 	SetBorderColor 140 190 255
 	SetFontSize 30
@@ -1649,7 +2028,7 @@ Show	#D333RG
 	ItemLevel >= 84
 	Rarity Normal
 	Class "Amulets" "Belts" "Rings"
-	BaseType "Cerulean Ring" "Opal Ring" "Steel Ring" "Vermillion Ring"
+	BaseType "Opal Ring" "Steel Ring" "Vermillion Ring"
 	SetTextColor 240 240 240
 	SetFontSize 30
 
@@ -1658,7 +2037,7 @@ Show	#EWRMRG
 	ItemLevel >= 84
 	Rarity Magic
 	Class "Amulets" "Belts" "Rings"
-	BaseType "Cerulean Ring" "Opal Ring" "Steel Ring" "Vermillion Ring"
+	BaseType "Opal Ring" "Steel Ring" "Vermillion Ring"
 	SetTextColor 140 190 255
 	SetFontSize 30
 
@@ -1667,7 +2046,7 @@ Hide	#RMA3E2
 	ItemLevel >= 84
 	Rarity Normal
 	Class "Amulets" "Belts" "Rings"
-	BaseType "Diamond Ring" "Prismatic Ring" "Two-Stone Ring"
+	BaseType "Cerulean Ring" "Diamond Ring" "Prismatic Ring" "Two-Stone Ring"
 	SetTextColor 240 240 240
 	SetFontSize 30
 
@@ -1676,7 +2055,7 @@ Hide	#A74E5F
 	ItemLevel >= 84
 	Rarity Magic
 	Class "Amulets" "Belts" "Rings"
-	BaseType "Diamond Ring" "Prismatic Ring" "Two-Stone Ring"
+	BaseType "Cerulean Ring" "Diamond Ring" "Prismatic Ring" "Two-Stone Ring"
 	SetTextColor 140 190 255
 	SetFontSize 30
 
@@ -1684,7 +2063,7 @@ Hide	#A74E5F
 Show	#YEXO3G
 	Rarity Normal
 	Class "Amulets" "Belts" "Rings"
-	BaseType "Cerulean Ring" "Opal Ring" "Steel Ring" "Vermillion Ring"
+	BaseType "Opal Ring" "Steel Ring" "Vermillion Ring"
 	SetBorderColor 200 200 200
 	SetFontSize 30
 
@@ -1692,7 +2071,7 @@ Show	#YEXO3G
 Show	#8D8NF1
 	Rarity Magic
 	Class "Amulets" "Belts" "Rings"
-	BaseType "Cerulean Ring" "Opal Ring" "Steel Ring" "Vermillion Ring"
+	BaseType "Opal Ring" "Steel Ring" "Vermillion Ring"
 	SetBorderColor 136 136 255
 	SetFontSize 30
 
@@ -1700,7 +2079,7 @@ Show	#8D8NF1
 Hide	#1CSIYM
 	Rarity Normal
 	Class "Amulets" "Belts" "Rings"
-	BaseType "Diamond Ring" "Prismatic Ring" "Two-Stone Ring"
+	BaseType "Cerulean Ring" "Diamond Ring" "Prismatic Ring" "Two-Stone Ring"
 	SetBorderColor 200 200 200
 	SetFontSize 30
 
@@ -1708,7 +2087,7 @@ Hide	#1CSIYM
 Hide	#Z4WDIP
 	Rarity Magic
 	Class "Amulets" "Belts" "Rings"
-	BaseType "Diamond Ring" "Prismatic Ring" "Two-Stone Ring"
+	BaseType "Cerulean Ring" "Diamond Ring" "Prismatic Ring" "Two-Stone Ring"
 	SetBorderColor 136 136 255
 	SetFontSize 30
 
@@ -1765,10 +2144,10 @@ Hide	#HBEUGZ
 
 #AWUKC6
 Show	#AWUKC6
-	ElderItem True
 	ItemLevel >= 86
 	Rarity Rare
 	BaseType "Astral Plate" "Bone Helmet" "Two-Toned Boots"
+	HasInfluence "Elder"
 	SetTextColor 255 200 0
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -1779,10 +2158,10 @@ Show	#AWUKC6
 
 #6M5CIM
 Show	#6M5CIM
-	ElderItem True
 	ItemLevel >= 86
 	Rarity Rare
 	BaseType "Assassin's Garb" "Astral Plate" "Bone Helmet" "Broadhead Arrow Quiver" "Champion Kite Shield" "Crusader Boots" "Dragonscale Boots" "Eternal Burgonet" "Fossilised Spirit Shield" "Glorious Plate" "Hubris Circlet" "Lion Pelt" "Murder Boots" "Nightmare Bascinet" "Penetrating Arrow Quiver" "Praetor Crown" "Royal Burgonet" "Saintly Chainmail" "Serrated Arrow Quiver" "Slink Boots" "Sorcerer Boots" "Spike-Point Arrow Quiver" "Titan Greaves" "Titanium Spirit Shield" "Triumphant Lamellar" "Two-Point Arrow Quiver" "Two-Toned Boots" "Vaal Regalia"
+	HasInfluence "Elder"
 	SetTextColor 255 200 0
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -1793,10 +2172,10 @@ Show	#6M5CIM
 
 #6M4V84
 Show	#6M4V84
-	ElderItem True
 	ItemLevel >= 85
 	Rarity Rare
 	BaseType "Exquisite Blade" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Vaal Axe"
+	HasInfluence "Elder"
 	SetTextColor 255 200 0
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -1807,10 +2186,10 @@ Show	#6M4V84
 
 #K7T6WO
 Show	#K7T6WO
-	ElderItem True
 	ItemLevel >= 85
 	Rarity Rare
 	BaseType "Ambusher" "Ceremonial Axe" "Convoking Wand" "Coronal Maul" "Courtesan Sword" "Crescent Staff" "Crusader Gloves" "Demon Dagger" "Dragonscale Gauntlets" "Eclipse Staff" "Elegant Foil" "Exquisite Blade" "Eye Gouger" "Fingerless Silk Gloves" "Fleshripper" "Fright Claw" "Gemini Claw" "Gripped Gloves" "Grove Bow" "Harbinger Bow" "Harpy Rapier" "Horned Sceptre" "Imp Dagger" "Imperial Bow" "Imperial Claw" "Jewelled Foil" "Kris" "Lithe Blade" "Maraketh Bow" "Moon Staff" "Murder Mitts" "Opal Sceptre" "Opal Wand" "Pecoraro" "Profane Wand" "Prophecy Wand" "Sambar Sceptre" "Siege Axe" "Slink Gloves" "Sorcerer Gloves" "Spiked Gloves" "Spiraled Foil" "Talon Axe" "Terror Maul" "Thicket Bow" "Thorn Rapier" "Thresher Claw" "Tiger Hook" "Tiger Sword" "Titan Gauntlets" "Totemic Maul" "Vaal Axe" "Void Sceptre" "War Axe"
+	HasInfluence "Elder"
 	SetTextColor 255 200 0
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -1821,10 +2200,10 @@ Show	#K7T6WO
 
 #GS9CZK
 Show	#GS9CZK
-	ElderItem True
 	ItemLevel >= 85
 	Rarity Rare
 	BaseType "Bone Helmet"
+	HasInfluence "Elder"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -1835,10 +2214,10 @@ Show	#GS9CZK
 
 #9HS9OQ
 Show	#9HS9OQ
-	ElderItem True
 	ItemLevel >= 85
 	Rarity Rare
 	BaseType "Bone Helmet" "Broadhead Arrow Quiver" "Eternal Burgonet" "Hubris Circlet" "Lion Pelt" "Nightmare Bascinet" "Penetrating Arrow Quiver" "Praetor Crown" "Royal Burgonet" "Serrated Arrow Quiver" "Spike-Point Arrow Quiver" "Two-Point Arrow Quiver"
+	HasInfluence "Elder"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -1849,10 +2228,10 @@ Show	#9HS9OQ
 
 #RZ5PSJ
 Show	#RZ5PSJ
-	ElderItem True
 	ItemLevel >= 84
 	Rarity Rare
 	BaseType "Astral Plate" "Exquisite Blade" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Vaal Axe"
+	HasInfluence "Elder"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -1863,10 +2242,10 @@ Show	#RZ5PSJ
 
 #ZJ7OVW
 Show	#ZJ7OVW
-	ElderItem True
 	ItemLevel >= 84
 	Rarity Rare
 	BaseType "Ambusher" "Assassin's Garb" "Astral Plate" "Champion Kite Shield" "Convoking Wand" "Coronal Maul" "Crescent Staff" "Crusader Boots" "Crusader Gloves" "Demon Dagger" "Dragonscale Boots" "Dragonscale Gauntlets" "Eclipse Staff" "Exquisite Blade" "Fingerless Silk Gloves" "Fleshripper" "Fossilised Spirit Shield" "Glorious Plate" "Gripped Gloves" "Grove Bow" "Harbinger Bow" "Horned Sceptre" "Imp Dagger" "Imperial Bow" "Kris" "Lithe Blade" "Maraketh Bow" "Moon Staff" "Murder Boots" "Murder Mitts" "Opal Sceptre" "Opal Wand" "Profane Wand" "Prophecy Wand" "Saintly Chainmail" "Sambar Sceptre" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Gloves" "Talon Axe" "Terror Maul" "Thicket Bow" "Tiger Sword" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Totemic Maul" "Triumphant Lamellar" "Two-Toned Boots" "Vaal Axe" "Vaal Regalia" "Void Sceptre"
+	HasInfluence "Elder"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -1877,10 +2256,10 @@ Show	#ZJ7OVW
 
 #TNFF5E
 Show	#TNFF5E
-	ElderItem True
 	ItemLevel >= 84
 	Rarity Rare
 	BaseType "Bone Helmet"
+	HasInfluence "Elder"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 238 234 219
@@ -1891,10 +2270,10 @@ Show	#TNFF5E
 
 #T4OE21
 Show	#T4OE21
-	ElderItem True
 	ItemLevel >= 84
 	Rarity Rare
 	BaseType "Bone Helmet" "Eternal Burgonet" "Hubris Circlet" "Lion Pelt" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet"
+	HasInfluence "Elder"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 238 234 219
@@ -1905,10 +2284,10 @@ Show	#T4OE21
 
 #7JKOGR
 Show	#7JKOGR
-	ElderItem True
 	ItemLevel >= 83
 	Rarity Rare
 	BaseType "Broadhead Arrow Quiver" "Ceremonial Axe" "Courtesan Sword" "Elegant Foil" "Eye Gouger" "Fright Claw" "Gemini Claw" "Harpy Rapier" "Imperial Claw" "Jewelled Foil" "Pecoraro" "Penetrating Arrow Quiver" "Serrated Arrow Quiver" "Siege Axe" "Spike-Point Arrow Quiver" "Spiraled Foil" "Thorn Rapier" "Thresher Claw" "Tiger Hook" "Two-Point Arrow Quiver" "War Axe"
+	HasInfluence "Elder"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -1919,10 +2298,10 @@ Show	#7JKOGR
 
 #W90FYG
 Show	#W90FYG
-	ElderItem True
 	ItemLevel >= 83
 	Rarity Rare
 	BaseType "Exquisite Blade" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Vaal Axe"
+	HasInfluence "Elder"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -1933,10 +2312,10 @@ Show	#W90FYG
 
 #KJQY3U
 Show	#KJQY3U
-	ElderItem True
 	ItemLevel >= 82
 	Rarity Rare
 	BaseType "Exquisite Blade" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves" "Vaal Axe"
+	HasInfluence "Elder"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -1947,9 +2326,9 @@ Show	#KJQY3U
 
 #RGGF5U
 Show	#RGGF5U
-	ElderItem True
 	Rarity Rare
 	BaseType "Fingerless Silk Gloves" "Spiked Gloves"
+	HasInfluence "Elder"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 255 119
@@ -1960,9 +2339,9 @@ Show	#RGGF5U
 
 #UO2SKQ
 Show	#UO2SKQ
-	ElderItem True
 	Rarity Rare
 	BaseType "Ambusher" "Assassin's Garb" "Astral Plate" "Bone Helmet" "Broadhead Arrow Quiver" "Ceremonial Axe" "Champion Kite Shield" "Convoking Wand" "Coronal Maul" "Courtesan Sword" "Crescent Staff" "Crusader Boots" "Crusader Gloves" "Demon Dagger" "Dragonscale Boots" "Dragonscale Gauntlets" "Eclipse Staff" "Elegant Foil" "Eternal Burgonet" "Exquisite Blade" "Eye Gouger" "Fingerless Silk Gloves" "Fleshripper" "Fossilised Spirit Shield" "Fright Claw" "Gavel" "Gemini Claw" "Glorious Plate" "Gripped Gloves" "Grove Bow" "Harbinger Bow" "Harpy Rapier" "Horned Sceptre" "Hubris Circlet" "Imp Dagger" "Imperial Bow" "Imperial Claw" "Jewelled Foil" "Kris" "Lion Pelt" "Lithe Blade" "Maraketh Bow" "Moon Staff" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Opal Sceptre" "Opal Wand" "Pecoraro" "Penetrating Arrow Quiver" "Praetor Crown" "Profane Wand" "Prophecy Wand" "Royal Burgonet" "Saintly Chainmail" "Sambar Sceptre" "Serrated Arrow Quiver" "Siege Axe" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spike-Point Arrow Quiver" "Spiked Gloves" "Spiraled Foil" "Talon Axe" "Terror Maul" "Thicket Bow" "Thorn Rapier" "Thresher Claw" "Tiger Hook" "Tiger Sword" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Totemic Maul" "Triumphant Lamellar" "Two-Point Arrow Quiver" "Two-Toned Boots" "Vaal Axe" "Vaal Regalia" "Void Sceptre" "War Axe"
+	HasInfluence "Elder"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 255 119
@@ -1973,10 +2352,10 @@ Show	#UO2SKQ
 
 #U349KB
 Show	#U349KB
-	ElderItem True
 	ItemLevel >= 86
 	Rarity Rare
 	BaseType "Crystal Belt" "Marble Amulet" "Stygian Vise"
+	HasInfluence "Elder"
 	SetTextColor 255 200 0
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -1987,10 +2366,10 @@ Show	#U349KB
 
 #7XH8P4
 Show	#7XH8P4
-	ElderItem True
 	ItemLevel >= 86
 	Rarity Rare
 	BaseType "Agate Amulet" "Citrine Amulet" "Crystal Belt" "Leather Belt" "Marble Amulet" "Onyx Amulet" "Rustic Sash" "Stygian Vise" "Turquoise Amulet"
+	HasInfluence "Elder"
 	SetTextColor 255 200 0
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2001,10 +2380,10 @@ Show	#7XH8P4
 
 #0DVH1Z
 Show	#0DVH1Z
-	ElderItem True
 	ItemLevel >= 86
 	Rarity Rare
 	Class "Amulets" "Belts"
+	HasInfluence "Elder"
 	SetTextColor 255 200 0
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2015,10 +2394,10 @@ Show	#0DVH1Z
 
 #WCB9SQ
 Show	#WCB9SQ
-	ElderItem True
 	ItemLevel >= 85
 	Rarity Rare
 	BaseType "Crystal Belt" "Marble Amulet" "Onyx Amulet"
+	HasInfluence "Elder"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2029,10 +2408,10 @@ Show	#WCB9SQ
 
 #AUFFEU
 Show	#AUFFEU
-	ElderItem True
 	ItemLevel >= 85
 	Rarity Rare
 	BaseType "Agate Amulet" "Citrine Amulet" "Crystal Belt" "Leather Belt" "Marble Amulet" "Onyx Amulet" "Rustic Sash" "Stygian Vise" "Turquoise Amulet"
+	HasInfluence "Elder"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2043,10 +2422,10 @@ Show	#AUFFEU
 
 #8KIUX5
 Show	#8KIUX5
-	ElderItem True
 	ItemLevel >= 85
 	Rarity Rare
 	Class "Amulets" "Belts"
+	HasInfluence "Elder"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2057,9 +2436,9 @@ Show	#8KIUX5
 
 #VVXLGG
 Show	#VVXLGG
-	ElderItem True
 	Rarity Rare
 	BaseType "Crystal Belt" "Marble Amulet" "Onyx Amulet"
+	HasInfluence "Elder"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 255 119
@@ -2070,9 +2449,9 @@ Show	#VVXLGG
 
 #UTBKN4
 Show	#UTBKN4
-	ElderItem True
 	Rarity Rare
 	BaseType "Agate Amulet" "Citrine Amulet" "Crystal Belt" "Leather Belt" "Marble Amulet" "Onyx Amulet" "Rustic Sash" "Stygian Vise" "Turquoise Amulet"
+	HasInfluence "Elder"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 255 119
@@ -2083,9 +2462,9 @@ Show	#UTBKN4
 
 #8X8KNL
 Show	#8X8KNL
-	ElderItem True
 	Rarity Rare
 	Class "Amulets" "Belts"
+	HasInfluence "Elder"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 255 119
@@ -2096,10 +2475,10 @@ Show	#8X8KNL
 
 #UBSCMQ
 Show	#UBSCMQ
-	ElderItem True
 	ItemLevel >= 84
 	Rarity Rare
-	BaseType "Opal Ring" "Prismatic Ring" "Steel Ring"
+	BaseType "Opal Ring" "Prismatic Ring" "Steel Ring" "Vermillion Ring"
+	HasInfluence "Elder"
 	SetTextColor 255 200 0
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2110,10 +2489,10 @@ Show	#UBSCMQ
 
 #OPM8Z1
 Show	#OPM8Z1
-	ElderItem True
 	ItemLevel >= 84
 	Rarity Rare
-	BaseType "Diamond Ring" "Opal Ring" "Prismatic Ring" "Two-Stone Ring" "Unset Ring"
+	BaseType "Cerulean Ring" "Diamond Ring" "Opal Ring" "Prismatic Ring" "Two-Stone Ring" "Unset Ring" "Vermillion Ring"
+	HasInfluence "Elder"
 	SetTextColor 255 200 0
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2124,10 +2503,10 @@ Show	#OPM8Z1
 
 #4RVP8Y
 Show	#4RVP8Y
-	ElderItem True
 	ItemLevel >= 84
 	Rarity Rare
 	Class "Rings"
+	HasInfluence "Elder"
 	SetTextColor 255 200 0
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2138,10 +2517,10 @@ Show	#4RVP8Y
 
 #33VWU3
 Show	#33VWU3
-	ElderItem True
 	ItemLevel >= 83
 	Rarity Rare
-	BaseType "Opal Ring" "Prismatic Ring" "Steel Ring"
+	BaseType "Opal Ring" "Prismatic Ring" "Steel Ring" "Vermillion Ring"
+	HasInfluence "Elder"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2152,10 +2531,10 @@ Show	#33VWU3
 
 #65OZG7
 Show	#65OZG7
-	ElderItem True
 	ItemLevel >= 83
 	Rarity Rare
-	BaseType "Diamond Ring" "Opal Ring" "Prismatic Ring" "Two-Stone Ring" "Unset Ring"
+	BaseType "Cerulean Ring" "Diamond Ring" "Opal Ring" "Prismatic Ring" "Two-Stone Ring" "Unset Ring" "Vermillion Ring"
+	HasInfluence "Elder"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2166,10 +2545,10 @@ Show	#65OZG7
 
 #7TLWTD
 Show	#7TLWTD
-	ElderItem True
 	ItemLevel >= 83
 	Rarity Rare
 	Class "Rings"
+	HasInfluence "Elder"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2180,9 +2559,9 @@ Show	#7TLWTD
 
 #WVNWAU
 Show	#WVNWAU
-	ElderItem True
 	Rarity Rare
-	BaseType "Opal Ring" "Prismatic Ring" "Steel Ring"
+	BaseType "Opal Ring" "Prismatic Ring" "Steel Ring" "Vermillion Ring"
+	HasInfluence "Elder"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 255 119
@@ -2193,9 +2572,9 @@ Show	#WVNWAU
 
 #JGOSDX
 Show	#JGOSDX
-	ElderItem True
 	Rarity Rare
-	BaseType "Diamond Ring" "Opal Ring" "Prismatic Ring" "Two-Stone Ring" "Unset Ring"
+	BaseType "Cerulean Ring" "Diamond Ring" "Opal Ring" "Prismatic Ring" "Two-Stone Ring" "Unset Ring" "Vermillion Ring"
+	HasInfluence "Elder"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 255 119
@@ -2206,9 +2585,9 @@ Show	#JGOSDX
 
 #EVB9K5
 Show	#EVB9K5
-	ElderItem True
 	Rarity Rare
 	Class "Rings"
+	HasInfluence "Elder"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 255 119
@@ -2219,8 +2598,8 @@ Show	#EVB9K5
 
 #U52FCR
 Show	#U52FCR
-	ElderItem True
 	Rarity Rare
+	HasInfluence "Elder"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0
 	SetBorderColor 255 255 119
@@ -2234,15 +2613,379 @@ Show	#U52FCR
 
 
 ###############################################################################
-# Section: ### Shaper (Rare) [EAPPT6] #########################################
+# Section: ### Shaper (Rare) [64FVS9] #########################################
+###############################################################################
+
+#PFF57T
+Show	#PFF57T
+	ItemLevel >= 86
+	Rarity Rare
+	BaseType "Astral Plate" "Titanium Spirit Shield" "Two-Toned Boots" "Vaal Regalia"
+	HasInfluence "Shaper"
+	SetTextColor 255 200 0
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 255 200 0
+	SetFontSize 42
+	PlayAlertSound 10 300
+	MinimapIcon 0 White Star
+	PlayEffect White
+
+#C2E46M
+Show	#C2E46M
+	ItemLevel >= 86
+	Rarity Rare
+	BaseType "Assassin's Garb" "Astral Plate" "Bone Helmet" "Broadhead Arrow Quiver" "Champion Kite Shield" "Crusader Boots" "Dragonscale Boots" "Eternal Burgonet" "Fossilised Spirit Shield" "Glorious Plate" "Hubris Circlet" "Lion Pelt" "Murder Boots" "Nightmare Bascinet" "Penetrating Arrow Quiver" "Praetor Crown" "Royal Burgonet" "Saintly Chainmail" "Serrated Arrow Quiver" "Slink Boots" "Sorcerer Boots" "Spike-Point Arrow Quiver" "Titan Greaves" "Titanium Spirit Shield" "Triumphant Lamellar" "Two-Point Arrow Quiver" "Two-Toned Boots" "Vaal Regalia"
+	HasInfluence "Shaper"
+	SetTextColor 255 200 0
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 255 200 0
+	SetFontSize 42
+	PlayAlertSound 10 200
+	MinimapIcon 0 White Star
+	PlayEffect White
+
+#ZPT0NQ
+Show	#ZPT0NQ
+	ItemLevel >= 85
+	Rarity Rare
+	BaseType "Eclipse Staff" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves"
+	HasInfluence "Shaper"
+	SetTextColor 255 200 0
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 255 200 0
+	SetFontSize 42
+	PlayAlertSound 10 300
+	MinimapIcon 0 White Star
+	PlayEffect White
+
+#DGF134
+Show	#DGF134
+	ItemLevel >= 85
+	Rarity Rare
+	BaseType "Ambusher" "Ceremonial Axe" "Convoking Wand" "Coronal Maul" "Courtesan Sword" "Crescent Staff" "Crusader Gloves" "Demon Dagger" "Dragonscale Gauntlets" "Eclipse Staff" "Elegant Foil" "Exquisite Blade" "Eye Gouger" "Fingerless Silk Gloves" "Fleshripper" "Fright Claw" "Gemini Claw" "Gripped Gloves" "Grove Bow" "Harbinger Bow" "Harpy Rapier" "Horned Sceptre" "Imp Dagger" "Imperial Bow" "Imperial Claw" "Jewelled Foil" "Kris" "Lithe Blade" "Maraketh Bow" "Moon Staff" "Murder Mitts" "Opal Sceptre" "Opal Wand" "Pecoraro" "Profane Wand" "Prophecy Wand" "Sambar Sceptre" "Siege Axe" "Slink Gloves" "Sorcerer Gloves" "Spiked Gloves" "Spiraled Foil" "Talon Axe" "Terror Maul" "Thicket Bow" "Thorn Rapier" "Thresher Claw" "Tiger Hook" "Tiger Sword" "Titan Gauntlets" "Totemic Maul" "Vaal Axe" "Void Sceptre" "War Axe"
+	HasInfluence "Shaper"
+	SetTextColor 255 200 0
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 255 200 0
+	SetFontSize 42
+	PlayAlertSound 10 200
+	MinimapIcon 0 White Star
+	PlayEffect White
+
+#TG5DFH
+Show	#TG5DFH
+	ItemLevel >= 85
+	Rarity Rare
+	BaseType "Bone Helmet" "Broadhead Arrow Quiver" "Eternal Burgonet" "Hubris Circlet" "Lion Pelt" "Nightmare Bascinet" "Penetrating Arrow Quiver" "Praetor Crown" "Royal Burgonet" "Serrated Arrow Quiver" "Spike-Point Arrow Quiver" "Two-Point Arrow Quiver"
+	HasInfluence "Shaper"
+	SetTextColor 255 255 119
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 255 200 0
+	SetFontSize 39
+	PlayAlertSound 10 100
+	MinimapIcon 1 White Star
+	PlayEffect White
+
+#HE0LCF
+Show	#HE0LCF
+	ItemLevel >= 84
+	Rarity Rare
+	BaseType "Ambusher" "Assassin's Garb" "Astral Plate" "Champion Kite Shield" "Convoking Wand" "Coronal Maul" "Crescent Staff" "Crusader Boots" "Crusader Gloves" "Demon Dagger" "Dragonscale Boots" "Dragonscale Gauntlets" "Eclipse Staff" "Exquisite Blade" "Fingerless Silk Gloves" "Fleshripper" "Fossilised Spirit Shield" "Glorious Plate" "Gripped Gloves" "Grove Bow" "Harbinger Bow" "Horned Sceptre" "Imp Dagger" "Imperial Bow" "Kris" "Lithe Blade" "Maraketh Bow" "Moon Staff" "Murder Boots" "Murder Mitts" "Opal Sceptre" "Opal Wand" "Profane Wand" "Prophecy Wand" "Saintly Chainmail" "Sambar Sceptre" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Gloves" "Talon Axe" "Terror Maul" "Thicket Bow" "Tiger Sword" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Totemic Maul" "Triumphant Lamellar" "Two-Toned Boots" "Vaal Axe" "Vaal Regalia" "Void Sceptre"
+	HasInfluence "Shaper"
+	SetTextColor 255 255 119
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 255 200 0
+	SetFontSize 39
+	PlayAlertSound 10 100
+	MinimapIcon 1 White Star
+	PlayEffect White
+
+#7SODV1
+Show	#7SODV1
+	ItemLevel >= 84
+	Rarity Rare
+	BaseType "Bone Helmet" "Eternal Burgonet" "Hubris Circlet" "Lion Pelt" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet"
+	HasInfluence "Shaper"
+	SetTextColor 255 255 119
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 238 234 219
+	SetFontSize 36
+	PlayAlertSound 10 100
+	MinimapIcon 2 White Star
+	PlayEffect White
+
+#T8PJRA
+Show	#T8PJRA
+	ItemLevel >= 83
+	Rarity Rare
+	BaseType "Broadhead Arrow Quiver" "Ceremonial Axe" "Courtesan Sword" "Elegant Foil" "Eye Gouger" "Fright Claw" "Gemini Claw" "Harpy Rapier" "Imperial Claw" "Jewelled Foil" "Pecoraro" "Penetrating Arrow Quiver" "Serrated Arrow Quiver" "Siege Axe" "Spike-Point Arrow Quiver" "Spiraled Foil" "Thorn Rapier" "Thresher Claw" "Tiger Hook" "Two-Point Arrow Quiver" "War Axe"
+	HasInfluence "Shaper"
+	SetTextColor 255 255 119
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 255 200 0
+	SetFontSize 39
+	PlayAlertSound 10 100
+	MinimapIcon 2 White Star
+	PlayEffect White
+
+#C1B37G
+Show	#C1B37G
+	Rarity Rare
+	BaseType "Ambusher" "Assassin's Garb" "Astral Plate" "Bone Helmet" "Broadhead Arrow Quiver" "Ceremonial Axe" "Champion Kite Shield" "Convoking Wand" "Coronal Maul" "Courtesan Sword" "Crescent Staff" "Crusader Boots" "Crusader Gloves" "Demon Dagger" "Dragonscale Boots" "Dragonscale Gauntlets" "Eclipse Staff" "Elegant Foil" "Eternal Burgonet" "Exquisite Blade" "Eye Gouger" "Fingerless Silk Gloves" "Fleshripper" "Fossilised Spirit Shield" "Fright Claw" "Gavel" "Gemini Claw" "Glorious Plate" "Gripped Gloves" "Grove Bow" "Harbinger Bow" "Harpy Rapier" "Horned Sceptre" "Hubris Circlet" "Imp Dagger" "Imperial Bow" "Imperial Claw" "Jewelled Foil" "Kris" "Lion Pelt" "Lithe Blade" "Maraketh Bow" "Moon Staff" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Opal Sceptre" "Opal Wand" "Pecoraro" "Penetrating Arrow Quiver" "Praetor Crown" "Profane Wand" "Prophecy Wand" "Royal Burgonet" "Saintly Chainmail" "Sambar Sceptre" "Serrated Arrow Quiver" "Siege Axe" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spike-Point Arrow Quiver" "Spiked Gloves" "Spiraled Foil" "Talon Axe" "Terror Maul" "Thicket Bow" "Thorn Rapier" "Thresher Claw" "Tiger Hook" "Tiger Sword" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Totemic Maul" "Triumphant Lamellar" "Two-Point Arrow Quiver" "Two-Toned Boots" "Vaal Axe" "Vaal Regalia" "Void Sceptre" "War Axe"
+	HasInfluence "Shaper"
+	SetTextColor 255 255 119
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 255 255 119
+	SetFontSize 36
+	PlayAlertSound 10 75
+	MinimapIcon 2 White Star
+	PlayEffect White
+
+#4YK755
+Show	#4YK755
+	ItemLevel >= 86
+	Rarity Rare
+	BaseType "Crystal Belt" "Stygian Vise"
+	HasInfluence "Shaper"
+	SetTextColor 255 200 0
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 255 200 0
+	SetFontSize 42
+	PlayAlertSound 10 300
+	MinimapIcon 0 White Star
+	PlayEffect White
+
+#RL7TAH
+Show	#RL7TAH
+	ItemLevel >= 86
+	Rarity Rare
+	BaseType "Agate Amulet" "Citrine Amulet" "Crystal Belt" "Leather Belt" "Onyx Amulet" "Rustic Sash" "Stygian Vise" "Turquoise Amulet"
+	HasInfluence "Shaper"
+	SetTextColor 255 200 0
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 255 200 0
+	SetFontSize 42
+	PlayAlertSound 10 200
+	MinimapIcon 0 White Star
+	PlayEffect White
+
+#XIWHDZ
+Show	#XIWHDZ
+	ItemLevel >= 86
+	Rarity Rare
+	Class "Amulets" "Belts"
+	HasInfluence "Shaper"
+	SetTextColor 255 200 0
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 255 200 0
+	SetFontSize 42
+	PlayAlertSound 10 100
+	MinimapIcon 0 White Star
+	PlayEffect White
+
+#S8OC1J
+Show	#S8OC1J
+	ItemLevel >= 85
+	Rarity Rare
+	BaseType "Agate Amulet" "Citrine Amulet" "Crystal Belt" "Leather Belt" "Onyx Amulet" "Rustic Sash" "Stygian Vise" "Turquoise Amulet"
+	HasInfluence "Shaper"
+	SetTextColor 255 255 119
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 255 200 0
+	SetFontSize 39
+	PlayAlertSound 10 200
+	MinimapIcon 1 White Star
+	PlayEffect White
+
+#JJYYJD
+Show	#JJYYJD
+	ItemLevel >= 85
+	Rarity Rare
+	Class "Amulets" "Belts"
+	HasInfluence "Shaper"
+	SetTextColor 255 255 119
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 255 200 0
+	SetFontSize 39
+	PlayAlertSound 10 100
+	MinimapIcon 1 White Star
+	PlayEffect White
+
+#B9YT2S
+Show	#B9YT2S
+	Rarity Rare
+	BaseType "Agate Amulet" "Citrine Amulet" "Crystal Belt" "Leather Belt" "Onyx Amulet" "Rustic Sash" "Stygian Vise" "Turquoise Amulet"
+	HasInfluence "Shaper"
+	SetTextColor 255 255 119
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 255 255 119
+	SetFontSize 36
+	PlayAlertSound 10 75
+	MinimapIcon 2 White Star
+	PlayEffect White
+
+#9C8HFN
+Show	#9C8HFN
+	Rarity Rare
+	Class "Amulets" "Belts"
+	HasInfluence "Shaper"
+	SetTextColor 255 255 119
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 255 255 119
+	SetFontSize 36
+	PlayAlertSound 10 75
+	MinimapIcon 2 White Star
+	PlayEffect White
+
+#E7HZ8D
+Show	#E7HZ8D
+	ItemLevel >= 84
+	Rarity Rare
+	BaseType "Opal Ring" "Prismatic Ring" "Vermillion Ring"
+	HasInfluence "Shaper"
+	SetTextColor 255 200 0
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 255 200 0
+	SetFontSize 42
+	PlayAlertSound 10 300
+	MinimapIcon 0 White Star
+	PlayEffect White
+
+#RCDK26
+Show	#RCDK26
+	ItemLevel >= 84
+	Rarity Rare
+	BaseType "Cerulean Ring" "Diamond Ring" "Opal Ring" "Prismatic Ring" "Two-Stone Ring" "Unset Ring" "Vermillion Ring"
+	HasInfluence "Shaper"
+	SetTextColor 255 200 0
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 255 200 0
+	SetFontSize 42
+	PlayAlertSound 10 200
+	MinimapIcon 0 White Star
+	PlayEffect White
+
+#56AW0I
+Show	#56AW0I
+	ItemLevel >= 84
+	Rarity Rare
+	Class "Rings"
+	HasInfluence "Shaper"
+	SetTextColor 255 200 0
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 255 200 0
+	SetFontSize 42
+	PlayAlertSound 10 100
+	MinimapIcon 0 White Star
+	PlayEffect White
+
+#I5RM7L
+Show	#I5RM7L
+	ItemLevel >= 83
+	Rarity Rare
+	BaseType "Opal Ring" "Prismatic Ring" "Vermillion Ring"
+	HasInfluence "Shaper"
+	SetTextColor 255 255 119
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 255 200 0
+	SetFontSize 39
+	PlayAlertSound 10 300
+	MinimapIcon 0 White Star
+	PlayEffect White
+
+#U0197H
+Show	#U0197H
+	ItemLevel >= 83
+	Rarity Rare
+	BaseType "Cerulean Ring" "Diamond Ring" "Opal Ring" "Prismatic Ring" "Two-Stone Ring" "Unset Ring" "Vermillion Ring"
+	HasInfluence "Shaper"
+	SetTextColor 255 255 119
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 255 200 0
+	SetFontSize 39
+	PlayAlertSound 10 200
+	MinimapIcon 1 White Star
+	PlayEffect White
+
+#BILJ89
+Show	#BILJ89
+	ItemLevel >= 83
+	Rarity Rare
+	Class "Rings"
+	HasInfluence "Shaper"
+	SetTextColor 255 255 119
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 255 200 0
+	SetFontSize 39
+	PlayAlertSound 10 100
+	MinimapIcon 1 White Star
+	PlayEffect White
+
+#8SJCUR
+Show	#8SJCUR
+	Rarity Rare
+	BaseType "Opal Ring" "Prismatic Ring" "Vermillion Ring"
+	HasInfluence "Shaper"
+	SetTextColor 255 255 119
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 255 255 119
+	SetFontSize 36
+	PlayAlertSound 10 300
+	MinimapIcon 0 White Star
+	PlayEffect White
+
+#QIKWKZ
+Show	#QIKWKZ
+	Rarity Rare
+	BaseType "Cerulean Ring" "Diamond Ring" "Opal Ring" "Prismatic Ring" "Two-Stone Ring" "Unset Ring" "Vermillion Ring"
+	HasInfluence "Shaper"
+	SetTextColor 255 255 119
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 255 255 119
+	SetFontSize 36
+	PlayAlertSound 10 75
+	MinimapIcon 2 White Star
+	PlayEffect White
+
+#Y2N284
+Show	#Y2N284
+	Rarity Rare
+	Class "Rings"
+	HasInfluence "Shaper"
+	SetTextColor 255 255 119
+	SetBackgroundColor 0 0 0 255
+	SetBorderColor 255 255 119
+	SetFontSize 36
+	PlayAlertSound 10 75
+	MinimapIcon 2 White Star
+	PlayEffect White
+
+#C40MT1
+Show	#C40MT1
+	Rarity Rare
+	HasInfluence "Shaper"
+	SetTextColor 255 255 119
+	SetBackgroundColor 0 0 0
+	SetBorderColor 255 255 119
+	SetFontSize 36
+	MinimapIcon 2 White Star
+	PlayEffect White Temp
+
+### /Shaper (Rare) ############################################################
+###############################################################################
+
+
+
+###############################################################################
+# Section: ### Crusader Redeemer Hunter Warlord (Rare) [EAPPT6] ###############
 ###############################################################################
 
 #9WJ1YZ
 Show	#9WJ1YZ
-	ShaperItem True
 	ItemLevel >= 86
 	Rarity Rare
 	BaseType "Astral Plate" "Titanium Spirit Shield" "Two-Toned Boots" "Vaal Regalia"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 200 0
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2253,10 +2996,10 @@ Show	#9WJ1YZ
 
 #NXAEV7
 Show	#NXAEV7
-	ShaperItem True
 	ItemLevel >= 86
 	Rarity Rare
 	BaseType "Assassin's Garb" "Astral Plate" "Bone Helmet" "Broadhead Arrow Quiver" "Champion Kite Shield" "Crusader Boots" "Dragonscale Boots" "Eternal Burgonet" "Fossilised Spirit Shield" "Glorious Plate" "Hubris Circlet" "Lion Pelt" "Murder Boots" "Nightmare Bascinet" "Penetrating Arrow Quiver" "Praetor Crown" "Royal Burgonet" "Saintly Chainmail" "Serrated Arrow Quiver" "Slink Boots" "Sorcerer Boots" "Spike-Point Arrow Quiver" "Titan Greaves" "Titanium Spirit Shield" "Triumphant Lamellar" "Two-Point Arrow Quiver" "Two-Toned Boots" "Vaal Regalia"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 200 0
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2267,10 +3010,10 @@ Show	#NXAEV7
 
 #33WUAS
 Show	#33WUAS
-	ShaperItem True
 	ItemLevel >= 85
 	Rarity Rare
 	BaseType "Eclipse Staff" "Fingerless Silk Gloves" "Gripped Gloves" "Spiked Gloves"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 200 0
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2281,10 +3024,10 @@ Show	#33WUAS
 
 #5I4MO2
 Show	#5I4MO2
-	ShaperItem True
 	ItemLevel >= 85
 	Rarity Rare
 	BaseType "Ambusher" "Ceremonial Axe" "Convoking Wand" "Coronal Maul" "Courtesan Sword" "Crescent Staff" "Crusader Gloves" "Demon Dagger" "Dragonscale Gauntlets" "Eclipse Staff" "Elegant Foil" "Exquisite Blade" "Eye Gouger" "Fingerless Silk Gloves" "Fleshripper" "Fright Claw" "Gemini Claw" "Gripped Gloves" "Grove Bow" "Harbinger Bow" "Harpy Rapier" "Horned Sceptre" "Imp Dagger" "Imperial Bow" "Imperial Claw" "Jewelled Foil" "Kris" "Lithe Blade" "Maraketh Bow" "Moon Staff" "Murder Mitts" "Opal Sceptre" "Opal Wand" "Pecoraro" "Profane Wand" "Prophecy Wand" "Sambar Sceptre" "Siege Axe" "Slink Gloves" "Sorcerer Gloves" "Spiked Gloves" "Spiraled Foil" "Talon Axe" "Terror Maul" "Thicket Bow" "Thorn Rapier" "Thresher Claw" "Tiger Hook" "Tiger Sword" "Titan Gauntlets" "Totemic Maul" "Vaal Axe" "Void Sceptre" "War Axe"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 200 0
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2295,10 +3038,10 @@ Show	#5I4MO2
 
 #O9E9GZ
 Show	#O9E9GZ
-	ShaperItem True
 	ItemLevel >= 85
 	Rarity Rare
 	BaseType "Bone Helmet" "Broadhead Arrow Quiver" "Eternal Burgonet" "Hubris Circlet" "Lion Pelt" "Nightmare Bascinet" "Penetrating Arrow Quiver" "Praetor Crown" "Royal Burgonet" "Serrated Arrow Quiver" "Spike-Point Arrow Quiver" "Two-Point Arrow Quiver"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2309,10 +3052,10 @@ Show	#O9E9GZ
 
 #GAS7AS
 Show	#GAS7AS
-	ShaperItem True
 	ItemLevel >= 84
 	Rarity Rare
 	BaseType "Ambusher" "Assassin's Garb" "Astral Plate" "Champion Kite Shield" "Convoking Wand" "Coronal Maul" "Crescent Staff" "Crusader Boots" "Crusader Gloves" "Demon Dagger" "Dragonscale Boots" "Dragonscale Gauntlets" "Eclipse Staff" "Exquisite Blade" "Fingerless Silk Gloves" "Fleshripper" "Fossilised Spirit Shield" "Glorious Plate" "Gripped Gloves" "Grove Bow" "Harbinger Bow" "Horned Sceptre" "Imp Dagger" "Imperial Bow" "Kris" "Lithe Blade" "Maraketh Bow" "Moon Staff" "Murder Boots" "Murder Mitts" "Opal Sceptre" "Opal Wand" "Profane Wand" "Prophecy Wand" "Saintly Chainmail" "Sambar Sceptre" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Gloves" "Talon Axe" "Terror Maul" "Thicket Bow" "Tiger Sword" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Totemic Maul" "Triumphant Lamellar" "Two-Toned Boots" "Vaal Axe" "Vaal Regalia" "Void Sceptre"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2323,10 +3066,10 @@ Show	#GAS7AS
 
 #6X2WV3
 Show	#6X2WV3
-	ShaperItem True
 	ItemLevel >= 84
 	Rarity Rare
 	BaseType "Bone Helmet" "Eternal Burgonet" "Hubris Circlet" "Lion Pelt" "Nightmare Bascinet" "Praetor Crown" "Royal Burgonet"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 238 234 219
@@ -2337,10 +3080,10 @@ Show	#6X2WV3
 
 #IXCAQ4
 Show	#IXCAQ4
-	ShaperItem True
 	ItemLevel >= 83
 	Rarity Rare
 	BaseType "Broadhead Arrow Quiver" "Ceremonial Axe" "Courtesan Sword" "Elegant Foil" "Eye Gouger" "Fright Claw" "Gemini Claw" "Harpy Rapier" "Imperial Claw" "Jewelled Foil" "Pecoraro" "Penetrating Arrow Quiver" "Serrated Arrow Quiver" "Siege Axe" "Spike-Point Arrow Quiver" "Spiraled Foil" "Thorn Rapier" "Thresher Claw" "Tiger Hook" "Two-Point Arrow Quiver" "War Axe"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2351,9 +3094,9 @@ Show	#IXCAQ4
 
 #ND9S6G
 Show	#ND9S6G
-	ShaperItem True
 	Rarity Rare
 	BaseType "Ambusher" "Assassin's Garb" "Astral Plate" "Bone Helmet" "Broadhead Arrow Quiver" "Ceremonial Axe" "Champion Kite Shield" "Convoking Wand" "Coronal Maul" "Courtesan Sword" "Crescent Staff" "Crusader Boots" "Crusader Gloves" "Demon Dagger" "Dragonscale Boots" "Dragonscale Gauntlets" "Eclipse Staff" "Elegant Foil" "Eternal Burgonet" "Exquisite Blade" "Eye Gouger" "Fingerless Silk Gloves" "Fleshripper" "Fossilised Spirit Shield" "Fright Claw" "Gavel" "Gemini Claw" "Glorious Plate" "Gripped Gloves" "Grove Bow" "Harbinger Bow" "Harpy Rapier" "Horned Sceptre" "Hubris Circlet" "Imp Dagger" "Imperial Bow" "Imperial Claw" "Jewelled Foil" "Kris" "Lion Pelt" "Lithe Blade" "Maraketh Bow" "Moon Staff" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Opal Sceptre" "Opal Wand" "Pecoraro" "Penetrating Arrow Quiver" "Praetor Crown" "Profane Wand" "Prophecy Wand" "Royal Burgonet" "Saintly Chainmail" "Sambar Sceptre" "Serrated Arrow Quiver" "Siege Axe" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spike-Point Arrow Quiver" "Spiked Gloves" "Spiraled Foil" "Talon Axe" "Terror Maul" "Thicket Bow" "Thorn Rapier" "Thresher Claw" "Tiger Hook" "Tiger Sword" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Totemic Maul" "Triumphant Lamellar" "Two-Point Arrow Quiver" "Two-Toned Boots" "Vaal Axe" "Vaal Regalia" "Void Sceptre" "War Axe"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 255 119
@@ -2364,10 +3107,10 @@ Show	#ND9S6G
 
 #IU3567
 Show	#IU3567
-	ShaperItem True
 	ItemLevel >= 86
 	Rarity Rare
 	BaseType "Crystal Belt" "Stygian Vise"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 200 0
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2378,10 +3121,10 @@ Show	#IU3567
 
 #BCCC95
 Show	#BCCC95
-	ShaperItem True
 	ItemLevel >= 86
 	Rarity Rare
 	BaseType "Agate Amulet" "Citrine Amulet" "Crystal Belt" "Leather Belt" "Onyx Amulet" "Rustic Sash" "Stygian Vise" "Turquoise Amulet"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 200 0
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2392,10 +3135,10 @@ Show	#BCCC95
 
 #EDBEKU
 Show	#EDBEKU
-	ShaperItem True
 	ItemLevel >= 86
 	Rarity Rare
 	Class "Amulets" "Belts"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 200 0
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2406,10 +3149,10 @@ Show	#EDBEKU
 
 #K7LA18
 Show	#K7LA18
-	ShaperItem True
 	ItemLevel >= 85
 	Rarity Rare
 	BaseType "Agate Amulet" "Citrine Amulet" "Crystal Belt" "Leather Belt" "Onyx Amulet" "Rustic Sash" "Stygian Vise" "Turquoise Amulet"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2420,10 +3163,10 @@ Show	#K7LA18
 
 #F2O83E
 Show	#F2O83E
-	ShaperItem True
 	ItemLevel >= 85
 	Rarity Rare
 	Class "Amulets" "Belts"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2434,9 +3177,9 @@ Show	#F2O83E
 
 #QCEBR4
 Show	#QCEBR4
-	ShaperItem True
 	Rarity Rare
 	BaseType "Agate Amulet" "Citrine Amulet" "Crystal Belt" "Leather Belt" "Onyx Amulet" "Rustic Sash" "Stygian Vise" "Turquoise Amulet"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 255 119
@@ -2447,9 +3190,9 @@ Show	#QCEBR4
 
 #0WR726
 Show	#0WR726
-	ShaperItem True
 	Rarity Rare
 	Class "Amulets" "Belts"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 255 119
@@ -2460,10 +3203,10 @@ Show	#0WR726
 
 #12O2EX
 Show	#12O2EX
-	ShaperItem True
 	ItemLevel >= 84
 	Rarity Rare
-	BaseType "Opal Ring" "Prismatic Ring"
+	BaseType "Opal Ring" "Prismatic Ring" "Vermillion Ring"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 200 0
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2474,10 +3217,10 @@ Show	#12O2EX
 
 #LD9P22
 Show	#LD9P22
-	ShaperItem True
 	ItemLevel >= 84
 	Rarity Rare
-	BaseType "Diamond Ring" "Opal Ring" "Prismatic Ring" "Two-Stone Ring" "Unset Ring"
+	BaseType "Cerulean Ring" "Diamond Ring" "Opal Ring" "Prismatic Ring" "Two-Stone Ring" "Unset Ring" "Vermillion Ring"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 200 0
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2488,10 +3231,10 @@ Show	#LD9P22
 
 #1A153D
 Show	#1A153D
-	ShaperItem True
 	ItemLevel >= 84
 	Rarity Rare
 	Class "Rings"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 200 0
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2502,10 +3245,10 @@ Show	#1A153D
 
 #19TQW9
 Show	#19TQW9
-	ShaperItem True
 	ItemLevel >= 83
 	Rarity Rare
-	BaseType "Opal Ring" "Prismatic Ring"
+	BaseType "Opal Ring" "Prismatic Ring" "Vermillion Ring"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2516,10 +3259,10 @@ Show	#19TQW9
 
 #3DAC3S
 Show	#3DAC3S
-	ShaperItem True
 	ItemLevel >= 83
 	Rarity Rare
-	BaseType "Diamond Ring" "Opal Ring" "Prismatic Ring" "Two-Stone Ring" "Unset Ring"
+	BaseType "Cerulean Ring" "Diamond Ring" "Opal Ring" "Prismatic Ring" "Two-Stone Ring" "Unset Ring" "Vermillion Ring"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2530,10 +3273,10 @@ Show	#3DAC3S
 
 #235G48
 Show	#235G48
-	ShaperItem True
 	ItemLevel >= 83
 	Rarity Rare
 	Class "Rings"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 200 0
@@ -2544,9 +3287,9 @@ Show	#235G48
 
 #PWFOD4
 Show	#PWFOD4
-	ShaperItem True
 	Rarity Rare
-	BaseType "Opal Ring" "Prismatic Ring"
+	BaseType "Opal Ring" "Prismatic Ring" "Vermillion Ring"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 255 119
@@ -2557,9 +3300,9 @@ Show	#PWFOD4
 
 #DKC2B4
 Show	#DKC2B4
-	ShaperItem True
 	Rarity Rare
-	BaseType "Diamond Ring" "Opal Ring" "Prismatic Ring" "Two-Stone Ring" "Unset Ring"
+	BaseType "Cerulean Ring" "Diamond Ring" "Opal Ring" "Prismatic Ring" "Two-Stone Ring" "Unset Ring" "Vermillion Ring"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 255 119
@@ -2570,9 +3313,9 @@ Show	#DKC2B4
 
 #7ATQW5
 Show	#7ATQW5
-	ShaperItem True
 	Rarity Rare
 	Class "Rings"
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 255 255 119
@@ -2583,8 +3326,8 @@ Show	#7ATQW5
 
 #COI411
 Show	#COI411
-	ShaperItem True
 	Rarity Rare
+	HasInfluence "Crusader" "Hunter" "Redeemer" "Warlord"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0
 	SetBorderColor 255 255 119
@@ -2592,7 +3335,7 @@ Show	#COI411
 	MinimapIcon 2 White Star
 	PlayEffect White Temp
 
-### /Shaper (Rare) ############################################################
+### /Crusader Redeemer Hunter Warlord (Rare) ##################################
 ###############################################################################
 
 
@@ -2758,7 +3501,7 @@ Show	#XGA23I
 	ItemLevel <= 60
 	DropLevel >= 56
 	Rarity Rare
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetTextColor 255 255 119
 	SetBorderColor 255 255 119
 	SetFontSize 36
@@ -2768,7 +3511,7 @@ Show	#T22FRG
 	ItemLevel <= 55
 	DropLevel >= 52
 	Rarity Rare
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetTextColor 255 255 119
 	SetBorderColor 255 255 119
 	SetFontSize 36
@@ -2778,7 +3521,7 @@ Show	#5N770H
 	ItemLevel <= 50
 	DropLevel >= 46
 	Rarity Rare
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetTextColor 255 255 119
 	SetBorderColor 255 255 119
 	SetFontSize 36
@@ -2788,7 +3531,7 @@ Show	#M6O1YD
 	ItemLevel <= 45
 	DropLevel >= 40
 	Rarity Rare
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetTextColor 255 255 119
 	SetBorderColor 255 255 119
 	SetFontSize 36
@@ -2798,7 +3541,7 @@ Show	#W1047L
 	ItemLevel <= 40
 	DropLevel >= 35
 	Rarity Rare
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetTextColor 255 255 119
 	SetBorderColor 255 255 119
 	SetFontSize 36
@@ -2808,7 +3551,7 @@ Show	#FE4SQA
 	ItemLevel <= 35
 	DropLevel >= 30
 	Rarity Rare
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetTextColor 255 255 119
 	SetBorderColor 255 255 119
 	SetFontSize 36
@@ -2818,7 +3561,7 @@ Show	#F856ZB
 	ItemLevel <= 30
 	DropLevel >= 25
 	Rarity Rare
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetTextColor 255 255 119
 	SetBorderColor 255 255 119
 	SetFontSize 36
@@ -2828,7 +3571,7 @@ Show	#N1W3Z1
 	ItemLevel <= 25
 	DropLevel >= 20
 	Rarity Rare
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetTextColor 255 255 119
 	SetBorderColor 255 255 119
 	SetFontSize 36
@@ -2838,7 +3581,7 @@ Show	#CTA2B0
 	ItemLevel <= 20
 	DropLevel >= 13
 	Rarity Rare
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetTextColor 255 255 119
 	SetBorderColor 255 255 119
 	SetFontSize 36
@@ -2848,7 +3591,7 @@ Show	#AQZ08A
 	ItemLevel <= 15
 	DropLevel >= 10
 	Rarity Rare
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetTextColor 255 255 119
 	SetBorderColor 255 255 119
 	SetFontSize 36
@@ -2858,7 +3601,7 @@ Show	#8LDDIC
 	ItemLevel <= 10
 	DropLevel >= 5
 	Rarity Rare
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetTextColor 255 255 119
 	SetBorderColor 255 255 119
 	SetFontSize 36
@@ -2867,7 +3610,7 @@ Show	#8LDDIC
 Show	#37M479
 	ItemLevel <= 5
 	Rarity Rare
-	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaff"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Daggers" "Sceptre" "Shields" "Staves" "Two Hand" "Wands" "Warstaves"
 	SetTextColor 255 255 119
 	SetBorderColor 255 255 119
 	SetFontSize 36
@@ -3001,7 +3744,7 @@ Show	#CFL1VO
 	ItemLevel >= 85
 	Rarity Rare
 	Class "Amulets" "Belts" "Rings"
-	BaseType "Cerulean Ring" "Opal Ring" "Steel Ring" "Vermillion Ring"
+	BaseType "Opal Ring" "Steel Ring" "Vermillion Ring"
 	SetTextColor 255 200 0
 	SetBackgroundColor 0 0 0 250
 	SetBorderColor 255 200 0
@@ -3012,7 +3755,7 @@ Show	#9QC5VU
 	ItemLevel >= 85
 	Rarity Rare
 	Class "Amulets" "Belts" "Rings"
-	BaseType "Diamond Ring" "Prismatic Ring" "Two-Stone Ring" "Unset Ring"
+	BaseType "Cerulean Ring" "Diamond Ring" "Prismatic Ring" "Two-Stone Ring" "Unset Ring"
 	SetTextColor 255 200 0
 	SetBackgroundColor 0 0 0 250
 	SetBorderColor 255 200 0
@@ -3023,7 +3766,7 @@ Show	#XRD4HE
 	ItemLevel >= 84
 	Rarity Rare
 	Class "Amulets" "Belts" "Rings"
-	BaseType "Cerulean Ring" "Opal Ring" "Steel Ring" "Vermillion Ring"
+	BaseType "Opal Ring" "Steel Ring" "Vermillion Ring"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 250
 	SetBorderColor 255 255 119
@@ -3034,7 +3777,7 @@ Show	#77J6R5
 	ItemLevel >= 84
 	Rarity Rare
 	Class "Amulets" "Belts" "Rings"
-	BaseType "Diamond Ring" "Prismatic Ring" "Two-Stone Ring" "Unset Ring"
+	BaseType "Cerulean Ring" "Diamond Ring" "Prismatic Ring" "Two-Stone Ring" "Unset Ring"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 250
 	SetBorderColor 255 200 0
@@ -3044,7 +3787,7 @@ Show	#77J6R5
 Show	#LUH1R6
 	Rarity Rare
 	Class "Amulets" "Belts" "Rings"
-	BaseType "Cerulean Ring" "Opal Ring" "Steel Ring" "Vermillion Ring"
+	BaseType "Opal Ring" "Steel Ring" "Vermillion Ring"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 250
 	SetBorderColor 255 255 119
@@ -3054,7 +3797,7 @@ Show	#LUH1R6
 Show	#HK4BO0
 	Rarity Rare
 	Class "Amulets" "Belts" "Rings"
-	BaseType "Diamond Ring" "Prismatic Ring" "Two-Stone Ring" "Unset Ring"
+	BaseType "Cerulean Ring" "Diamond Ring" "Prismatic Ring" "Two-Stone Ring" "Unset Ring"
 	SetTextColor 255 255 119
 	SetBackgroundColor 0 0 0 250
 	SetBorderColor 255 255 119
@@ -3712,6 +4455,32 @@ Show	#ATPVWO
 	MinimapIcon 0 Green Star
 	PlayEffect Green
 
+#PTCVHQ
+Show	#PTCVHQ
+	Quality > 20
+	GemLevel > 5
+	Class "Gems"
+	BaseType "Awakened"
+	SetTextColor 27 162 155
+	SetBackgroundColor 0 0 0 250
+	SetBorderColor 27 162 155
+	SetFontSize 42
+	PlayAlertSound 4 250
+	MinimapIcon 0 Green Star
+	PlayEffect Green
+
+#GAF2VZ
+Show	#GAF2VZ
+	Class "Gems"
+	BaseType "Awakened"
+	SetTextColor 27 162 155
+	SetBackgroundColor 0 0 0 250
+	SetBorderColor 27 162 155
+	SetFontSize 42
+	PlayAlertSound 4 150
+	MinimapIcon 1 Green Star
+	PlayEffect Green
+
 #VNO90L
 Show	#VNO90L
 	GemLevel >= 2
@@ -3883,6 +4652,26 @@ Show	#FNK74G
 	SetFontSize 39
 	PlayAlertSound 2 60
 
+#C1PNUU
+Show	#C1PNUU
+	Class "Map Fragments"
+	BaseType "Fragment of Constriction" "Fragment of Enslavement" "Fragment of Eradication" "Fragment of Purification"
+	SetTextColor 240 240 240
+	SetBackgroundColor 0 0 0 250
+	SetBorderColor 240 240 240
+	SetFontSize 39
+	PlayAlertSound 2 60
+
+#2AYY2E
+Show	#2AYY2E
+	Class "Map Fragments"
+	BaseType "Fragment of Emptiness" "Fragment of Knowledge" "Fragment of Shape" "Fragment of Terror"
+	SetTextColor 240 240 240
+	SetBackgroundColor 0 0 0 250
+	SetBorderColor 240 240 240
+	SetFontSize 42
+	PlayAlertSound 2 100
+
 #LKON6X
 Show	#LKON6X
 	Class "Map Fragments"
@@ -3930,6 +4719,18 @@ Show	#9HYK0I
 ###############################################################################
 # Section: ### Misc Map Items [1E7XEV] ########################################
 ###############################################################################
+
+#SFCO4Z
+Show	#SFCO4Z
+	Class "Atlas Region Upgrade Item"
+	BaseType "Ivory Watchstone"
+	SetTextColor 74 230 58
+	SetBackgroundColor 0 0 0
+	SetBorderColor 74 230 58
+	SetFontSize 38
+	PlayAlertSound 11 125
+	MinimapIcon 1 Green Circle
+	PlayEffect Green
 
 #FG4JIP
 Show	#FG4JIP
@@ -3981,7 +4782,7 @@ Show	#OL8PE9
 #SW9XOU
 Show	#SW9XOU
 	Class "Divination Card"
-	BaseType "Abandoned Wealth" "Alluring Bounty" "Beauty Through Death" "Bowyer's Dream" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Nook's Crown" "Pride of the First Ones" "Seven Years Bad Luck" "The Artist" "The Celestial Justicar" "The Damned" "The Demon" "The Devastator" "The Doctor" "The Dragon's Heart" "The Dreamer" "The Endless Darkness" "The Fiend" "The Immortal" "The Last One Standing" "The Queen" "The Thaumaturgist" "The Vast" "The World Eater" "Void of the Elements" "Wealth and Power"
+	BaseType "Abandoned Wealth" "Alluring Bounty" "Beauty Through Death" "Bowyer's Dream" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Nook's Crown" "Pride of the First Ones" "Seven Years Bad Luck" "Succor of the Sinless" "The Artist" "The Celestial Justicar" "The Damned" "The Demon" "The Devastator" "The Doctor" "The Dragon's Heart" "The Dreamer" "The Endless Darkness" "The Fiend" "The Immortal" "The Last One Standing" "The Queen" "The Thaumaturgist" "The Vast" "The World Eater" "Void of the Elements" "Wealth and Power"
 	SetTextColor 14 186 255
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 14 186 255
@@ -3993,7 +4794,7 @@ Show	#SW9XOU
 #55NE3V
 Show	#55NE3V
 	Class "Divination Card"
-	BaseType "Burning Blood" "Dark Dreams" "Lost Worlds" "Mawr Blaidd" "Pride Before the Fall" "The Bargain" "The Dapper Prodigy" "The Enlightened" "The Ethereal" "The Eye of Terror" "The Iron Bard" "The King's Heart" "The Life Thief" "The Master" "The Nurse" "The Offering" "The Saint's Treasure" "The Samurai's Eye" "Time-Lost Relic"
+	BaseType "Baited Expectations" "Burning Blood" "Dark Dreams" "Divine Justice" "Etched in Blood" "Lost Worlds" "Mawr Blaidd" "Pride Before the Fall" "Squandered Prosperity" "The Bargain" "The Dapper Prodigy" "The Enlightened" "The Escape" "The Ethereal" "The Eye of Terror" "The Fishmonger" "The Iron Bard" "The King's Heart" "The Life Thief" "The Master" "The Mayor" "The Nurse" "The Offering" "The Saint's Treasure" "The Samurai's Eye" "The Wolven King's Bite" "Time-Lost Relic"
 	SetTextColor 14 186 255
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 14 186 255
@@ -4005,7 +4806,7 @@ Show	#55NE3V
 #9FDGJL
 Show	#9FDGJL
 	Class "Divination Card"
-	BaseType "A Dab of Ink" "Akil's Prophecy" "Azyran's Reward" "Boon of the First Ones" "Buried Treasure" "Chaotic Disposition" "Demigod's Wager" "Earth Drinker" "Emperor of Purity" "Harmony of Souls" "Last Hope" "Lucky Deck" "Lysah's Respite" "Monochrome" "More is Never Enough" "Remembrance" "Sambodhi's Vow" "The Betrayal" "The Breach" "The Brittle Emperor" "The Cacophony" "The Calling" "The Cartographer" "The Chains that Bind" "The Deal" "The Dreamland" "The Drunken Aristocrat" "The Fletcher" "The Formless Sea" "The Gladiator" "The Hale Heart" "The Harvester" "The Heroic Shot" "The Hoarder" "The Hunger" "The Innocent" "The Jeweller's Boon" "The Journey" "The Landing" "The Mad King" "The Mayor" "The Obscured" "The Pack Leader" "The Price of Loyalty" "The Price of Protection" "The Professor" "The Road to Power" "The Sacrifice" "The Scavenger" "The Seeker" "The Sephirot" "The Side Quest" "The Skeleton" "The Surveyor" "The Sword King's Salute" "The Trial" "The Twilight Moon" "The Undisputed" "The Valkyrie" "The Valley of Steel Boxes" "The Warlord" "The Watcher" "The Wolf" "Tranquillity"
+	BaseType "A Dab of Ink" "Akil's Prophecy" "Azyran's Reward" "Boon of the First Ones" "Buried Treasure" "Cameria's Cut" "Chaotic Disposition" "Deathly Designs" "Demigod's Wager" "Earth Drinker" "Emperor of Purity" "Friendship" "Harmony of Souls" "Last Hope" "Lucky Deck" "Lysah's Respite" "Monochrome" "More is Never Enough" "Remembrance" "Sambodhi's Vow" "The Betrayal" "The Bones" "The Breach" "The Brittle Emperor" "The Cacophony" "The Calling" "The Cartographer" "The Chains that Bind" "The Chosen" "The Craving" "The Deal" "The Dreamland" "The Drunken Aristocrat" "The Fletcher" "The Formless Sea" "The Gladiator" "The Hale Heart" "The Harvester" "The Heroic Shot" "The Hoarder" "The Hunger" "The Innocent" "The Jeweller's Boon" "The Journey" "The Landing" "The Mad King" "The Obscured" "The Pack Leader" "The Price of Loyalty" "The Price of Protection" "The Professor" "The Road to Power" "The Sacrifice" "The Scavenger" "The Seeker" "The Sephirot" "The Side Quest" "The Skeleton" "The Surveyor" "The Sword King's Salute" "The Trial" "The Twilight Moon" "The Undisputed" "The Valkyrie" "The Valley of Steel Boxes" "The Warlord" "The Watcher" "The Wolf" "Tranquillity" "Underground Forest"
 	SetTextColor 14 186 255
 	SetBackgroundColor 0 0 0 255
 	SetBorderColor 14 186 255
@@ -4595,7 +5396,7 @@ Show	#NP2B3F
 #1MOMFM
 Show	#1MOMFM
 	Class "Currency"
-	BaseType "Apprentice Cartographer's Sextant"
+	BaseType "Simple Sextant"
 	SetTextColor 170 158 130
 	SetBackgroundColor 0 0 0 250
 	SetBorderColor 170 158 130
@@ -4606,7 +5407,7 @@ Show	#1MOMFM
 #RVEP8V
 Show	#RVEP8V
 	Class "Currency"
-	BaseType "Journeyman Cartographer's Sextant"
+	BaseType "Prime Sextant"
 	SetTextColor 170 158 130
 	SetBackgroundColor 0 0 0 250
 	SetBorderColor 170 158 130
@@ -4617,7 +5418,7 @@ Show	#RVEP8V
 #75SE1S
 Show	#75SE1S
 	Class "Currency"
-	BaseType "Master Cartographer's Sextant"
+	BaseType "Awakened Sextant"
 	SetTextColor 170 158 130
 	SetBackgroundColor 0 0 0 250
 	SetBorderColor 170 158 130
@@ -4879,6 +5680,17 @@ Show	#XLA7K3
 	PlayAlertSound 9 225
 	MinimapIcon 2 Yellow Diamond
 
+#ZRI0D0
+Show	#ZRI0D0
+	Class "Currency"
+	BaseType "Catalyst"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 250
+	SetBorderColor 170 158 130
+	SetFontSize 39
+	PlayAlertSound 9 225
+	MinimapIcon 2 Yellow Diamond
+
 #NSSQP4
 Show	#NSSQP4
 	Class "Currency"
@@ -4902,6 +5714,15 @@ Show	#A83SGG
 	PlayAlertSound 4 150
 	MinimapIcon 1 Yellow Diamond
 	PlayEffect Yellow
+
+#47QE35
+Show	#47QE35
+	Class "Currency"
+	BaseType "Amber Oil" "Clear Oil" "Sepia Oil"
+	SetTextColor 170 158 130
+	SetBackgroundColor 0 0 0 250
+	SetBorderColor 170 158 130 190
+	SetFontSize 39
 
 #4THXNZ
 Show	#4THXNZ
@@ -5024,7 +5845,7 @@ Show	#PX895Y
 #UTC505
 Show	#UTC505
 	Class "Currency"
-	BaseType "Exalted Orb"
+	BaseType "Awakener's Orb" "Exalted Orb"
 	SetTextColor 200 200 175
 	SetBackgroundColor 85 65 15 230
 	SetBorderColor 170 158 130
@@ -5148,8 +5969,57 @@ Show	#NADRLN
 
 
 ###############################################################################
+# Section: ### Metamorph [UL8M17] #############################################
+###############################################################################
+
+#BBJXJJ
+Show	#BBJXJJ
+	Rarity Unique
+	Class "Metamorph Sample"
+	SetTextColor 135 173 87
+	SetBackgroundColor 0 0 0
+	SetBorderColor 135 173 87
+	SetFontSize 36
+	MinimapIcon 0 Green Circle
+	PlayEffect Green
+
+#WINKMW
+Show	#WINKMW
+	Rarity Rare
+	Class "Metamorph Sample"
+	SetTextColor 135 173 87
+	SetBackgroundColor 0 0 0
+	SetFontSize 36
+	MinimapIcon 2 Green Circle
+
+#GYW3KC
+Show	#GYW3KC
+	Class "Metamorph Sample"
+	SetTextColor 135 173 87
+	SetBackgroundColor 0 0 0
+	SetFontSize 36
+	MinimapIcon 2 Green Circle
+
+### /Metamorph ################################################################
+###############################################################################
+
+
+
+###############################################################################
 # Section: ### Quest [6CF595] #################################################
 ###############################################################################
+
+#4UXLL1
+Show	#4UXLL1
+	Class "Quest"
+	BaseType "Cobalt Watchstone" "Crimson Watchstone" "Golden Watchstone" "Viridian Watchstone"
+	SetTextColor 74 230 58
+	SetBackgroundColor 0 0 0
+	SetBorderColor 74 230 58
+	SetFontSize 38
+	PlayAlertSound 11 125
+	MinimapIcon 2 Green Circle
+	PlayEffect Green
 
 #IZ88GO
 Show	#IZ88GO
